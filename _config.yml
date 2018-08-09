@@ -131,7 +131,7 @@ pageview:
   leancloud:
     app_id    : M9xMtwrWTV1mLxxK5T6YBH7E-gzGzoHsz # LeanCloud App id
     app_key   : YtcC9YzBuIP5q0h10Oyk6UiR # LeanCloud App key
-    app_class : suntarliarzn_github_io # LeanCloud App class
+    app_class : suntarliarzn_guthub_io # LeanCloud App class
 
 
 ## => Analytics
