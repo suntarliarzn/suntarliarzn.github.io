@@ -16,11 +16,11 @@
 
 ## => Site Settings
 ##############################
-text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+text_skin: forest # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://suntarliarzn.github.io/ # the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl : suntarliarzn.github.io # does not include hostname
-title   : suntarliarzn
+baseurl : # does not include hostname
+title   : Suntarliarzn
 description: > # this means to ignore newlines until "Language & timezone"
   Welcome to my wonderful life journey!
 
@@ -37,12 +37,12 @@ author:
   type      : # "person" (default), "organization"
   name      : suntar
   url       :
-  avatar    : D:\blog\assets\avatar # path or url of avatar image
+  avatar    : D:\blog\assets\avatar.jpg # path or url of avatar image
   bio       : I am Li Yaxing. Nice to meet you!
-  email     :
+  email     : leo411@qq.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
-  github    : suntarliarzn # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    : https://github.com/suntarliarzn # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name/
   googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -105,7 +105,7 @@ sources: # bootcdn (default), unpkg
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "custom"
+  provider: gittalk # false (default), "disqus", "gitalk", "custom"
 
   ## Disqus
   disqus:
@@ -114,24 +114,24 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    clientID    : 684c85bab12fb8623cd9 # GitHub Application Client ID
+    clientSecret: 1ab9b3b44eae4d1e878717d5b55a50aa764d1809 # GitHub Application Client Secret
+    repository  : suntarliarzn.github.io # GitHub repo
+    owner       : suntarliarzn # GitHub repo owner
+    admin: suntarliarzn # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
 
 ## => Pageview
 ##############################
 pageview:
-  provider: false # false (default), "leancloud", "custom"
+  provider: leancloud # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:
-    app_id    : # LeanCloud App id
-    app_key   : # LeanCloud App key
-    app_class : # LeanCloud App class
+    app_id    : M9xMtwrWTV1mLxxK5T6YBH7E-gzGzoHsz # LeanCloud App id
+    app_key   : YtcC9YzBuIP5q0h10Oyk6UiR # LeanCloud App key
+    app_class : suntarliarzn.github.io # LeanCloud App class
 
 
 ## => Analytics
@@ -141,8 +141,8 @@ analytics:
 
   ## Google Analytics
   google:
-    tracking_id : # Google Analytics id for the site
-    anonymize_ip: false # Anonymize IP tracking for Analytics
+    tracking_id : UA-123632424-1 # Google Analytics id for the site
+    anonymize_ip: true # Anonymize IP tracking for Analytics
 
 
 ## => Build
