@@ -35,7 +35,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : suntar
+  name      : Suntar
   url       :
   avatar    : D:\blog\assets\avatar.jpg # path or url of avatar image
   bio       : I am Li Yaxing. Nice to meet you!
