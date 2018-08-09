@@ -6,11 +6,18 @@ header:
       zh-Hant:  歸檔
     url:        /archive.html
   - titles:
+      en:       Travel
+      zh:       旅行
+      zh-Hans:  旅行
+      zh-Hant:  旅行
+    url:        http://www.mafengwo.cn/u/88861874.html
+  - titles:
       en:       About
       zh:       关于
       zh-Hans:  关于
       zh-Hant:  關於
-    url:        /about.html
+    url:         https://github.com/suntarliarzn
+  
 
 docs-en:
   - title:      Start
