@@ -19,9 +19,9 @@ layout: article
 
 2. ## Types of Knowledge
 
-   *==Declarative knowledge==* is **statements of fact**.
+   *Declarative knowledge* is **statements of fact**.
 
-   *==Imperative knowledge==* is a **recipe** or "how-to" knowledge
+   *Imperative knowledge* is a **recipe** or "how-to" knowledge
 
 3. ## What is a recipe?
 
@@ -47,7 +47,7 @@ layout: article
 
         		                               3.2 * 5 > syntactically valid
 
-5. ## where things go wrong
+5. ## Where things go wrong
 
    - syntactic errors
    - static semantic errors
