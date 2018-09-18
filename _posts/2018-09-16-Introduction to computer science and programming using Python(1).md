@@ -1,7 +1,6 @@
 ---
 
-title: MIT 6.00.1x
-Introduction to Computer Science and Programming Using Python
+title: Introduction to Computer Science and Programming Using Python
 
 key: B20180916
 
