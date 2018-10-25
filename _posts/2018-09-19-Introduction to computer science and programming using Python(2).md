@@ -11,6 +11,8 @@ layout: article
 
 # Week two: Simple Programs
 
+<!--more-->
+
 1. ## Slice strings using[start:stop:step]
 
    ```python
