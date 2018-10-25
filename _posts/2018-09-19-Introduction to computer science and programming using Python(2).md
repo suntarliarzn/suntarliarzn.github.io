@@ -1,7 +1,6 @@
 ---
 
-title: MIT 6.00.1x
-Introduction to Computer Science and Programming Using Python(2)
+title: Introduction to Computer Science and Programming Using Python(2)
 
 key: B20180919
 
@@ -104,7 +103,7 @@ layout: article
       #When you call print(x)in the example of f() above, it looks for x in the current scope, it actually finds the binding x = 'abc', so x is a local variable that is referenced before it is bound, hence the error.
       ```
 
-4. #### Aspects of LANGUAGES
+4. ## Aspects of LANGUAGES
 
    <em>numbers,strings,simple operations.</em>>
 
@@ -157,7 +156,7 @@ layout: article
    4  
    ```
 
-8. ### **Iteration & Recursion**
+8. ## **Iteration & Recursion**
 
    - a way to design solutions to problems by <em>**divide-and-conquer or decrease-and-conquer**.</em>
 
@@ -187,7 +186,7 @@ layout: article
              return a + mult(a,b-1)
      ```
 
-9. ### Modules
+9. ## Modules
 
 <em>a **module** is a `.py` file containing a collection Python definitions and statements</em>
 
@@ -216,7 +215,7 @@ print(pi)
 print(area(3))
 ```
 
-10. ### Files
+10. ## Files
 
 <em>Python provides an operating-system independent means to access fies, using a **file handle**</em>
 
