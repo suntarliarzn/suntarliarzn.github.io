@@ -4,7 +4,7 @@ title: Introduction to Computer Science and Programming Using Python(2)
 
 key: B20180919
 
-tags: strings; floats; function； Files
+tags: strings; floats; function； files
 
 layout: article
 ---
