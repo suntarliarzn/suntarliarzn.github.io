@@ -10,7 +10,7 @@ layout: article
 ---
 
 # Week three: Structured Types
-
+<!--more-->
 ## 1. TUPLES 元组
 
 - an ordered sequence of elements, can mix element types.
