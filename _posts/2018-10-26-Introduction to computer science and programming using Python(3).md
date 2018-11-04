@@ -298,5 +298,5 @@ layout: article
 
 - ##### LIST VS. DICTIONARIES
 
-  ![mark](E:\Python\Introduction to computer science and programmming using Python\Week 3 Structured Types\assets\faHggC01k6.jpg)
+  ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181028/faHggC01k6.jpg?imageslim)
 
