@@ -5,7 +5,7 @@ title: Introduction to Computer Science and Programming Using Python(3)
 
 key: B20181026
 
-tags: tuples;lists ; dictionaries
+tags: tuples; lists; dictionaries
 
 layout: article
 ---
