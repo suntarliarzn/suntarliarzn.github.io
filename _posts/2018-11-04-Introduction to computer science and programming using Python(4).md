@@ -17,37 +17,22 @@ layout: article
 
 ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/6F50HCa59i.jpg?imageslim)
 
-2.  ## Classes of Tests
-3.  ## Bugs
-4.  ## Debugging
-5.  ## Exceptions
-6.  ## Assertion
+2. ## Classes of Tests
 
-- break program into **modules**
-
-- **document constraints **on modules
-
-- #### document assumptions
-
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/KjFHjc5b0A.png?imageslim)
-
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/c81a5ahGke.png?imageslim)
-
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/el1J4IHFbl.png?imageslim)
-
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/IdAIc3bCif.png?imageslim)
-
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/ej513cAg2L.png?imageslim)
-
-
+   - break program into **modules**
+   - **document constraints **on modules
+   - document assumptions
+   - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/KjFHjc5b0A.png?imageslim)
+   - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/c81a5ahGke.png?imageslim)
+   - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/el1J4IHFbl.png?imageslim)
+   - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/IdAIc3bCif.png?imageslim)
+   - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/ej513cAg2L.png?imageslim)
 
 3.  ## Bugs
 
 - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/KA1bcihj8D.png?imageslim)
 
-
 4.  ## Debugging
-
 
 - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/b77ijlb0Kk.png?imageslim)
 
@@ -61,19 +46,14 @@ layout: article
 
 - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/dCbAgKGF1m.png?imageslim)
 
-1. 
-   ## 4. Debugging Skills
-
+5.  ##  Debugging Skills
 
 - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/D50E0LfibE.png?imageslim)
 - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/HBKjKa22cH.png?imageslim)
 - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/bDg14dhG6f.png?imageslim)
 
-
-
-5.  ## Exceptions
-
-
+6.  ## Exceptions
+7.  
 - ##### Syntax: try;except;finally
 
   ```python
@@ -113,15 +93,15 @@ layout: article
 
 
 
-6.  ## Assertion
+7.  ## Assertion
 
 - Use an assert statement to raise an `AssertionError` exception if assumptions not met.
 
-- ```python
+```python
   def avg(grades):
       assert not len(grades) == 0, 'no grades data'
       return sum(grades)/len(grades)#raises an AssertionError if it is given an empty list for grades; otherwise runs ok
-  ```
+```
 
 - typically used to **check inputs**
 
