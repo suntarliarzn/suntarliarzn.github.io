@@ -30,31 +30,31 @@ layout: article
 
 3.  ## Bugs
 
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/KA1bcihj8D.png?imageslim)
+ - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/KA1bcihj8D.png?imageslim)
 
 4.  ## Debugging
 
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/b77ijlb0Kk.png?imageslim)
+ - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/b77ijlb0Kk.png?imageslim)
 
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/I7g5DlBiiA.png?imageslim)
+ - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/I7g5DlBiiA.png?imageslim)
 
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/jJI1F16Idf.png?imageslim)
+ - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/jJI1F16Idf.png?imageslim)
 
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/6DF8I7KfG8.png?imageslim)
+ - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/6DF8I7KfG8.png?imageslim)
 
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/aC556Bh7b8.png?imageslim)
+ - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/aC556Bh7b8.png?imageslim)
 
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/dCbAgKGF1m.png?imageslim)
+ - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/dCbAgKGF1m.png?imageslim)
 
 5.  ##  Debugging Skills
 
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/D50E0LfibE.png?imageslim)
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/HBKjKa22cH.png?imageslim)
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/bDg14dhG6f.png?imageslim)
+ - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/D50E0LfibE.png?imageslim)
+ - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/HBKjKa22cH.png?imageslim)
+ - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181104/bDg14dhG6f.png?imageslim)
 
 6.  ## Exceptions
-7.  
-- ##### Syntax: try;except;finally
+
+ - ##### Syntax: try;except;finally
 
   ```python
   try:
@@ -73,7 +73,7 @@ layout: article
   
   ```
 
-- ##### Syntax: raise
+ - ##### Syntax: raise
 
   我们可以使用raise语句自己触发异常。
 
@@ -95,14 +95,14 @@ layout: article
 
 7.  ## Assertion
 
-- Use an assert statement to raise an `AssertionError` exception if assumptions not met.
+ - Use an assert statement to raise an `AssertionError` exception if assumptions not met.
 
-```python
+ ```python
   def avg(grades):
       assert not len(grades) == 0, 'no grades data'
       return sum(grades)/len(grades)#raises an AssertionError if it is given an empty list for grades; otherwise runs ok
-```
+ ```
 
-- typically used to **check inputs**
+ - typically used to **check inputs**
 
-- ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181118/DmjhKiG7f2.jpg?imageslim)
+ - ![mark](http://pdg2co4cr.bkt.clouddn.com/blog/181118/DmjhKiG7f2.jpg?imageslim)
