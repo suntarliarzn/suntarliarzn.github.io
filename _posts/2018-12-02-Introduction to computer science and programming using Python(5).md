@@ -4,14 +4,14 @@ title: Introduction to Computer Science and Programming Using Python(5)
 
 key: B20181202
 
-tags: class; instances; methods 
+tags: class; instances; methods; hierarchies
 
 layout: article
 ---
 
-<!--more-->
-
 # Week Five: Object Oriented Programming
+
+<!--more-->
 
 ## 1. Object Oriented Programming
 
@@ -87,7 +87,7 @@ layout: article
 
 ​     
 
-## 3. Hierachies 
+## 3. Hierarchies 
 
 ```mermaid
 graph BT
@@ -98,4 +98,39 @@ Student --> Person
 ```
 
 ![Class and OOP](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Summary%20of%20class%20and%20oop.jpg)
+
+
+
+## 4. Generators
+
+**Generators**: any procedure or method with `yield` statement called a generator.
+
+![Why Generators?](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/why%20generator.jpg)
+
+```python
+def genFib():
+    fibn_1 = 1
+    fibn_2 = 0
+    while True:
+        next = fibn_1 + fibn_2
+        yield next #相当于range的功能
+        fibn_2 = fibn_1
+        fibn_1 = next
+
+        
+>>> fib = genFib()
+>>> fib.__next__()
+1
+>>> fib.__next__()
+2
+>>> fib.__next__()
+3
+>>> fib.__next__()
+5
+>>> fib.__next__()
+8
+>>> fib.__next__()
+13
+        
+```
 

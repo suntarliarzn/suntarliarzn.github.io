@@ -11,6 +11,7 @@ layout: article
 
 # Week Four: Good Programming Practices
 
+
 <!--more-->
 
 1. ## Testing and Debugging
