@@ -38,7 +38,7 @@ layout: article
 
      ![Relationship between class, methods, instance](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/exapmles%20of%20class%20methods%20%20instances.gif)
 
-  2. __init__
+  2. init
 
      ![__init__](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/__init__.gif)
 
