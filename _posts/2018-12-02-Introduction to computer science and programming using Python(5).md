@@ -4,14 +4,12 @@ title: Introduction to Computer Science and Programming Using Python(5)
 
 key: B20181202
 
-tags: class; instances; methods; hierarchies
+tags: class; instances; methods 
 
 layout: article
 ---
 
 # Week Five: Object Oriented Programming
-
-<!--more-->
 
 ## 1. Object Oriented Programming
 
@@ -25,7 +23,42 @@ layout: article
 
 - [**Object Oriented Programming: Classes and Instances**](https://courses.edx.org/courses/course-v1:MITx+6.00.1x+2T2018/discussion/forum/2208572aadd1aa385ed0023d71714e6fb8a71626/threads/5bb66b9fb41e6e084f000161)
 
+  - **it provides the blueprint to create individual instances that share the same structure but have their own set of characteristics**
+
+    
+
+  - | class            | methods                                    | instance   | object               | type             |
+    | ---------------- | ------------------------------------------ | ---------- | -------------------- | ---------------- |
+    | 集合（抽象概念） | 集合属性/参数/动作                         | 具体例子   | 所有实体             | 实体概念概念归属 |
+    | House            | house attributs: bedrooms,  gardens, price | your house | bricks, woods, beams | 硬装，水电，家具 |
+
+    
+
+  1.  What is Class?
+
+     ![Relationship between class, methods, instance](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/exapmles%20of%20class%20methods%20%20instances.gif)
+
+  2. __init__
+
+     ![__init__](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/__init__.gif)
+
+  3. instance
+
+     ![instance](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/instance.gif)
+
+     ![instance attributes](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/instance%20attribute.gif)
+
+     ![instance example](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/check%20property.gif)
+
+  4. You are an example
+
+     ![Human](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/you%20are%20an%20example.gif)
+
+     
+
 - **Method:**procedural attribute, like a function that works only with this class. [**Object Oriented Programming: Methods**](https://courses.edx.org/courses/course-v1:MITx+6.00.1x+2T2018/discussion/forum/2208572aadd1aa385ed0023d71714e6fb8a71626/threads/5bb66d09fb45b2080c000167)
+
+  - 
 
 - ```python
   class Coordinate(object):
