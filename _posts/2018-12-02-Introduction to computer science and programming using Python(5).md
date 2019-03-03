@@ -34,7 +34,7 @@ layout: article
 
      ![Relationship between class, methods, instance](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/exapmles%20of%20class%20methods%20%20instances.gif)
 
-  2. init
+  2. __init__
 
      ![__init__](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/__init__.gif)
 
@@ -50,11 +50,15 @@ layout: article
 
      ![Human](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/you%20are%20an%20example.gif)
 
-     
-
 - **Method:**procedural attribute, like a function that works only with this class. [**Object Oriented Programming: Methods**](https://courses.edx.org/courses/course-v1:MITx+6.00.1x+2T2018/discussion/forum/2208572aadd1aa385ed0023d71714e6fb8a71626/threads/5bb66d09fb45b2080c000167)
 
-  - 
+  - What are methods?
+
+    ![what are methods](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/what%20are%20methods.gif)
+
+  - How to call methods?
+
+    ![how to call methods](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/how%20to%20call%20methods.gif)
 
 - ```python
   class Coordinate(object):
