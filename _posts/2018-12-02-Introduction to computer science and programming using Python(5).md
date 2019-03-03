@@ -25,16 +25,12 @@ layout: article
 
   - **it provides the blueprint to create individual instances that share the same structure but have their own set of characteristics**
 
-    
-
   - | class            | methods                                    | instance   | object               | type             |
     | ---------------- | ------------------------------------------ | ---------- | -------------------- | ---------------- |
     | 集合（抽象概念） | 集合属性/参数/动作                         | 具体例子   | 所有实体             | 实体概念概念归属 |
     | House            | house attributs: bedrooms,  gardens, price | your house | bricks, woods, beams | 硬装，水电，家具 |
 
-    
-
-  1.  What is Class?
+  1. What is Class?
 
      ![Relationship between class, methods, instance](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/exapmles%20of%20class%20methods%20%20instances.gif)
 
