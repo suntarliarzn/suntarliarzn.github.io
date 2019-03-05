@@ -11,6 +11,8 @@ layout: article
 
 # Week Five: Object Oriented Programming
 
+<!--more-->
+
 ## 1. Object Oriented Programming
 
 ![Object](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/object.jpg)
