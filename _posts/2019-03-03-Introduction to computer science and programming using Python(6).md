@@ -59,7 +59,9 @@ layout: article
 
    <video id="video" controls="" preload="none" poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/order%20low%20to%20high.jpg">
          <source id="mp4" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Analyzing%20Complexity.mp4" type="video/mp4">
+       <iframe width="560" height="315" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Analyzing%20Complexity.mp4" frameborder="0" allowfullscreen></iframe>
          </video>
+   
 
 6. 
 
