@@ -4,7 +4,7 @@ title: Introduction to Computer Science and Programming Using Python(6)
 
 key: B20190303
 
-tags: Complexity; Big Oh Notation; Fib complexity   
+tags: python; Complexity; Big Oh Notation; Fib complexity   
 
 layout: article
 ---
@@ -57,7 +57,7 @@ layout: article
 
 5. ###  Complexity Classes
 
-   <video id="video" controls="" preload="none" poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/order%20low%20to%20high.jpg">
+   <video id="video" controls="" preload="none" width="640" height="480" poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/order%20low%20to%20high.jpg">
          <source id="mp4" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Analyzing%20Complexity.mp4" type="video/mp4">
        <iframe width="560" height="315" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Analyzing%20Complexity.mp4" frameborder="0" allowfullscreen></iframe>
          </video>
@@ -81,7 +81,7 @@ layout: article
 
    - fib recursion
 
-     !(Fib Recursion)[https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/Week%206/Fib%20recurs%20code.jpg]
+     ![Fib Recursion](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/Week%206/Fib%20recurs%20code.jpg)
 
    - Fib with a dict
 
