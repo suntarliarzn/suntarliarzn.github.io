@@ -4,7 +4,7 @@ title: Introduction to Computer Science and Programming Using Python(6)
 
 key: B20190303
 
-tags: class;   
+tags: Complexity; Big Oh Notation; Fib complexity   
 
 layout: article
 ---
@@ -57,11 +57,46 @@ layout: article
 
 5. ###  Complexity Classes
 
-   <video id="video" controls="" preload="none" width="560" height="315" poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/order%20low%20to%20high.jpg">
+   <video id="video" controls="" preload="none" poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/order%20low%20to%20high.jpg">
          <source id="mp4" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Analyzing%20Complexity.mp4" type="video/mp4">
+       <iframe width="560" height="315" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Analyzing%20Complexity.mp4" frameborder="0" allowfullscreen></iframe>
          </video>
    
 
-6. 
+6. ### Exponential Complexity
+
+   - most time-consuming one
+   - Recursive:Hanoi tower
+
+   ![Exponential Complexity](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/Week%206/EXPONENTIAL%20COMPLEXITY.jpg)
+
+   [^]: 迭代（iteration）在原有知识上不断更新，但基本架构不变。
+   [^]: 递归（recursion）回归起点，重新梳理原有知识，重新架构，并更新。（更花时间，但有效率提升的可能性）
+
+   
+
+   
+
+7. ### Recursion Complexity
+
+   - fib recursion
+
+     !(Fib Recursion)[https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/Week%206/Fib%20recurs%20code.jpg]
+
+   - Fib with a dict
+
+     ![fib with a dict](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/Week%206/fib%20with%20a%20dict.jpg)
+
+   - **Complexity of Iterative Fib**
+
+     ![complexity of iterative fib](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/Week%206/com%20of%20iter%20fib.jpg)
+
+   - **Complexity of Recursive Fib**
+
+     ![complexity of recursive fib](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/Week%206/con%20of%20rec%20fib.jpg)
+
+8. **Complexity of Common Python Functions**
+
+   ![Complexity of Common Python Functions](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/Week%206/com%20of%20python%20functions.jpg)
 
    
