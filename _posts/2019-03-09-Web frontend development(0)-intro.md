@@ -71,11 +71,11 @@ layout: article
 
   [^]: 翻译在前端开发的位置
 
-#### V1. HTML: Only HTML can do
+  - V1. HTML: Only HTML can do
 
     ![V1](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/V1.jpg)
 
-#### V2.  UED: Tell the browser what to do
+  - V2.  UED: Tell the browser what to do
 
     ![v2](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/v2.jpg)
 
