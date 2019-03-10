@@ -71,31 +71,31 @@ layout: article
 
   [^]: 翻译在前端开发的位置
 
-  #### V1. HTML: Only HTML can do
+#### V1. HTML: Only HTML can do
 
     ![V1](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/V1.jpg)
 
-  #### V2.  UED: Tell the browser what to do
+#### V2.  UED: Tell the browser what to do
 
     ![v2](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/v2.jpg)
 
-    ##### UED
+    - UED
 
       ![UED jobs](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/UED.jpg)
 
-    ##### **UED workflow**
+    - **UED workflow**
 
       ![UED workflow](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/product%20development.jpg)
 
-    ##### **HTML&CSS&JS**
+    - **HTML&CSS&JS**
 
       ![MAPS](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/js%2Chtml%2Ccss.jpg)
 
-    ##### UED problems
+    - UED problems
 
       ![problems](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/ued%20problem.jpg)
 
-    ##### UX and FE
+    - UX and FE
 
       - Separation of UX and FE
 
@@ -109,7 +109,7 @@ layout: article
 
         ![FE rediscovery](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/fe%20rediscover.jpg)
 
-    ##### **Full stack FE**
+    - **Full stack FE**
 
       - Full stack era
 
@@ -136,7 +136,6 @@ layout: article
 
         ![New architecture](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/New%20architecture.jpg)
 
-        
 ## 0.4 Web 前端工程师职业发展
 
 ### Web Frontend Engineer Preparation
