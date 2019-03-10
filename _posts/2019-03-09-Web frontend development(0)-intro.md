@@ -17,15 +17,15 @@ layout: article
 
 ## 0.1 web诞生史
 
-- ### Internet架构
+### Internet架构
 
   ![Internet](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/internet.jpg)
 
-- ### Web发展史
+### Web发展史
 
   ![web timeline](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/web%20timeline.jpg)
 
-- ### Web应用软件设计
+### Web应用软件设计
 
   ![web design components](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/web%20components.jpg)
 
@@ -35,67 +35,67 @@ layout: article
 
 ![Web Structure](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/web%20architecture.jpg)
 
-## URL=Http
+### URL=Http
 
 ![URL ](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/URL.jpg)
 
 ### Http
 
-- HTTP协议特点
+#### HTTP协议特点
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/http%20characteristics.jpg)
 
-- HTTP消息结构
+#### HTTP消息结构
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/http%20message%20structure.jpg)
 
-- HTTP请求方法
+#### HTTP请求方法
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/http%20request%20structure.jpg)
 
-- HTTP常见状态码
+#### HTTP常见状态码
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/http%20status.jpg)
 
-- HTTP缺陷
+#### HTTP缺陷
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/http%20flaws.jpg)
 
 ## 0.3 Web 前端工程师
 
-- 前端vs.后端
+### 前端vs.后端
 
   ![Front end VS. Back end](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/front%20end%20vs.%20back%20end.jpg)
 
-- 前端四个发展阶段 
+### 前端四个发展阶段 
 
   [^]: 翻译在前端开发的位置
 
-  - V1. HTML: Only HTML can do
+  #### V1. HTML: Only HTML can do
 
     ![V1](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/V1.jpg)
 
-  - V2.  UED: Tell the browser what to do
+  #### V2.  UED: Tell the browser what to do
 
     ![v2](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/v2.jpg)
 
-    - UED
+    ##### UED
 
       ![UED jobs](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/UED.jpg)
 
-    - **UED workflow**
+    ##### **UED workflow**
 
       ![UED workflow](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/product%20development.jpg)
 
-    - **HTML&CSS&JS**
+    ##### **HTML&CSS&JS**
 
       ![MAPS](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/js%2Chtml%2Ccss.jpg)
 
-    - UED problems
+    ##### UED problems
 
       ![problems](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/ued%20problem.jpg)
 
-    - UX and FE
+    ##### UX and FE
 
       - Separation of UX and FE
 
@@ -109,7 +109,7 @@ layout: article
 
         ![FE rediscovery](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/fe%20rediscover.jpg)
 
-    - **Full stack FE**
+    ##### **Full stack FE**
 
       - Full stack era
 
@@ -139,32 +139,32 @@ layout: article
         
 ## 0.4 Web 前端工程师职业发展
 
-- Web Frontend Engineer Preparation
+### Web Frontend Engineer Preparation
 
   ![Preparation](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/preparation.jpg)
 
-- **Two Truth**
+### **Two Truth**
 
   ![Two Truth](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/two%20truths.jpg)
 
-- Characteristics
+### Characteristics
 
   - Professionalism
   - Acuteness
   - Life-long learning
   - Body fitness
 
-- BAT FEer
+### BAT FEer
 
   ![BAT FEer](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/BAT%20FEer.jpg)
 
-- **Value**
+### **Value**
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/core%20values.jpg)
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/core%20values%202.jpg)
 
-- **Career** 
+### **Career** 
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/3%20values.jpg)
 
