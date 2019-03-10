@@ -95,32 +95,32 @@ layout: article
 
       ![problems](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/ued%20problem.jpg)
 
-    - UX and FE
+  - V.3 UX and FE
 
-      - Separation of UX and FE
+    - Separation of UX and FE
 
         ![UX and FE](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/seperation%20of%20ued.jpg)
 
-      - FE trending
+    - FE trending
 
         ![FE trending](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/fe%20trending.jpg)
 
-      - FE rediscovery
+    - FE rediscovery
 
         ![FE rediscovery](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/fe%20rediscover.jpg)
 
-    - **Full stack FE**
+  - V.4 **Full stack FE**
 
-      - Full stack era
+    - Full stack era
 
         ![Full Stack workflow](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/full%20stack%20workfull.jpg)
 
-        - Node.js 
-          - 运行在服务端的 JavaScript。
-          - Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。
-          - Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好。
+      - Node.js 
+        - 运行在服务端的 JavaScript。
+        - Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。
+        - Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好。
 
-      - Big Frontend era
+    - Big Frontend era
 
         ![frontend structure](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/000/big%20frontend%20structure.jpg)
 
