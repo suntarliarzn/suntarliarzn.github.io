@@ -3,7 +3,7 @@ title: Reflection on Introduction to Computer Science and Programming Using Pyth
 
 key: B20190320
 
-tags: Reflect; Computer Science; abstraction; automation; algorithm
+tags: Reflection; Computer Science; abstraction; automation; algorithm
 
 layout: article
 ---
@@ -32,7 +32,7 @@ layout: article
 
 3. ## Afterwards
 
-   Computational thinking is quite useful not only in professional fields but also everyday life. It shades a new light for me to think about problems in a more logic and systematic way. For instance,  English(Language) is just another language with certain rules(grammar). The vocabulary is also abstraction of things(layers of notations). If we can grasp words and grammar in more logic and systematic ways, and practice them as a way to automatize internally. We definitely can learn it well and hone our English skills.
+   Computational thinking is quite useful not only in professional fields but also everyday life. It shades a new light for me to think about problems in a more logic and systematic way. For instance,  **English(Language) is just another language with certain rules(grammar). The vocabulary is also abstraction of things(layers of notations). If we can grasp words and grammar in more logic and systematic ways, and practice them as a way to automatize internally.** We definitely can learn it well and hone our English skills.
 
    
 
