@@ -10,6 +10,8 @@ layout: article
 
 # Reflection on Introduction to Computer Science and Programming Using Python
 
+<!--more-->
+
 1. ## Background
 
    After  more than half a year of hard-working, I finally complete this course today. I am so delighted that in the end, I embark on the journey of computer science and programming. During this process, I countered many obstacles and a lot of times, I couldn't figure out the logic behind some programming tasks. And I was pondering over one solution for hours to find out the thinking behind it. It's quite difficult for someone  who learn this stuff from scratch. Programming is still a long way to go but after this course, I am quite confident that I am able to carry on. 
