@@ -12,7 +12,7 @@ layout: article
 
 <!--more-->
 
-# 1.  Plotting
+# Plotting
 
 1. ## Visualization of data
 
