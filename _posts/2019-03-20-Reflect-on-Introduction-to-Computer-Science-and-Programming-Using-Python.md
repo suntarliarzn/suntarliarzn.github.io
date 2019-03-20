@@ -3,7 +3,7 @@ title: Reflection on Introduction to Computer Science and Programming Using Pyth
 
 key: B20190320
 
-tags: Reflect; Computer Science;
+tags: Reflect; Computer Science; abstraction; automation; algorithm
 
 layout: article
 ---
