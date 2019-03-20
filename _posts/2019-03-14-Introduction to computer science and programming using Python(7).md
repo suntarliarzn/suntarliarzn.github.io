@@ -520,7 +520,7 @@ layout: article
 
      - #### 3 As
 
-       ![abstraction automation algorithms]()
+       ![abstraction automation algorithms](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/week%207/three%20a.jpg)
 
      - #### Think recursively!!!
 
