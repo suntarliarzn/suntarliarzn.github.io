@@ -1,3 +1,4 @@
+---
 title: Introduction to Computer Science and Programming Using Python(7)
 
 key: B20190314
@@ -5,14 +6,15 @@ key: B20190314
 tags: Visualization of Data; Plotting; Pylab; Summary; Computational Thinking
 
 layout: article
+---
 
 # Week Seven: Plotting
 
 <!--more-->
 
-## 1.  Plotting
+# 1.  Plotting
 
-1. ### Visualization of data
+1. ## Visualization of data
 
    ```py
    import pylab as plt
@@ -39,7 +41,7 @@ layout: article
 
    ![plotting](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/week%207/visuliaztion%20of%20data.jpg)
 
-2. ### Different Plots
+2. ## Different Plots
 
    ```python
    import pylab as plt
@@ -72,7 +74,7 @@ layout: article
 
    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/week%207/plot%203%204.jpg)
 
-3. ### label & title & clf 
+3. ## label & title & clf 
 
    - **label**:横纵轴标签
 
@@ -160,7 +162,7 @@ layout: article
 
    ![clf](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/week%207/clf.jpg)
 
-4. ### lim & Overlaying & Legend
+4. ## lim & Overlaying & Legend
 
    - **lim**:限制横纵轴参数
 
@@ -320,7 +322,7 @@ layout: article
 
      
 
-5. ### Changing Data Display
+5. ## Changing Data Display
 
    - **color & style**:
 
@@ -427,9 +429,9 @@ layout: article
 
      ![scale log](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/week%207/scale%20log.jpg)
 
-6. ### An Example---Retirement Saving
+6. ## An Example---Retirement Saving
 
-   1. #### compound interest
+   1. ### compound interest
 
       ```python
       import pylab as plt
@@ -446,7 +448,7 @@ layout: article
 
       
 
-   2. #### display retirement
+   2. ### display retirement
 
       ```python
       def displayretirement(monthlies, rate, terms):
@@ -462,7 +464,7 @@ layout: article
 
       
 
-   3. #### display retirement rates
+   3. ### display retirement rates
 
       ```python
       def displayretirementrate(monthly, rates, terms):
@@ -478,7 +480,7 @@ layout: article
 
       
 
-   4. #### display both retirement
+   4. ### display both retirement
 
       ```python
       def displaybothretirement(monthlies, rates, terms):
@@ -504,27 +506,27 @@ layout: article
 
       
 
-7. ### Course Summary
+7. ## Course Summary
 
-   - #### Topics covered
+   - ### Topics covered
 
      - ![topics](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/week%207/topics.jpg)
 
-   - #### Computational thinking
+   - ### Computational thinking
 
-     - ##### The process
+     - #### The process
 
        ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/week%207/computational%20thinking%20process.jpg)
 
-     - ##### 3 As
+     - #### 3 As
 
        ![abstraction automation algorithms]()
 
-     - ##### Think recursively!!!
+     - #### Think recursively!!!
 
        ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/week%207/think%20recursively.jpg)
 
-   - ### One more thing
+   - ## One more thing
 
      ![Good Luck](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Introduction%20to%20Python/week%207/good%20luck.jpg)
 
