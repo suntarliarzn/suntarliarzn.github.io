@@ -56,7 +56,7 @@ layout: article
 
 ## 2.2 Text相关属性
 
-- `color`:文本颜色
+- ### `color`:文本颜色
 
   ```html
   <style>
@@ -69,7 +69,7 @@ layout: article
 
   
 
-- `text-indent`:文本首行缩进
+- ### `text-indent`:文本首行缩进
 
   **#一个中文字符占据16px**
 
@@ -111,7 +111,7 @@ layout: article
 
 - ### `vertical-align`:见下章
 
-- `text-transform`:控制文本的大小写。
+- ### `text-transform`:控制文本的大小写。
 
   | 值         | 描述                                           |
   | :--------- | :--------------------------------------------- |
@@ -121,7 +121,8 @@ layout: article
   | lowercase  | 定义无大写字母，仅有小写字母。                 |
   | inherit    | 规定应该从父元素继承 text-transform 属性的值。 |
 
-- ### `text-shadow`:text-shadow 属性向文本添加一个或多个阴影。该属性是逗号分隔的阴影列表，每个阴影有两个或三个长度值和一个可选的颜色值进行规定。省略的长度是 0。
+- ### `text-shadow`
+  text-shadow 属性向文本添加一个或多个阴影。该属性是逗号分隔的阴影列表，每个阴影有两个或三个长度值和一个可选的颜色值进行规定。省略的长度是 0。
 
   ![text-shadow](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/font-shadow.jpg)
 
@@ -137,7 +138,7 @@ layout: article
 
 
 
-- `text-overflow`:规定当文本溢出包含元素时修剪文本。
+- ### `text-overflow`:规定当文本溢出包含元素时修剪文本。
 
   | 值       | 描述                                 | 测试                                                         |
   | :------- | :----------------------------------- | :----------------------------------------------------------- |
@@ -154,9 +155,11 @@ layout: article
 
   ![text-overflow](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/text-overflow.jpg)
 
-- ### `word-wrap`:**控制长度超过一行的单词是否被拆分换行**，是`word-break`的补充，它有两个值：`normal | break-word`。属性允许长单词或 URL 地址换行到下一行。
+- ### `word-wrap`
+  **控制长度超过一行的单词是否被拆分换行**，是`word-break`的补充，它有两个值：`normal | break-word`。属性允许长单词或 URL 地址换行到下一行。
 
-- `word-break`:**控制单词如何被拆分换行**。它有三个值：`normal | break-all | keep-all`
+- ### `word-break`:**控制单词如何被拆分换行**。
+  它有三个值：`normal | break-all | keep-all`
 
   | 值        | 描述                           |
   | :-------- | :----------------------------- |
@@ -172,9 +175,11 @@ layout: article
 
 ## 2.3 Text-align与vertical-align
 
-- ### `text-align`设置**块级元素文本水平对齐方式**；
+- ### `text-align`
+  设置**块级元素文本水平对齐方式**；
 
-- ### `vertical-align`设置**行内元素的基线相对于该元素所在行的基线的垂直对齐**
+- ### `vertical-align`
+  设置**行内元素的基线相对于该元素所在行的基线的垂直对齐**
 
 ![text-align](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/text-align.jpg)
 
@@ -254,7 +259,9 @@ layout: article
 
   
 
-- ### [`border-image`](<https://segmentfault.com/a/1190000010969367>):**用于给border（边框）贴上背景图像**
+- ### [`border-image`](<https://segmentfault.com/a/1190000010969367>)
+**用于给border（边框）贴上背景图像**
+
 ## 2.5 垂直外边距折叠问题
 
 ### [Collapsing margin rules](<https://www.w3.org/TR/CSS21/box.html#mpb-examples>)
@@ -263,7 +270,8 @@ layout: article
 
 ## 2.6 display属性
 
-- ### `inline`:行内元素（不独占一行），比如：`<strong></strong>`、`<a></a>`
+- ### `inline`:行内元素（不独占一行）
+比如：`<strong></strong>`、`<a></a>`
 
   - 无法设置`width` 、`height`、 `margin-top`属性
 - ### `block`：块级元素（独占一行），比如：`<p></p>`
@@ -284,7 +292,8 @@ layout: article
    <body style="background-image:url('http://www.w3cplus.com/sites/default/files/styles/print_image/public/baiyaimages/margin-colla-3.jpg');">
   ```
 
-- ### `background-repeat`: 设置背景水平和垂直方向平铺 `repeat-x/y`、不平铺：`no-repeat`
+- ### `background-repeat`
+设置背景水平和垂直方向平铺 `repeat-x/y`、不平铺：`no-repeat`
 
 - ### `background-position`:背景图片位置
 
@@ -313,7 +322,8 @@ layout: article
 
   
 
-- ### `background-attachment`: 设置背景图像是否固定或者随着页面的其余部分滚动。
+- ### `background-attachment`
+设置背景图像是否固定或者随着页面的其余部分滚动。
 
   - `scroll`:默认值，窗口滑定，不移动，如同一张图片。
   - `fixed`: 窗口随滚轮滑动，如同探照灯。
@@ -323,7 +333,8 @@ layout: article
 
   - `border-box`、`padding-box`、`content-box`
 
-- ### `background-origin`:属性规定 background-position 属性相对于什么位置来定位
+- ### `background-origin`
+规定 background-position 属性相对于什么位置来定位
 
   - 如果**背景图像的 background-attachment 属性为 "fixed"**，则该属性没有效果。
 
@@ -335,7 +346,8 @@ layout: article
 
   - `content-box`就是把背景图片的坐标原点设置在盒模型**content-box**区域的左上角
 
-- ### `multiple backgrounds`:多重背景图象，可以把不同背景图象只放到一个块元素里。
+- ### `multiple backgrounds`
+多重背景图象，可以把不同背景图象只放到一个块元素里。
 
   - 多个图片url之间使用逗号隔开即可；如果有多个背景图片，而其他属性只有一个（例如background-repeat只有一个），表明所有背景图片应用该属性值。
 
