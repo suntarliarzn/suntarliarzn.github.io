@@ -1,4 +1,4 @@
-
+---
 title: Web Frontend Development - css
 
 key: C20190323
@@ -6,6 +6,7 @@ key: C20190323
 tags: CSS； font; text; box model; display; background
 
 layout: article
+---
 
 # Week Two: Web Frontend Development(2)
 
@@ -15,7 +16,7 @@ layout: article
 
 ## 2.1 Font相关属性
 
-- `font-family` 字体家族
+- ### `font-family` 字体家族
 
   ```html
    <p style="font-family:Verdana, Geneva, Tahoma, sans-serif">联系方式：ABCDEFG leo411@qq.com background</p>
@@ -35,11 +36,11 @@ layout: article
 
     
 
-- `font-size`:字体大小**(可继承属性）**
+- ### `font-size`:字体大小**(可继承属性）**
 
-- `font-style`:字体样式**(可继承属性）**
+- ### `font-style`:字体样式**(可继承属性）**
 
-- `font-weight`:字体加粗**(可继承属性）**
+- ### `font-weight`:字体加粗**(可继承属性）**
 
 - `font` 简写属性：单独作为fond样式，格式为`font:font-style font-size font-family`
 
@@ -72,15 +73,15 @@ layout: article
 
   **#一个中文字符占据16px**
 
-- `letter-spacing`:字符间隔
+- ### `letter-spacing`:字符间隔
 
   **#浏览器本身字符间隔上增加/减少字符举例**
 
-- `word-spacing`:单词间隔
+- ### `word-spacing`:单词间隔
 
   **#英文单词之间，或空格间隔的词组之间的距离**
 
-- `line-height`:行高，**可以放在font简写属性中**。
+- ### `line-height`:行高，**可以放在font简写属性中**。
 
   ```html
   <style>		
@@ -96,9 +97,9 @@ layout: article
 
   
 
-- `text-decoration`:文本装饰线 `underline` `overline` `line-through`
+- ### `text-decoration`:文本装饰线 `underline` `overline` `line-through`
 
-- `text-align`:属性规定元素中的文本的水平对齐方式。
+- ### `text-align`:属性规定元素中的文本的水平对齐方式。
 
   | 值      | 描述                                       |
   | :------ | :----------------------------------------- |
@@ -108,7 +109,7 @@ layout: article
   | justify | 实现两端对齐文本效果。                     |
   | inherit | 规定应该从父元素继承 text-align 属性的值。 |
 
-- `vertical-align`:见下章
+- ### `vertical-align`:见下章
 
 - `text-transform`:控制文本的大小写。
 
@@ -120,11 +121,11 @@ layout: article
   | lowercase  | 定义无大写字母，仅有小写字母。                 |
   | inherit    | 规定应该从父元素继承 text-transform 属性的值。 |
 
-- `text-shadow`:text-shadow 属性向文本添加一个或多个阴影。该属性是逗号分隔的阴影列表，每个阴影有两个或三个长度值和一个可选的颜色值进行规定。省略的长度是 0。
+- ### `text-shadow`:text-shadow 属性向文本添加一个或多个阴影。该属性是逗号分隔的阴影列表，每个阴影有两个或三个长度值和一个可选的颜色值进行规定。省略的长度是 0。
 
   ![text-shadow](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/font-shadow.jpg)
 
-- `white-space`:规定段落中的文本不进行换行
+- ### `white-space`:规定段落中的文本不进行换行
 
   | normal   | 默认。空白会被浏览器忽略。                                   |
   | -------- | ------------------------------------------------------------ |
@@ -153,7 +154,7 @@ layout: article
 
   ![text-overflow](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/text-overflow.jpg)
 
-- `word-wrap`:**控制长度超过一行的单词是否被拆分换行**，是`word-break`的补充，它有两个值：`normal | break-word`。属性允许长单词或 URL 地址换行到下一行。
+- ### `word-wrap`:**控制长度超过一行的单词是否被拆分换行**，是`word-break`的补充，它有两个值：`normal | break-word`。属性允许长单词或 URL 地址换行到下一行。
 
 - `word-break`:**控制单词如何被拆分换行**。它有三个值：`normal | break-all | keep-all`
 
@@ -171,9 +172,9 @@ layout: article
 
 ## 2.3 Text-align与vertical-align
 
-- text-align设置**块级元素文本水平对齐方式**；
+- ### `text-align`设置**块级元素文本水平对齐方式**；
 
-- vertical-align设置**行内元素的基线相对于该元素所在行的基线的垂直对齐**
+- ### `vertical-align`设置**行内元素的基线相对于该元素所在行的基线的垂直对齐**
 
 ![text-align](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/text-align.jpg)
 
@@ -181,22 +182,22 @@ layout: article
 
 ## 2.4 盒模型以及box-sizing
 
-- `margin`:四个方向外边界
+- ### `margin`:四个方向外边界
 
-- `margin-top` `right` `bottom` `left`:顺时针方向
+  - `margin-top` `right` `bottom` `left`:顺时针方向
 
   ```html
   margin: 32px 20px 26px 10px; /*顺时针方向整体赋值*/
   margin: 32px 20px /*上下、左右整体赋值*/
   ```
 
-- `border`边框：
+- ### `border`边框：
 
   ![border两种写法](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/border%20style.jpg)
 
   ![border style](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/border-style.jpg)
 
-- `border-sizing`：
+- ### `border-sizing`：
 
   - `border-sizing:content-box`:宽度和高度分别应用到元素的内容框。在宽度和高度之外绘制元素的内边距和边框。
 
@@ -206,7 +207,7 @@ layout: article
 
     ![border-box](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/border%20box.png)
 
-- [`box-shadow` `text-shadow`](<https://www.cnblogs.com/wuchuanlong/p/5980766.html>): 
+- ### [`box-shadow` `text-shadow`](<https://www.cnblogs.com/wuchuanlong/p/5980766.html>): 
 
   - **外阴影：**box-shadow: X轴  Y轴  Rpx  color;
 
@@ -218,7 +219,7 @@ layout: article
 
   - **注（PS）**：此属性使用于盒模型 如(div,p,h1,h2,h3,h4,h5,h6等) 不是用来设置文字阴影   如果**设置文字阴影请参考知识点:text-shadow**（同理）
 
-- [`box-radius`](<https://www.cnblogs.com/happymental/p/7891725.html>)：
+- ### [`box-radius`](<https://www.cnblogs.com/happymental/p/7891725.html>)：
 
   - border-radius的数值有三种表示方法：px、%、em;
 
@@ -253,36 +254,39 @@ layout: article
 
   
 
-- [`border-image`](<https://segmentfault.com/a/1190000010969367>):**用于给border（边框）贴上背景图像**
+- ### [`border-image`](<https://segmentfault.com/a/1190000010969367>):**用于给border（边框）贴上背景图像**
 ## 2.5 垂直外边距折叠问题
 
-[Collapsing margin rules](<https://www.w3.org/TR/CSS21/box.html#mpb-examples>)
+### [Collapsing margin rules](<https://www.w3.org/TR/CSS21/box.html#mpb-examples>)
 
-[CSS外边距合并](<http://www.w3school.com.cn/css/css_margin_collapsing.asp>)
+### [CSS外边距合并](<http://www.w3school.com.cn/css/css_margin_collapsing.asp>)
 
 ## 2.6 display属性
 
-- `inline`:行内元素（不独占一行），比如：`<strong></strong>`、`<a></a>`
+- ### `inline`:行内元素（不独占一行），比如：`<strong></strong>`、`<a></a>`
+
   - 无法设置`width` 、`height`、 `margin-top`属性
-- `block`：块级元素（独占一行），比如：`<p></p>`
+- ### `block`：块级元素（独占一行），比如：`<p></p>`
+
   - 可以设置`width` 、`height`、 `margin-top`属性
-- `inline-block`：同时兼具行内和块级元素特点。不独占，又可以设置属性。
+- ### `inline-block`：同时兼具行内和块级元素特点。不独占，又可以设置属性。
+
   - **垂直列表变为水平列表，设置水平导航栏**
-- `none`：将元素隐藏
+- ### `none`：将元素隐藏
 
 ## 2.7 背景相关的属性
 
-- `background-color`: 设置背景颜色
+- ### `background-color`: 设置背景颜色
 
-- `background-image`: 设置背景图片
+- ### `background-image`: 设置背景图片
 
   ```html
    <body style="background-image:url('http://www.w3cplus.com/sites/default/files/styles/print_image/public/baiyaimages/margin-colla-3.jpg');">
   ```
 
-- `background-repeat`: 设置背景水平和垂直方向平铺 `repeat-x/y`、不平铺：`no-repeat`
+- ### `background-repeat`: 设置背景水平和垂直方向平铺 `repeat-x/y`、不平铺：`no-repeat`
 
-- `background-position`:背景图片位置
+- ### `background-position`:背景图片位置
 
   ```html
           <body style="background-position: 50% 50%">/* “10px 10px” 从左上点开始偏移像素点； “left bottom” 左下角点 */
@@ -290,7 +294,7 @@ layout: article
 
   - `background-repeat`和`background-position`不冲突
 
-- `background-size`: 背景图片大小
+- ### `background-size`: 背景图片大小
 
   ```html
   <body background-size: "100px 100px;"> /*"100% 100% 平铺整个元素界面"*/
@@ -301,7 +305,7 @@ layout: article
   - `cover`:不变形,同比例拉升到**整个界面**。
   - **独立定义，不用简写属性**
 
-- `background`(简写属性)：图片链接+背景颜色+平铺+位置
+- ### `background`(简写属性)：图片链接+背景颜色+平铺+位置
 
   ```html
   <body style="background:url('http://www.w3cplus.com/sites/default/files/styles/print_image/public/baiyaimages/margin-colla-3.jpg') rgb(235, 113, 113) no-repeat  top left">
@@ -309,17 +313,17 @@ layout: article
 
   
 
-- `background-attachment`: 设置背景图像是否固定或者随着页面的其余部分滚动。
+- ### `background-attachment`: 设置背景图像是否固定或者随着页面的其余部分滚动。
 
   - `scroll`:默认值，窗口滑定，不移动，如同一张图片。
   - `fixed`: 窗口随滚轮滑动，如同探照灯。
   - `local`:外框效果如同scroll固定不动，内框效果如同fixed，可滑动。
 
-- `background-clip`: 规定背景绘制区域
+- ### `background-clip`: 规定背景绘制区域
 
   - `border-box`、`padding-box`、`content-box`
 
-- `background-origin`:属性规定 background-position 属性相对于什么位置来定位
+- ### `background-origin`:属性规定 background-position 属性相对于什么位置来定位
 
   - 如果**背景图像的 background-attachment 属性为 "fixed"**，则该属性没有效果。
 
@@ -331,7 +335,7 @@ layout: article
 
   - `content-box`就是把背景图片的坐标原点设置在盒模型**content-box**区域的左上角
 
-- `multiple backgrounds`:多重背景图象，可以把不同背景图象只放到一个块元素里。
+- ### `multiple backgrounds`:多重背景图象，可以把不同背景图象只放到一个块元素里。
 
   - 多个图片url之间使用逗号隔开即可；如果有多个背景图片，而其他属性只有一个（例如background-repeat只有一个），表明所有背景图片应用该属性值。
 
