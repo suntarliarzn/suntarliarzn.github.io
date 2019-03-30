@@ -1,4 +1,3 @@
----
 
 title: Web Frontend Development - css
 
@@ -7,7 +6,6 @@ key: C20190323
 tags: CSS； font; text; box model; display; background
 
 layout: article
----
 
 # Week Two: Web Frontend Development(2)
 
@@ -100,21 +98,74 @@ layout: article
 
 - `text-decoration`:文本装饰线 `underline` `overline` `line-through`
 
-- `text-align`:
+- `text-align`:属性规定元素中的文本的水平对齐方式。
 
-- `vertical-align`:
+  | 值      | 描述                                       |
+  | :------ | :----------------------------------------- |
+  | left    | 把文本排列到左边。默认值：由浏览器决定。   |
+  | right   | 把文本排列到右边。                         |
+  | center  | 把文本排列到中间。                         |
+  | justify | 实现两端对齐文本效果。                     |
+  | inherit | 规定应该从父元素继承 text-align 属性的值。 |
 
-- `text-transaforrm`:
+- `vertical-align`:见下章
 
-- `text-shadow`:
+- `text-transform`:控制文本的大小写。
 
-- `white-space`:
+  | 值         | 描述                                           |
+  | :--------- | :--------------------------------------------- |
+  | none       | 默认。定义带有小写字母和大写字母的标准的文本。 |
+  | capitalize | 文本中的每个单词以大写字母开头。               |
+  | uppercase  | 定义仅有大写字母。                             |
+  | lowercase  | 定义无大写字母，仅有小写字母。                 |
+  | inherit    | 规定应该从父元素继承 text-transform 属性的值。 |
 
-- `text-overflow`:
+- `text-shadow`:text-shadow 属性向文本添加一个或多个阴影。该属性是逗号分隔的阴影列表，每个阴影有两个或三个长度值和一个可选的颜色值进行规定。省略的长度是 0。
 
-- `word-wrap`:
+  ![text-shadow](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/font-shadow.jpg)
 
-- `word-break`:
+- `white-space`:规定段落中的文本不进行换行
+
+  | normal   | 默认。空白会被浏览器忽略。                                   |
+  | -------- | ------------------------------------------------------------ |
+  | pre      | 空白会被浏览器保留。其行为方式类似 HTML 中的 <pre> 标签。    |
+  | nowrap   | 文本不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。 |
+  | pre-wrap | 保留空白符序列，但是正常地进行换行。                         |
+  | pre-line | 合并空白符序列，但是保留换行符。                             |
+  | inherit  | 规定应该从父元素继承 white-space 属性的值。                  |
+
+
+
+- `text-overflow`:规定当文本溢出包含元素时修剪文本。
+
+  | 值       | 描述                                 | 测试                                                         |
+  | :------- | :----------------------------------- | :----------------------------------------------------------- |
+  | clip     | 修剪文本。                           | [测试](http://www.w3school.com.cn/tiy/c.asp?f=css_text-overflow) |
+  | ellipsis | 显示省略符号来代表被修剪的文本。     | [测试](http://www.w3school.com.cn/tiy/c.asp?f=css_text-overflow&p=2) |
+  | *string* | 使用给定的字符串来代表被修剪的文本。 |                                                              |
+
+  ```css
+  width: 100%;  /*也可以是固定值、min-width这些*/
+  white-space: nowrap;  /*强制文本不能换行*/
+  overflow: hidden;  /*隐藏溢出内容*/
+  text-overflow: ellipsis;
+  ```
+
+  ![text-overflow](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/text-overflow.jpg)
+
+- `word-wrap`:**控制长度超过一行的单词是否被拆分换行**，是`word-break`的补充，它有两个值：`normal | break-word`。属性允许长单词或 URL 地址换行到下一行。
+
+- `word-break`:**控制单词如何被拆分换行**。它有三个值：`normal | break-all | keep-all`
+
+  | 值        | 描述                           |
+  | :-------- | :----------------------------- |
+  | normal    | 使用浏览器默认的换行规则。     |
+  | break-all | 允许在单词内换行。             |
+  | keep-all  | 只能在半角空格或连字符处换行。 |
+
+- **word-wrap: break-word VS. word-break: break-all**
+
+  ![word-wrap vs. word-break](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/break%20word.jpg)
 
 
 
