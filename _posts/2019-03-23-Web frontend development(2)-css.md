@@ -16,7 +16,8 @@ layout: article
 
 ## 2.1 Font相关属性
 
-- ### `font-family` 字体家族
+- ### `font-family` 
+  字体家族
 
   ```html
    <p style="font-family:Verdana, Geneva, Tahoma, sans-serif">联系方式：ABCDEFG leo411@qq.com background</p>
@@ -45,7 +46,8 @@ layout: article
 - ### `font-weight`
   字体加粗**(可继承属性）**
 
-- `font` 简写属性：单独作为fond样式，格式为`font:font-style font-size font-family`
+- ### `font` 简写属性
+  单独作为fond样式，格式为`font:font-style font-size font-family`
 
   ```html
      <style>
@@ -59,7 +61,8 @@ layout: article
 
 ## 2.2 Text相关属性
 
-- ### `color`:文本颜色
+- ### `color`
+  文本颜色
 
   ```html
   <style>
@@ -72,15 +75,18 @@ layout: article
 
   
 
-- ### `text-indent`:文本首行缩进
+- ### `text-indent`
+  文本首行缩进
 
   **#一个中文字符占据16px**
 
-- ### `letter-spacing`:字符间隔
+- ### `letter-spacing`
+  字符间隔
 
   **#浏览器本身字符间隔上增加/减少字符举例**
 
-- ### `word-spacing`:单词间隔
+- ### `word-spacing`
+  单词间隔
 
   **#英文单词之间，或空格间隔的词组之间的距离**
 
@@ -168,8 +174,8 @@ layout: article
 - ### `word-wrap`
   **控制长度超过一行的单词是否被拆分换行**，是`word-break`的补充，它有两个值：`normal | break-word`。属性允许长单词或 URL 地址换行到下一行。
 
-- ### `word-break`:**控制单词如何被拆分换行**。
-  它有三个值：`normal | break-all | keep-all`
+- ### `word-break`
+  **控制单词如何被拆分换行**。它有三个值：`normal | break-all | keep-all`
 
   | 值        | 描述                           |
   | :-------- | :----------------------------- |
@@ -197,7 +203,8 @@ layout: article
 
 ## 2.4 盒模型以及box-sizing
 
-- ### `margin`:四个方向外边界
+- ### `margin`
+  四个方向外边界
 
   - `margin-top` `right` `bottom` `left`:顺时针方向
 
@@ -206,13 +213,14 @@ layout: article
   margin: 32px 20px /*上下、左右整体赋值*/
   ```
 
-- ### `border`边框：
+- ### `border`
+  边框
 
   ![border两种写法](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/border%20style.jpg)
 
   ![border style](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/border-style.jpg)
 
-- ### `border-sizing`：
+- ### `border-sizing`
 
   - `border-sizing:content-box`:宽度和高度分别应用到元素的内容框。在宽度和高度之外绘制元素的内边距和边框。
 
@@ -289,7 +297,8 @@ layout: article
   块级元素（独占一行），比如：`<p></p>`
 
   - 可以设置`width` 、`height`、 `margin-top`属性
-- ### `inline-block`：同时兼具行内和块级元素特点。不独占，又可以设置属性。
+- ### `inline-block`
+  同时兼具行内和块级元素特点。不独占，又可以设置属性。
 
   - **垂直列表变为水平列表，设置水平导航栏**
 - ### `none`
@@ -347,7 +356,8 @@ layout: article
   - `fixed`: 窗口随滚轮滑动，如同探照灯。
   - `local`:外框效果如同scroll固定不动，内框效果如同fixed，可滑动。
 
-- ### `background-clip`: 规定背景绘制区域
+- ### `background-clip`:
+  规定背景绘制区域
 
   - `border-box`、`padding-box`、`content-box`
 
