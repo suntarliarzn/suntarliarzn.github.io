@@ -197,9 +197,9 @@ layout: article
 - ### `vertical-align`
   设置**行内元素的基线相对于该元素所在行的基线的垂直对齐**
 
-![text-align](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/text-align.jpg)
+  ![text-align](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/text-align.jpg)
 
-![vertical-align](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/vertical-align.jpg)
+  ![vertical-align](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/vertical-align.jpg)
 
 ## 2.4 盒模型以及box-sizing
 
@@ -262,18 +262,18 @@ layout: article
 
     ![radius/](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/redius%20irregular.jpg)
 
-  ```html
-  <style> 
-  div
-  { 
+    ```html
+    <style> 
+    div
+    { 
   	height: 100px;
   	width: 100px;
   	border-radius: 2em/ 1em;
   	border: 10px solid #CCCCCC;
   	background-color: cornflowerblue;
-  }
-  </style>
-  ```
+    }
+    </style>
+    ```
 
   
 
