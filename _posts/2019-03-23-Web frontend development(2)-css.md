@@ -36,11 +36,14 @@ layout: article
 
     
 
-- ### `font-size`:字体大小**(可继承属性）**
+- ### `font-size`
+  字体大小**(可继承属性）**
 
-- ### `font-style`:字体样式**(可继承属性）**
+- ### `font-style`
+  字体样式**(可继承属性）**
 
-- ### `font-weight`:字体加粗**(可继承属性）**
+- ### `font-weight`
+  字体加粗**(可继承属性）**
 
 - `font` 简写属性：单独作为fond样式，格式为`font:font-style font-size font-family`
 
@@ -81,7 +84,8 @@ layout: article
 
   **#英文单词之间，或空格间隔的词组之间的距离**
 
-- ### `line-height`:行高，**可以放在font简写属性中**。
+- ### `line-height`
+  行高，**可以放在font简写属性中**。
 
   ```html
   <style>		
@@ -97,9 +101,11 @@ layout: article
 
   
 
-- ### `text-decoration`:文本装饰线 `underline` `overline` `line-through`
+- ### `text-decoration`
+  文本装饰线 `underline` `overline` `line-through`
 
-- ### `text-align`:属性规定元素中的文本的水平对齐方式。
+- ### `text-align`
+  属性规定元素中的文本的水平对齐方式。
 
   | 值      | 描述                                       |
   | :------ | :----------------------------------------- |
@@ -109,9 +115,11 @@ layout: article
   | justify | 实现两端对齐文本效果。                     |
   | inherit | 规定应该从父元素继承 text-align 属性的值。 |
 
-- ### `vertical-align`:见下章
+- ### `vertical-align`
+  见下章
 
-- ### `text-transform`:控制文本的大小写。
+- ### `text-transform`
+  控制文本的大小写。
 
   | 值         | 描述                                           |
   | :--------- | :--------------------------------------------- |
@@ -126,7 +134,8 @@ layout: article
 
   ![text-shadow](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/001/font-shadow.jpg)
 
-- ### `white-space`:规定段落中的文本不进行换行
+- ### `white-space`
+  规定段落中的文本不进行换行
 
   | normal   | 默认。空白会被浏览器忽略。                                   |
   | -------- | ------------------------------------------------------------ |
@@ -138,7 +147,8 @@ layout: article
 
 
 
-- ### `text-overflow`:规定当文本溢出包含元素时修剪文本。
+- ### `text-overflow`
+  规定当文本溢出包含元素时修剪文本。
 
   | 值       | 描述                                 | 测试                                                         |
   | :------- | :----------------------------------- | :----------------------------------------------------------- |
@@ -270,32 +280,38 @@ layout: article
 
 ## 2.6 display属性
 
-- ### `inline`:行内元素（不独占一行）
+- ### `inline`
+  行内元素（不独占一行）
 比如：`<strong></strong>`、`<a></a>`
 
   - 无法设置`width` 、`height`、 `margin-top`属性
-- ### `block`：块级元素（独占一行），比如：`<p></p>`
+- ### `block`
+  块级元素（独占一行），比如：`<p></p>`
 
   - 可以设置`width` 、`height`、 `margin-top`属性
 - ### `inline-block`：同时兼具行内和块级元素特点。不独占，又可以设置属性。
 
   - **垂直列表变为水平列表，设置水平导航栏**
-- ### `none`：将元素隐藏
+- ### `none`
+  将元素隐藏
 
 ## 2.7 背景相关的属性
 
-- ### `background-color`: 设置背景颜色
+- ### `background-color`
+  背景颜色
 
-- ### `background-image`: 设置背景图片
+- ### `background-image`
+  背景图片
 
   ```html
    <body style="background-image:url('http://www.w3cplus.com/sites/default/files/styles/print_image/public/baiyaimages/margin-colla-3.jpg');">
   ```
 
 - ### `background-repeat`
-设置背景水平和垂直方向平铺 `repeat-x/y`、不平铺：`no-repeat`
+  设置背景水平和垂直方向平铺 `repeat-x/y`、不平铺：`no-repeat`
 
-- ### `background-position`:背景图片位置
+- ### `background-position`
+  背景图片位置
 
   ```html
           <body style="background-position: 50% 50%">/* “10px 10px” 从左上点开始偏移像素点； “left bottom” 左下角点 */
@@ -303,7 +319,8 @@ layout: article
 
   - `background-repeat`和`background-position`不冲突
 
-- ### `background-size`: 背景图片大小
+- ### `background-size`
+  背景图片大小
 
   ```html
   <body background-size: "100px 100px;"> /*"100% 100% 平铺整个元素界面"*/
@@ -314,7 +331,8 @@ layout: article
   - `cover`:不变形,同比例拉升到**整个界面**。
   - **独立定义，不用简写属性**
 
-- ### `background`(简写属性)：图片链接+背景颜色+平铺+位置
+- ### `background`(简写属性)
+  图片链接+背景颜色+平铺+位置
 
   ```html
   <body style="background:url('http://www.w3cplus.com/sites/default/files/styles/print_image/public/baiyaimages/margin-colla-3.jpg') rgb(235, 113, 113) no-repeat  top left">
@@ -323,7 +341,7 @@ layout: article
   
 
 - ### `background-attachment`
-设置背景图像是否固定或者随着页面的其余部分滚动。
+  设置背景图像是否固定或者随着页面的其余部分滚动。
 
   - `scroll`:默认值，窗口滑定，不移动，如同一张图片。
   - `fixed`: 窗口随滚轮滑动，如同探照灯。
@@ -334,7 +352,7 @@ layout: article
   - `border-box`、`padding-box`、`content-box`
 
 - ### `background-origin`
-规定 background-position 属性相对于什么位置来定位
+  规定 background-position 属性相对于什么位置来定位
 
   - 如果**背景图像的 background-attachment 属性为 "fixed"**，则该属性没有效果。
 
@@ -347,7 +365,7 @@ layout: article
   - `content-box`就是把背景图片的坐标原点设置在盒模型**content-box**区域的左上角
 
 - ### `multiple backgrounds`
-多重背景图象，可以把不同背景图象只放到一个块元素里。
+  多重背景图象，可以把不同背景图象只放到一个块元素里。
 
   - 多个图片url之间使用逗号隔开即可；如果有多个背景图片，而其他属性只有一个（例如background-repeat只有一个），表明所有背景图片应用该属性值。
 
