@@ -12,9 +12,11 @@ layout: article
 
 # Week one: Introduction to Computational Thinking and Data Science(1)
 
-1. # Optimization and the Knapsack Problem
+<!--more-->
 
-   1. ## 0/1 Knapsack Problems
+# 1.  Optimization and the Knapsack Problem
+
+   ## 1.  0/1 Knapsack Problems
 
       - ### Optimization Model
 
@@ -43,7 +45,7 @@ layout: article
           \sum_{i=0}^{n-1}V[i]*I[i].weight<W limit
           $$
 
-   2. ## Greedy Algorithms
+    ## 2.  Greedy Algorithms
 
       - put the **best** available item in knapsack
 
@@ -151,9 +153,9 @@ layout: article
 
           
 
-2. # Decision Trees and Dynamic Programming
+# 2.  Decision Trees and Dynamic Programming
 
-   1. ## Brute Force Algorithms
+    ## 1.  Brute Force Algorithms
 
       1. **Search Tree**:  run through all 0/1 possibility
 
@@ -284,7 +286,7 @@ layout: article
          >
          > Good luck.       
 
-   2. ### Recursive Fib
+    ### 2. Recursive Fib
 
       - Recursive Fibonnaci
 
@@ -322,7 +324,7 @@ layout: article
         
       ```
 
-   3. ### Dynamic Programming
+    ### 3.  Dynamic Programming
 
       - Fibonnaci  with dictionary 
 
@@ -412,9 +414,9 @@ layout: article
 
 
 
-3. # Graph Problems
+# 3.  Graph Problems
 
-   1. ## Graph Model
+    ## 1. Graph Model
 
       - Set of **nodes (vertices)**
         ◦ Might have properties associated with them
@@ -424,7 +426,7 @@ layout: article
         ◦ Source (parent) and destination (child) nodes
         ◦ Unweighted or weighted
 
-   2. ##  Path Optimization
+    ## 2.  Path Optimization
 
       - Adjacency matrix
 
