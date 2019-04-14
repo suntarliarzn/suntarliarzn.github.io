@@ -300,7 +300,7 @@ layout: article
         
 
       - Without a dictionary, it takes a long time:
-      ```python
+        ```python
         def testmaxValue(foods, maxUnits):
          print('Use search tree to allocate', maxUnits,
           'calories')
@@ -321,7 +321,7 @@ layout: article
             items = buildLargeMenu(numItems, 90, 250)
             testmaxValue(items, 750)
         
-      ```
+        ```
 
    3. ### Dynamic Programming
 
