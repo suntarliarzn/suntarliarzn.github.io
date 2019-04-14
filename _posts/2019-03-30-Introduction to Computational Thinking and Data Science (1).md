@@ -1,7 +1,6 @@
 ---
 
-title: MIT 6.00.2x
-Introduction to Computational Thinking and Data Science(1)
+title: Introduction to Computational Thinking and Data Science(1)
 
 key: B20190303
 
@@ -10,7 +9,7 @@ tags: python; 0/1 Knapsack Problem; Greedy Algorithm; Brute Force Algorithm
 layout: article
 ---
 
-Week one: Introduction to Computational Thinking and Data Science(1)
+# Week one: Introduction to Computational Thinking and Data Science(1)
 
 <!--more-->
 
