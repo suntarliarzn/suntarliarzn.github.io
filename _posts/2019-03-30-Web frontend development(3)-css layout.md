@@ -4,7 +4,7 @@ title: Web Frontend Development (3) - css layout
 
 key: C20190330
 
-tags: CSS；float;flexbox;bootsrap
+tags: CSS；float; flexbox; bootsrap;
 
 layout: article
 ---
@@ -461,7 +461,7 @@ layout: article
 
     项目默认沿主轴排列。单个项目占据的主轴空间叫做`main size`，占据的交叉轴空间叫做`cross size`。
 
-  ![flex-container](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/002/flex%20container%20items.png)
+    ![flex-container](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/002/flex%20container%20items.png)
 
 - ### `display:flex`
 
@@ -477,10 +477,12 @@ layout: article
 - ### `flex-direction`
 
   - 主轴方向，展示方向
+
   - `row`/`row-reverse`:水平方向
+
   - `column`/`column-reverse`:垂直方向
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/002/flex%20direction.png)
+    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/002/flex%20direction.png)
 
 - ### `flex-wrap`
 
@@ -505,14 +507,20 @@ layout: article
 - ### `justify-content`
 
   - 沿flex容器当前行的主轴对齐flex项目
+
   - `flex-start`：与交叉轴的起点对齐。
+
   - `flex-end`：与交叉轴的终点对齐。
+
   - `center`：与交叉轴的中点对齐。
+
   - `space-between`：与交叉轴两端对齐，轴线之间的间隔平均分布。
+
   - `space-around`：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。
+
   - `stretch`（默认值）：轴线占满整个交叉轴。
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/002/justify-content.jpg)
+    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/002/justify-content.jpg)
 
 - ### `align-items`
 
@@ -533,14 +541,20 @@ layout: article
 - ### `align-content`
 
   - 适用于所有的flex容器，它是用来设置**多行flex元素在**  **侧轴**上的默认对齐方式。
+
   - `flex-start`：与交叉轴的起点对齐。
+
   - `flex-end`：与交叉轴的终点对齐。
+
   - `center`：与交叉轴的中点对齐。
+
   - `space-between`：与交叉轴两端对齐，轴线之间的间隔平均分布。
+
   - `space-around`：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。
+
   - `stretch`（默认值）：轴线占满整个交叉轴。
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/002/align-content.png)
+    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/002/align-content.png)
 
 - ### `order`
 
@@ -626,7 +640,7 @@ layout: article
 
    - 利用flexbox居中，代码可维护性高。
 
-   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/002/demo%20center.jpg)
+     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/002/demo%20center.jpg)
 
    ```html
    <!doctype html>
@@ -671,7 +685,7 @@ layout: article
 
 - [`网格系统（Grid System）`](<https://en.wikipedia.org/wiki/Grid_(graphic_design)>)：
 
-  - > In [graphic design](https://en.wikipedia.org/wiki/Graphic_design), a **grid** is a structure (usually [two-dimensional](https://en.wikipedia.org/wiki/Two-dimensional_space)) made up of a series of intersecting straight (vertical, horizontal, and angular) or curved lines (**grid lines**) used to structure content. The grid serves as an [armature](https://en.wikipedia.org/wiki/Armature_(sculpture)) or [framework](https://en.wikipedia.org/wiki/CSS_framework) on which a [designer](https://en.wikipedia.org/wiki/Designer) can organize graphic elements ([images](https://en.wikipedia.org/wiki/Image), [glyphs](https://en.wikipedia.org/wiki/Glyphs), [paragraphs](https://en.wikipedia.org/wiki/Paragraph), etc.) in a rational, easy-to-absorb manner. A grid can be used to organize graphic elements in relation to a page, in relation to other graphic elements on the page, or relation to other parts of the same graphic element or [shape](https://en.wikipedia.org/wiki/Shape).
+  > In [graphic design](https://en.wikipedia.org/wiki/Graphic_design), a **grid** is a structure (usually [two-dimensional](https://en.wikipedia.org/wiki/Two-dimensional_space)) made up of a series of intersecting straight (vertical, horizontal, and angular) or curved lines (**grid lines**) used to structure content. The grid serves as an [armature](https://en.wikipedia.org/wiki/Armature_(sculpture)) or [framework](https://en.wikipedia.org/wiki/CSS_framework) on which a [designer](https://en.wikipedia.org/wiki/Designer) can organize graphic elements ([images](https://en.wikipedia.org/wiki/Image), [glyphs](https://en.wikipedia.org/wiki/Glyphs), [paragraphs](https://en.wikipedia.org/wiki/Paragraph), etc.) in a rational, easy-to-absorb manner. A grid can be used to organize graphic elements in relation to a page, in relation to other graphic elements on the page, or relation to other parts of the same graphic element or [shape](https://en.wikipedia.org/wiki/Shape).
 
 ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/002/grid%20system.jpg)
 
