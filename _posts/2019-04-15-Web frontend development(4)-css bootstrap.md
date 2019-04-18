@@ -340,7 +340,7 @@ layout: article
     }
     ```
 
-- ### **`animation 属性`**：
+- ### **`animation 属性`**
 
   - `animation-name`
   - `animation-duration`
