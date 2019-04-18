@@ -1,15 +1,15 @@
 ---
 
-title: Web Frontend Development (3) - css RWD
+title: Web Frontend Development (3) - CSS RWD
 
-key: C20190330
+key: C20190415
 
-tags: CSS；float; flexbox; bootsrap; transform; transition
+tags: CSS; float; flexbox; bootsrap; transform; transition; animation;
 
 layout: article
 ---
 
-# Week Two: Web Frontend Development(4)---css RWD
+# Week Two: Web Frontend Development(4)---CSS RWD
 
 <!--more-->
 
@@ -222,7 +222,7 @@ layout: article
   | *transition-timing-function* | 指定transition效果的转速曲线               |
   | *transition-delay*           | 定义transition效果开始的时候               |
 
--  `transition-timing-function`
+-  ### `transition-timing-function`
 
   | 值                            | 描述                                                         |
   | :---------------------------- | :----------------------------------------------------------- |
@@ -241,7 +241,7 @@ layout: article
 
     
 
-- `hover`
+- ### `hover`
 
   - 鼠标移到链接上时添加的特殊样式。
 
@@ -306,3 +306,105 @@ layout: article
   ```
 
   
+
+
+
+## 4.5 `Animation`属性
+
+- **一系列UI元素变化**
+
+- ### `@keyframes`
+
+  - 通过 @keyframes 规则，您能够创建动画。
+
+    创建动画的原理是，将一套 CSS 样式逐渐变化为另一套样式。
+
+    在动画过程中，能够多次改变这套 CSS 样式。
+
+  - > 目前浏览器都不支持 @keyframes 规则。
+    >
+    > Firefox 支持替代的 @-moz-keyframes 规则。
+    >
+    > Opera 支持替代的 @-o-keyframes 规则。
+    >
+    > Safari 和 Chrome 支持替代的 @-webkit-keyframes 规则。
+
+  - ```css
+    @-webkit-keyframes mymove /* Safari and Chrome */
+    {
+    0%   {top:0px; left:0px; background:red;}
+    25%  {top:0px; left:100px; background:blue;}
+    50%  {top:100px; left:100px; background:yellow;}
+    75%  {top:100px; left:0px; background:green;}
+    100% {top:0px; left:0px; background:red;}
+    }
+    ```
+
+- ### `animation 属性`：
+
+  - `animation-name`
+  - `animation-duration`
+  - `animation-timing-function`
+  - `animation-delay`
+  - `animation-iteration-count: n/infinite`
+    - 动画的播放次数。
+  - `animation-direction`
+    - `normal` 默认值，正常播放
+    - `alternate` 轮流反向播放
+
+- **球丢下再弹起**动画
+
+  ```html
+  <!doctype html>
+  <html>
+  <head>
+      <style>
+          .box{
+              width: 500px;
+              height:500px;
+              background: beige;
+              position:absolute;
+          }
+          .ball{
+              width: 100px;
+              height:100px;
+              background:aqua;
+              border-radius:50%;
+              position:absolute;
+              text-align: center;
+          }
+          @keyframes bounce{
+              0%{
+                  left: 0;
+                  top: 0;
+              }
+              25%{
+                left:250px;
+                top:  250px;
+                background-color: blue
+              }
+              50%{
+                  left:400px;
+                  top:400px;
+                  transform: scale(1.5)
+              }
+              100%{
+                  left:0%;
+                  top:400px;
+                  transform:skew(20deg)
+              }
+          }
+          .box:hover .ball{
+              animation: bounce 10s ease 0s infinite alternate;
+          }
+      </style>
+  </head>
+  <body>
+      <div class = "box">
+          <div class = "ball"> ball</div>
+      </div>
+  </body>
+  </html>
+  ```
+
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Frontend%20Web%20Development/003/ball%20movement.gif)
