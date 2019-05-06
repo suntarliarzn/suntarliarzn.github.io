@@ -4,7 +4,7 @@ title: Web Frontend Development (4) - JavaScript level1
 
 key: C20190422
 
-tags: JavaScript;alert; console.log(); var; string; boolean; number; null; undefined;
+tags: JavaScript; alert; console.log(); var; string; boolean; number; null; undefined;
 
 layout: article
 ---
@@ -131,7 +131,7 @@ layout: article
      - `script`一旦用于外部标签，标签内部不能再使用。
      - 如要需要，可以创建新的`script`标签用于内部编写。
 
-### 5.3 JS基本语法
+## 5.3 JS基本语法
 
 - 注释
   - 单行注释`\\`
@@ -221,7 +221,7 @@ layout: article
     - `\t`表示制表符
     - `\\`表示`\`
 
-### 5.7 Number
+## 5.7 Number
 
 - JS中所有数值都是Number类型，包括整数和浮点数。
 - 可以使用一个运算符`typeof`检查一个变量类型
@@ -238,7 +238,7 @@ layout: article
   - JS中**整数**的运算基本可以保证精确
   - JS进行**浮点**运算，可能得到不精确的结果
 
-### 5.8 Boolen布尔值
+## 5.8 Boolen布尔值
 
 - `true`/`false`
 
@@ -248,14 +248,14 @@ layout: article
 
 
 
-### 5.9 Null / Undefined
+## 5.9 Null / Undefined
 
 - `null`表示一个为空的对象
 - `Undefined` ：未定义。当声明一个变量，但未给变量赋值，它的值就是`Undefined`
 
 
 
-### 5.10 强制类型转换--`String`
+## 5.10 强制类型转换--`String`
 
 - 调用被转换类型的`toString（）`方法
 
@@ -305,7 +305,7 @@ layout: article
 
   
 
-### 5.11  强制类型转换--`Number`
+## 5.11  强制类型转换--`Number`
 
 - 使用`Number()`函数
 
@@ -343,9 +343,7 @@ layout: article
   123.456
   ```
 
-
-
-### 5.12  其他进制的数字
+## 5.12  其他进制的数字
 
 - 16进制数字，以`0x`开头
 
@@ -378,8 +376,7 @@ layout: article
   ```
 
   
-
-### 5.13 转换为Boolean
+## 5.13 转换为Boolean
 
 - 使用Boolean()函数
   - 数字
