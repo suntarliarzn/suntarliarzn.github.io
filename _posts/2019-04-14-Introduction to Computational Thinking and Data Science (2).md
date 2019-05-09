@@ -1,6 +1,6 @@
 ---
 
-title: MIT 6.00.2x Introduction to Computational Thinking and Data Science(2)
+title: Introduction to Computational Thinking and Data Science(2)
 
 key: B20190414
 
@@ -11,7 +11,7 @@ layout: article
 
 # Week Two: Introduction to Computational Thinking and Data Science(2)
 
-*<!--more-->*
+<!--more-->
 
 1. # [Plotting](<https://suntarliarzn.github.io/2019/03/14/Introduction-to-computer-science-and-programming-using-Python(7).html>)
 
