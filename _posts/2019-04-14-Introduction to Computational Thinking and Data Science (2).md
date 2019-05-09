@@ -1,7 +1,6 @@
 ---
 
-title: MIT 6.00.2x
-Introduction to Computational Thinking and Data Science(2)
+title: MIT 6.00.2x Introduction to Computational Thinking and Data Science(2)
 
 key: B20190414
 
