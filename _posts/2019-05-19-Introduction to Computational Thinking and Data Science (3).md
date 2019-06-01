@@ -7,6 +7,10 @@ key: B20190519
 tags: python; Law of Large Numbers; Standard Deviation; Normal Distribution; Central Limit Theorem; Monte Carlo Simulation; 
 
 layout: article
+
+mathjax: true
+
+mathjax_autoNumber: true
 ---
 
 # Introduction to Computational Thinking and Data Science(3)
