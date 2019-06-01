@@ -15,7 +15,7 @@ mathjax_autoNumber: true
 
 # Introduction to Computational Thinking and Data Science(3)
 
-*<!--more-->*
+<!--more-->
 
 ## 3.1 Law of Large Numbers
 
@@ -31,7 +31,8 @@ mathjax_autoNumber: true
 
 ### 3.2.1 Standard deviation(标准差)
 
-![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/introduction%20to%20computational%20thinking%20and%20data%20science/week%203/normal%20distribution.jpg)
+![standard deviation](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/introduction%20to%20computational%20thinking%20and%20data%20science/week%203/normal%20distribution.jpg)
+
 $$
 variance(X) = \frac{\sum\limits_{i=1}^{N}(X_{i}-\mu)^{2}}{N}
 $$
@@ -81,6 +82,7 @@ def getMeanAndStd(x):
            </video>
 
 - **Normal Distributions**
+
   $$
   P(x) = \frac{1}{{\sigma \sqrt {2\pi}}}e^{
   \frac{ - ( {x - \mu } )^2 }  {2\sigma ^2 }}
