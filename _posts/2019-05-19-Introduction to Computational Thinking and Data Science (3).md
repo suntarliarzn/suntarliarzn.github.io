@@ -14,7 +14,7 @@ layout: article
 
 *<!--more-->*
 
-# 3.1 Law of Large Numbers
+## 3.1 Law of Large Numbers
 
 - In [probability theory](https://en.wikipedia.org/wiki/Probability_theory), the **law of large numbers** (**LLN**) is a [theorem](https://en.wikipedia.org/wiki/Theorem) that describes the result of performing the same experiment a large number of times. According to the law, the [average](https://en.wikipedia.org/wiki/Average) of the results obtained from a large number of trials should be close to the [expected value](https://en.wikipedia.org/wiki/Expected_value), and will tend to become closer as more trials are performed.
 - In [statistics](https://en.wikipedia.org/wiki/Statistics), **regression toward** (or **to**) **the mean** is the phenomenon that arises if a [random variable](https://en.wikipedia.org/wiki/Random_variable) is extreme on its first measurement but closer to the [mean](https://en.wikipedia.org/wiki/Mean) or [average](https://en.wikipedia.org/wiki/Average) on its second measurement and if it is extreme on its second measurement but closer to the average on its first.
@@ -24,9 +24,9 @@ layout: article
     - **Explanation**: Compare to n times of reds/blacks(= 1/2), probability of 15/25/35 consecutive reds is small numbers. Although their probability seems to be very influential,a large number of 1/2 will offset the number.  
     - **Interpretation**: 赌徒谬误的产生是因为人们错误的诠释了“大数法则”的平均律。投资者倾向于认为大数法则适用于大样本的同时，也适用于小样本。Tversky and Kahneman把赌徒谬误戏称为“小数法则”（law of small numbers）。在统计学和经济学中，最重要的一条规律是“大数定律”，即随机变量在大量重复实验中呈现出几乎必然的规律，样本越大、则对样本期望值的偏离就越小。例如，抛掷硬币出现正面的概率或期望值是0.5，但如果仅抛掷一次，则出现正面的概率是0或1（远远偏离0.5）。随着抛掷次数的增加（即样本的增大），那么硬币出现正面的概率就逐渐接近0.5。但根据认知心理学的“小数定律”，人们通常会忽视样本大小的影响，认为小样本和大样本具有同样的期望值。
 
-# 3.2 Standard Deviation
+## 3.2 Standard Deviation
 
-## 3.2.1 Standard deviation(标准差)
+### 3.2.1 Standard deviation(标准差)
 
 $$
 variance(X) = \frac{\sum\limits_{i=1}^{N}(X_{i}-\mu)^{2}}{N}
@@ -48,7 +48,7 @@ def getMeanAndStd(x):
 
 
 
-## 3.2.2 Empirical Rule
+### 3.2.2 Empirical Rule
 
 - The Empirical Rule gives us a rule of thumb for approximating the proportion of a Normal distribution that falls within 1, 2, or 3 standard deviations of its mean.
   - 68% of a Normal distribution can be found within 1 standard deviation of its mean
@@ -59,7 +59,7 @@ def getMeanAndStd(x):
   - The mean estimation error is zero.(errors can be biased)
   - The distribution of the errors in the estimates is normal
 
-# 3.3 Normal Distribution
+## 3.3 Normal Distribution
 
 - **Discrete random variables(离散分布)** drawn from finite set of values:roll of dice
 
@@ -100,7 +100,7 @@ def getMeanAndStd(x):
 
     
 
-# 3.4 SciPy
+## 3.4 SciPy
 
 - SciPy library contains my useful mathematical
   functions used by scientists and engineers
@@ -113,7 +113,7 @@ def getMeanAndStd(x):
   -  Approximation to result
   -  Estimate of absolute error
 
-# 3.5 The Central Limit Theorem (CLT)
+## 3.5 The Central Limit Theorem (CLT)
 
 The central limit theorem states that the distribution of sample means approximates a normal distribution as the sample size gets larger (assuming that all samples are identical in size), regardless of population distribution shape.
 
@@ -173,7 +173,7 @@ The central limit theorem states that the distribution of sample means approxima
 
     
 
-# 3.6 Monte Carlo Simulation
+## 3.6 Monte Carlo Simulation
 
 通过“实验”方法，用频率代替概率或得到随机变量的某些数字特征，以此作为问题的解。
 
@@ -207,9 +207,9 @@ The central limit theorem states that the distribution of sample means approxima
 
   - The **infinite monkey theorem** states that a monkey hitting keys at [random](https://en.wikipedia.org/wiki/Randomness) on a typewriter keyboard for an [infinite](https://en.wikipedia.org/wiki/Infinity)amount of time will [almost surely](https://en.wikipedia.org/wiki/Almost_surely) type any given text, such as the complete works of [William Shakespeare](https://en.wikipedia.org/wiki/William_Shakespeare). In fact, the monkey would almost surely type every possible finite text an infinite number of times. 
 
-# 3.7 Sample
+## 3.7 Sample
 
-1. ## pylab辅助线
+1. ### pylab辅助线
 
    1. `plt.vlines(x, ymin, ymax, colors='k', label='') 和 plt.hlines(y, xmin, xmax, colors='k', label='')`绘制一条垂直/水平的辅助线，以 vlines 为例，说明重要参数：
    - x：横坐标
@@ -240,7 +240,7 @@ The central limit theorem states that the distribution of sample means approxima
 
    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/introduction%20to%20computational%20thinking%20and%20data%20science/week%203/sample%20error%20bar.jpg)
 
-3. ## Standard Error of the Mean
+3. ### Standard Error of the Mean
 
    $$
    SE =\frac\sigma{\sqrt {n }}
@@ -248,7 +248,7 @@ The central limit theorem states that the distribution of sample means approxima
 
    
 
-4. ## To estimate mean from a single sample
+4. ### To estimate mean from a single sample
 
    1. Choose sample size based on estimate of skew (**skew** is a measure of the asymmetry of a probability distribution) in population
    2. Choose a random sample from the population
