@@ -36,10 +36,12 @@ layout: article
         - `V`: value(0,1) to indicate whether or not items are taken.
 
         - Find a L that maximizes(both):
+          
+          ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/introduction%20to%20computational%20thinking%20and%20data%20science/week%203/tot.jpg)
           $$
-          \sum_{i=0}^{n-1}V[i]*I[i].value
+      \sum_{i=0}^{n-1}V[i]*I[i].value
           $$
-
+          
           $$
           \sum_{i=0}^{n-1}V[i]*I[i].weight<W limit
           $$
