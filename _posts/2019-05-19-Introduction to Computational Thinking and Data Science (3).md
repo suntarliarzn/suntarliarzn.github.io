@@ -10,7 +10,7 @@ tags: python; Law of Large Numbers; Standard Deviation; Normal Distribution; Cen
 layout: article
 ---
 
-# Week Two: Introduction to Computational Thinking and Data Science(3)
+# Introduction to Computational Thinking and Data Science(3)
 
 *<!--more-->*
 
