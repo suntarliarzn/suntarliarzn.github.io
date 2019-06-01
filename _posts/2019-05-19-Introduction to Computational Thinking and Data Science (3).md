@@ -237,8 +237,8 @@ The central limit theorem states that the distribution of sample means approxima
 
     <video id="video" controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/introduction%20to%20computational%20thinking%20and%20data%20science/week%203/error%20bar.jpg">
           <source id="mp4" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/introduction%20to%20computational%20thinking%20and%20data%20science/week%203/error%20bar.mp4">
-        <iframe width="560" height="315" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/introduction%20to%20computational%20thinking%20and%20data%20science/week%203/error%20bar.mp4" frameborder="0" allowfullscreen></iframe>
-          </video>
+        <iframe width="560" height="315" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/introduction%20to%20computational%20thinking%20and%20data%20science/week%203/error%20bar.jpg" frameborder="0" allowfullscreen></iframe>
+     </video>
 
    ```python
    pylab.errorbar(xVals, sizeMeans, yerr= 1.96*pylab.array(sizeSDs)), fmt = 'o', label = 'g5% Confidence Interval'
