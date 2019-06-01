@@ -1,7 +1,6 @@
 ---
 
-title: MIT 6.00.2x
-Introduction to Computational Thinking and Data Science(3)
+title: Introduction to Computational Thinking and Data Science(3)
 
 key: B20190519
 
@@ -10,11 +9,7 @@ tags: python; Law of Large Numbers; Standard Deviation; Normal Distribution; Cen
 layout: article
 ---
 
-# 
-
-z
-
-Introduction to Computational Thinking and Data Science(3)
+# Introduction to Computational Thinking and Data Science(3)
 
 *<!--more-->*
 
