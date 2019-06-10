@@ -36,10 +36,11 @@ $$
 
    1. Least squares
 
-      ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/introduction%20to%20computational%20thinking%20and%20data%20science/week%204/linear%20fit.jpg)
-      $$
+    ![least squares](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/introduction%20to%20computational%20thinking%20and%20data%20science/week%204/linear%20fit.jpg)
+  
+    $$
       \sum_i^{len(obserbved)-1}(observed[i]-predicted[i])^2
-      $$
+    $$
       
 2. Polynomials(多项式表示Curve)
    
