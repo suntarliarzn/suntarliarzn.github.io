@@ -1,13 +1,14 @@
 ---
 
-title: MIT 6.00.2x
-Introduction to Computational Thinking and Data Science(4)
+title: Introduction to Computational Thinking and Data Science(4)
 
 key: B20190608
 
 tags: polyfit; R^2; Fitting for Data; Overfitting; Cross Validation;
 
 layout: article
+
+mathjax: true
 
 mathjax_autoNumber: true
 
