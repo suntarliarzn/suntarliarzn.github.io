@@ -1,8 +1,8 @@
 ---
 
-title: Web Frontend Development (7) - JavaScript 03
+title: Web Frontend Development (8) - JavaScript 04
 
-key: C20190520
+key: C20190612
 
 tags: JavaScript; 对象；字面量；函数; 
 
