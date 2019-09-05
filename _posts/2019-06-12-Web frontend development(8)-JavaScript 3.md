@@ -126,16 +126,19 @@ layout: article
 
   - JS变量存储位置
 
+     <video id="video" controls="" preload="none" width="560" height="315"  poster="https://www.bilibili.com/video/av51651471/?p=49">
+       <source id="mp4" src="https://www.bilibili.com/video/av51651471/?p=49">
     <iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=34087791&cid=59699165&page=49" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-    - 基本数据类型的值直接在**栈内存**中存储，值与值之间是独立存在的，修改一个变量不会影响其他的变量。
-
-    - 对象则保存在**堆内存**中，每创建一个新的对象，就会在堆内存中开辟出一个新的空间。而**变量保持的是对象的内存地址（对象引用）**。
-
-    - 如果两个变量保存同一个对象引用，当一个变量修改属性时，另外一个也会受到影响。
-
+  	</video>
+    
+  - 基本数据类型的值直接在**栈内存**中存储，值与值之间是独立存在的，修改一个变量不会影响其他的变量。
+    
+  - 对象则保存在**堆内存**中，每创建一个新的对象，就会在堆内存中开辟出一个新的空间。而**变量保持的是对象的内存地址（对象引用）**。
+    
+  - 如果两个变量保存同一个对象引用，当一个变量修改属性时，另外一个也会受到影响。
+    
     - 当一个指针断开（赋值数据基本类型），不影响另外一个。
-
+    
       ```javascript
       obj = new Object() 
       {}
@@ -145,14 +148,14 @@ layout: article
       null
       console.log(obj)
       null
-      console.log(obj1)
+    console.log(obj1)
       {}
-      ```
-
-    - 当比较两个数据基本类型时，就是比较值。
-
+    ```
+    
+  - 当比较两个数据基本类型时，就是比较值。
+    
       当比较两个引用数据类型时，比较的对象的内存地址。
-
+    
       ```javascript
       obj3 = new Object()
       {}
