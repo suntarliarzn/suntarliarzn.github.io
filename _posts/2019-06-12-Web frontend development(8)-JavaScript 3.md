@@ -126,9 +126,9 @@ layout: article
 
   - JS变量存储位置
 
-    <video id="video" controls="" preload="none" width="560" height="315"  poster="https://player.bilibili.com/player.html?aid=51651471&cid=90276379&page=49">
-      <source id="mp4" src="https://player.bilibili.com/player.html?aid=51651471&cid=90276379&page=49">
-      <iframe width="560" height="315" src="https://player.bilibili.com/player.html?aid=51651471&cid=90276379&page=49" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+    <video id="video" controls="" preload="none" width="560" height="315"  poster="https://www.bilibili.com/video/av51651471/?p=49">
+      <source id="mp4" src="https://www.bilibili.com/video/av51651471/?p=49">
+      <iframe src="https://player.bilibili.com/player.html?aid=51651471&cid=90276379&page=49" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
     </video>
 
   - 基本数据类型的值直接在**栈内存**中存储，值与值之间是独立存在的，修改一个变量不会影响其他的变量。
