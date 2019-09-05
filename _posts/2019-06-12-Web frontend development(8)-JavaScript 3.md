@@ -127,7 +127,6 @@ layout: article
   - JS变量存储位置
 
     <video id="video" controls="" preload="none" width="560" height="315"  poster="https://www.bilibili.com/video/av51651471/?p=49">
-      <source id="mp4" src="https://www.bilibili.com/video/av51651471/?p=49">
       <iframe src="https://player.bilibili.com/player.html?aid=51651471&cid=90276379&page=49" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
     </video>
 
