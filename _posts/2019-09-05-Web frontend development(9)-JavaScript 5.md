@@ -4,7 +4,7 @@ title: Web Frontend Development (9) - JavaScript 05
 
 key: C20190905
 
-tags: JavaScript; array; Math;Date; This 
+tags: JavaScript; array; Math; Date; This 
 
 layout: article
 ---
@@ -414,7 +414,7 @@ layout: article
     > ```
     >
   
-- ## 9.2 函数的方法
+- # 9.2 函数的方法
 
   - ### `call()`&`apply()`
 
