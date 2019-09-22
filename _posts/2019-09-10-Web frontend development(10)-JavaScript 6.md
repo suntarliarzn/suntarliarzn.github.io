@@ -249,8 +249,7 @@ layout: article
     "@bc 123 aec 456 adc 789 aaa 000"
     str.replace(/[A-z]/g, "@")
     "@@@ 123 @@@ 456 @@@ 789 @@@ 000"
-    
-  ```
+    ```
   
   - ### 量词
   
