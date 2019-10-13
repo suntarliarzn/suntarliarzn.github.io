@@ -119,34 +119,32 @@ layout: article
 
 - ## 11.2 DOM文档对象查询
 
-  1. ### 获取元素节点
-  
-     通过`document`对象调用
-  
-  - #### `getElementById()`
-  
-    - 通过**id**属性获取**一个**元素节点对象
-  
-  - #### `getElementsByTagName()`
-  
-    - 通过**标签名**获取**一组**元素节点对象。
-  - 这个方法会给我们返回一个类数组对象，所有查询到的元素都会封装到对象中。
-    
-   - 即使查询到的元素只有一个，也会封装到数组中返回。
-    
-  - #### `getElementsByName()`
-  
-    - 通过**name**属性获取**一组**元素节点对象。
-    - 这个方法会给我们返回一个类数组对象，所有查询到的元素都会封装到对象中。
-    - 即使查询到的元素只有一个，也会封装到数组中返回。
-  - **`innerHTML`用于获取元素内部的HTML代码的对于自结束标签，这个属性没有意义。**
-    
+1. ### 获取元素节点
+    通过`document`对象调用
+
+   - #### `getElementById()`
+     - 通过**id**属性获取**一个**元素节点对象
+
+   - #### `getElementsByTagName()`
+
+     - 通过**标签名**获取**一组**元素节点对象。
+     - 这个方法会给我们返回一个类数组对象，所有查询到的元素都会封装到对象中。
+     - 即使查询到的元素只有一个，也会封装到数组中返回。
+
+   - #### `getElementsByName()`
+
+     - 通过**name**属性获取**一组**元素节点对象。
+     - 这个方法会给我们返回一个类数组对象，所有查询到的元素都会封装到对象中。
+     - 即使查询到的元素只有一个，也会封装到数组中返回。
+
+    - **`innerHTML`用于获取元素内部的HTML代码的对于自结束标签，这个属性没有意义。**
+
     - **如果需要读取元素节点属性，直接使用`元素.属性名`**
-  - 例子：`元素.id` `元素.name` `元素.value`
-    - 注意：class属性不能采用这种方式。读取class属性时需要使用 `元素.className`。
-  
+        - 例子：`元素.id` `元素.name` `元素.value`
+        - 注意：class属性不能采用这种方式。读取class属性时需要使用 `元素.className`。
+
     - 练习--轮播图
-    
+
       ```javascript
        <!doctype html>
       <html>
@@ -222,207 +220,206 @@ layout: article
       </html>
       
       ```
-    
 
+2. ### 获取元素节点的子节点
 
-  2. ### 获取元素节点的子节点
+   **节点**获取的都包括空白,通过具体的元素节点调用
 
-     **节点**获取的都包括空白,通过具体的元素节点调用
+    - #### `getElementsByTagName()`
 
-       - #### `getElementsByTagName()`
-     
-           - **方法**，返回当前节点的指定标签名的后代节点
-     
-       - #### `childNodes`
-     
-           - **属性**，表示当前节点的所有子节点
-           - `childNodes`属性会获取包括文本节点在内的所有节点。
-           - 根据DOM标签查询，空白也会当成文本节点。
-           - 该属性在IE8中不会返回空白文本节点。
-           - **`chlidren`只包括当前元素所有子元素，不获取空白文本节点。推荐使用。**
-     
-       - #### `firstChild`
-     
-           - **属性**，表示当前节点的第一个子节点
-           - 获取当前元素的第一个子节点（包括空白节点）
-           - **`firstElementChild`获取当前元素的第一个子元素。不支持IE8及以下的浏览器。**
-     
-       - #### `lastChild`
-     
-           - **属性**，表示当前节点的最后一个子节点。
-           - 获取当前元素的最后一个子节点（包括空白节点）
+         - **方法**，返回当前节点的指定标签名的后代节点
 
-  3. ### 获取父节点和兄弟节点
+    - #### `childNodes`
 
-       - #### `parentNode`
+      - **属性**，表示当前节点的所有子节点
+      - `childNodes`属性会获取包括文本节点在内的所有节点。
+      - 根据DOM标签查询，空白也会当成文本节点。
+      - 该属性在IE8中不会返回空白文本节点。
+      - **`chlidren`只包括当前元素所有子元素，不获取空白文本节点。推荐使用。**
 
-           - **属性**，表示当前节点的父节点。
-           - **`innerText`可获取元素内部的文本内容。**
-               - 它和`innerHTML`类似，不同的是它会自动将html去除。
+    - #### `firstChild`
 
-       - #### `previousSibling`
+        - **属性**，表示当前节点的第一个子节点
+        - 获取当前元素的第一个子节点（包括空白节点）
+        - **`firstElementChild`获取当前元素的第一个子元素。不支持IE8及以下的浏览器。**
 
-           - **属性**，表示当前节点的前一个兄弟节点。
-           - 也有可能获取到空白的文本。
-           - **`previousElementSibling`可以获取前一个兄弟节点的元素。IE8及以下不支持。**
+    - #### `lastChild`
 
-       - #### `nextSibling`
+        - **属性**，表示当前节点的最后一个子节点。
+        - 获取当前元素的最后一个子节点（包括空白节点）
 
-           - **属性**，表示当前节点的后一个兄弟节点。
+3. ### 获取父节点和兄弟节点
 
-     - #### `属性名.value`
+    - #### `parentNode`
 
-       - 获取元素value属性值，即文本框中填写的内容。
+        - **属性**，表示当前节点的父节点。
+    - **`innerText`可获取元素内部的文本内容。**
+        
+    - 它和`innerHTML`类似，不同的是它会自动将html去除。
+        
+    - #### `previousSibling`
 
-  4.  全选练习
+        - **属性**，表示当前节点的前一个兄弟节点。
+        - 也有可能获取到空白的文本。
+        - **`previousElementSibling`可以获取前一个兄弟节点的元素。IE8及以下不支持。**
 
-     ```javascript
-     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-     <html>
-     <head>
-     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-     <title>全选练习</title>
-     <script type="text/javascript">
-     
-     	window.onload = function(){
-     		var items = document.getElementsByName('items');
-     		var checkedAllBox = document.getElementById('checkedAllBox');
-     		
-             var checkedAllBtn = document.getElementById('checkedAllBtn');
-             checkedAllBtn.onclick = function(){
-     			for(var i=0;i<items.length; i++){
-     				items[i].checked = true;
-     			}
-     		checkedAllBox.checked = true;
-     		};
-     
-         var checkedNoBtn = document.getElementById('checkedNoBtn');
-             checkedNoBtn.onclick = function(){
-     			for(var i=0;i<items.length; i++){
-     				items[i].checked = false;
-     			}
-     		checkedAllBox.checked = false;
-     		};
-     
-         var checkedRevBtn = document.getElementById('checkedRevBtn');
-             checkedRevBtn.onclick = function(){
-                 checkedAllBox.checked = true;
-     
-                 for(var i=0;i<items.length; i++){
-     				if (items[i].checked){
-                         items[i].checked = false;
-                     }else{
-                         items[i].checked = true;
-                     }
-                     //判断多选框状态
-     				/*if(items[i].checked){
-     					//证明多选框已选中，则设置为没选中状态
-     					items[i].checked = false;
-     				}else{
-     					//证明多选框没选中，则设置为选中状态
-     					items[i].checked = true;
-     				}*/
-                     if (!items[i].checked){
-                         checkedAllBox.checked = false;
-     			    }
-                 }
-     	    }
-             /* 提交按钮：
-     		 * 	- 点击按钮以后，将所有选中的多选框的value属性值弹出
-     		 */
-     		//4.#sendBtn
-     		//为sendBtn绑定单击响应函数
-             var sendBtn = document.getElementById("sendBtn");
-             sendBtn.onclick = function(){
-                 for(var i=0;i<items.length; i++){
-     				if (items[i].checked){
-                         alert(items[i].value);
-                     }   
-             }
-         }
-         //5.#checkedAllBox
-     		/*
-     		 * 全选/全不选 多选框
-     		 * 	- 当它选中时，其余的也选中，当它取消时其余的也取消
-     		 * 
-     		 * 在事件的响应函数中，响应函数是给谁绑定的this就是谁
-     		 */
+    - #### `nextSibling`
+
+        - **属性**，表示当前节点的后一个兄弟节点。
+
+    - #### `属性名.value`
+
+        - 获取元素value属性值，即文本框中填写的内容。
+
+4. ### 全选练习
+
+      ```javascript
+      <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+      <html>
+      <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>全选练习</title>
+      <script type="text/javascript">
+      
+          window.onload = function(){
+              var items = document.getElementsByName('items');
+              var checkedAllBox = document.getElementById('checkedAllBox');
+              
+              var checkedAllBtn = document.getElementById('checkedAllBtn');
+              checkedAllBtn.onclick = function(){
+                  for(var i=0;i<items.length; i++){
+                      items[i].checked = true;
+                  }
+              checkedAllBox.checked = true;
+              };
+      
+          var checkedNoBtn = document.getElementById('checkedNoBtn');
+              checkedNoBtn.onclick = function(){
+                  for(var i=0;i<items.length; i++){
+                      items[i].checked = false;
+                  }
+              checkedAllBox.checked = false;
+              };
+      
+          var checkedRevBtn = document.getElementById('checkedRevBtn');
+              checkedRevBtn.onclick = function(){
+                  checkedAllBox.checked = true;
+      
+                  for(var i=0;i<items.length; i++){
+                      if (items[i].checked){
+                          items[i].checked = false;
+                      }else{
+                          items[i].checked = true;
+                      }
+                      //判断多选框状态
+                      /*if(items[i].checked){
+                          //证明多选框已选中，则设置为没选中状态
+                          items[i].checked = false;
+                      }else{
+                          //证明多选框没选中，则设置为选中状态
+                          items[i].checked = true;
+                      }*/
+                      if (!items[i].checked){
+                          checkedAllBox.checked = false;
+                      }
+                  }
+              }
+              /* 提交按钮：
+              * 	- 点击按钮以后，将所有选中的多选框的value属性值弹出
+              */
+              //4.#sendBtn
+              //为sendBtn绑定单击响应函数
+              var sendBtn = document.getElementById("sendBtn");
+              sendBtn.onclick = function(){
+                  for(var i=0;i<items.length; i++){
+                      if (items[i].checked){
+                          alert(items[i].value);
+                      }   
+              }
+          }
+          //5.#checkedAllBox
+              /*
+              * 全选/全不选 多选框
+              * 	- 当它选中时，其余的也选中，当它取消时其余的也取消
+              * 
+              * 在事件的响应函数中，响应函数是给谁绑定的this就是谁
+              */
               //为checkedAllBox绑定单击响应函数
               checkedAllBox.onclick = function(){
-                 for(var i=0;i<items.length; i++){
-                         items[i].checked = this.checked;
-                     } 
-                 }  
-         //6.items
-     		/*
-     		 * 如果四个多选框全都选中，则checkedAllBox也应该选中
-     		 * 如果四个多选框没都选中，则checkedAllBox也不应该选中
-     		 */
+                  for(var i=0;i<items.length; i++){
+                          items[i].checked = this.checked;
+                      } 
+                  }  
+          //6.items
+              /*
+              * 如果四个多选框全都选中，则checkedAllBox也应该选中
+              * 如果四个多选框没都选中，则checkedAllBox也不应该选中
+              */
               for(var i=0 ; i<items.length ; i++){
-     			items[i].onclick = function(){
-     				
-     				//将checkedAllBox设置为选中状态
-     				checkedAllBox.checked = true;
-     				
-     				for(var j=0 ; j<items.length ; j++){
-                         if(!items[j].checked){
-                             checkedAllBox.checked = false;
-                         }
-                     }
-                 }
+                  items[i].onclick = function(){
+                      
+                      //将checkedAllBox设置为选中状态
+                      checkedAllBox.checked = true;
+                      
+                      for(var j=0 ; j<items.length ; j++){
+                          if(!items[j].checked){
+                              checkedAllBox.checked = false;
+                          }
+                      }
+                  }
               }
-         }
-            	
-     </script>
-     </head>
-     <body>
-     
-     	<form method="post" action="">
-     		你爱好的运动是？<input type="checkbox" id="checkedAllBox" />全选/全不选 
-     		
-     		<br />
-     		<input type="checkbox" name="items" value="足球" />足球
-     		<input type="checkbox" name="items" value="篮球" />篮球
-     		<input type="checkbox" name="items" value="羽毛球" />羽毛球
-     		<input type="checkbox" name="items" value="乒乓球" />乒乓球
-     		<br />
-     		<input type="button" id="checkedAllBtn" value="全　选" />
-     		<input type="button" id="checkedNoBtn" value="全不选" />
-     		<input type="button" id="checkedRevBtn" value="反　选" />
-     		<input type="button" id="sendBtn" value="提　交" />
-     	</form>
-     </body>
-     </html>
-     ```
+          }
+                  
+      </script>
+      </head>
+      <body>
+      
+          <form method="post" action="">
+              你爱好的运动是？<input type="checkbox" id="checkedAllBox" />全选/全不选 
+              
+              <br />
+              <input type="checkbox" name="items" value="足球" />足球
+              <input type="checkbox" name="items" value="篮球" />篮球
+              <input type="checkbox" name="items" value="羽毛球" />羽毛球
+              <input type="checkbox" name="items" value="乒乓球" />乒乓球
+              <br />
+              <input type="button" id="checkedAllBtn" value="全　选" />
+              <input type="button" id="checkedNoBtn" value="全不选" />
+              <input type="button" id="checkedRevBtn" value="反　选" />
+              <input type="button" id="sendBtn" value="提　交" />
+          </form>
+      </body>
+      </html>
+      ```
 
-  5.  ### 全局查询
+  5. ### 全局查询
 
-       - #### `document.body`
+        - #### `document.body`
 
-         - 保存body的引用。
+          - 保存body的引用。
 
-       - #### `document.documentElement`
+        - #### `document.documentElement`
 
-         - 保存html根标签
+          - 保存html根标签
 
-       - #### `document.all`/` document.getElementsByTagName("*")`
+        - #### `document.all`/` document.getElementsByTagName("*")`
 
-         - 页面的所有元素
+          - 页面的所有元素
 
-       - #### `document.getElementsByClassName("")`
+        - #### `document.getElementsByClassName("")`
 
-         - 根据Class属性获取一组元素节点对象。
-         - 只支持IE9以上浏览器
+          - 根据Class属性获取一组元素节点对象。
+          - 只支持IE9以上浏览器
 
-  6.  ### ``document.querySelector()``
+  6. ### ``document.querySelector()``
 
-       - 可以根据css页面选择器进行查询
-       - **使用该方法只会返回唯一一个元素，如果有多个满足条件的元素，它只会返回第一个元素。**
+        - 可以根据css页面选择器进行查询
+        - **使用该方法只会返回唯一一个元素，如果有多个满足条件的元素，它只会返回第一个元素。**
 
-  7.  ### `document.queryAll()`
+  7. ### `document.queryAll()`
 
-       - **该方法和`querySelector()`类似，但不同的是它会将符合条件的元素封装到一个数组中返回。**
-       - 即使符合条件的元素只有一个，也会返回数组。
+        - **该方法和`querySelector()`类似，但不同的是它会将符合条件的元素封装到一个数组中返回。**
+        - 即使符合条件的元素只有一个，也会返回数组。
 
 ## 11.3 Dom增删改
 
