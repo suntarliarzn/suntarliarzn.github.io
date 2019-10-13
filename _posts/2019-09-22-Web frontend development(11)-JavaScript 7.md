@@ -254,9 +254,9 @@ layout: article
 
         - **属性**，表示当前节点的父节点。
     - **`innerText`可获取元素内部的文本内容。**
-        
-    - 它和`innerHTML`类似，不同的是它会自动将html去除。
-        
+      
+      - 它和`innerHTML`类似，不同的是它会自动将html去除。
+      
     - #### `previousSibling`
 
         - **属性**，表示当前节点的前一个兄弟节点。
