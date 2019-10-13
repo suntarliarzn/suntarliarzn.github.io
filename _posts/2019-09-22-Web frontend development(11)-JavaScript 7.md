@@ -223,7 +223,6 @@ layout: article
       
       ```
     
-      
 
 
   2. ### 获取元素节点的子节点
@@ -275,7 +274,7 @@ layout: article
 
        - 获取元素value属性值，即文本框中填写的内容。
 
-  4. 全选练习
+  4.  全选练习
 
      ```javascript
      <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -396,7 +395,7 @@ layout: article
      </html>
      ```
 
-  5. ### 全局查询
+  5.  ### 全局查询
 
        - #### `document.body`
 
@@ -415,12 +414,12 @@ layout: article
          - 根据Class属性获取一组元素节点对象。
          - 只支持IE9以上浏览器
 
-  6. ### ``document.querySelector()``
+  6.  ### ``document.querySelector()``
 
        - 可以根据css页面选择器进行查询
        - **使用该方法只会返回唯一一个元素，如果有多个满足条件的元素，它只会返回第一个元素。**
 
-  7. ### `document.queryAll()`
+  7.  ### `document.queryAll()`
 
        - **该方法和`querySelector()`类似，但不同的是它会将符合条件的元素封装到一个数组中返回。**
        - 即使符合条件的元素只有一个，也会返回数组。
