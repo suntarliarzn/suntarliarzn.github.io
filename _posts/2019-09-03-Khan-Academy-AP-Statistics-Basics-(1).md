@@ -113,7 +113,7 @@ mathjax_autoNumber: true
 
 - standard deviation 标准差
   $$
-  standard \ deviation = \sigma = \sqrt{{\sum_{i=1}^{N}{(x_i-\mu)^2}\over{N}}}
+  standard \ deviation = \sigma = \sqrt{\sum_{i=1}^{N}{(x_i-\mu)^2}\over{N}}
   $$
 
 ## 5. Random Variable 随机变量
