@@ -151,7 +151,7 @@ mathjax_autoNumber: true
       \sigma^2_{\overline{x}-\overline{y}} = {\sigma{^2_x}\over{n}}+{\sigma{^2_y}\over{m}}
       $$
       $$
-      \sigma_{\overline x-\overline y}=\sqrt {\sigma^2_x/n+\sigma^2_y/m}
+      \sigma_{\overline x - \overline y}=\sqrt {\sigma^2_x/n+\sigma^2_y/m}
       $$
 
 
