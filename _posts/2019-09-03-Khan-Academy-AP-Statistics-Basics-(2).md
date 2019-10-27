@@ -148,8 +148,8 @@ mathjax_autoNumber: true
 
   - 2个样本均值之差的标准差：
     $$
-    \sigma^2_{\overline{x}-\overline{y}} = {\sigma^2_{x}\over{n}}+{\sigma^2_{y}\over{m}} \\
-    \sigma_{\overline{x}-\overline{y}} = \sqrt{{\sigma{^2_x}\over{n}} + {\sigma{^2_y}\over{m}}}
+    \sigma^2_{\overline{x}-\overline{y}} = {\sigma{^2_x}\over{n}}+{\sigma{^2_y}\over{m}} \\
+    \sigma_{\overline{x}-\overline{y}} = \sqrt{{\sigma{^2_x}\over{n}}+{\sigma{^2_y}\over{m}}}
     $$
 
 ## 21 Linear Regression(一元线性回归)
@@ -169,7 +169,7 @@ y = mx+b \tag{1}\\
 $$
 
 $$
-  m = {{\overline x\overline y} - \overline {xy}\over{(\overline x) ^2 - \overline {x^2}}} \tag{2}\\
+m = {{\overline x\overline y} - \overline {xy}\over{(\overline x) ^2 - \overline {x^2}}} \tag{2}\\
 $$
 
 $$
