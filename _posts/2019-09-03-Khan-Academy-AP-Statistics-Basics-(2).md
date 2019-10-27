@@ -106,51 +106,54 @@ mathjax_autoNumber: true
 
 ## 20 Significance Level (alpha level)
 
-- The significance level α is the probability of making the wrong decision when the [null hypothesis](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/null-hypothesis/) is true. Alpha levels (sometimes just called “significance levels”) are used in [hypothesis tests](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/hypothesis-testing/). Usually, these tests are run with an alpha level of .05 (5%), but other levels commonly used are .01 and .10.
+- - The significance level α is the probability of making the wrong decision when the [null hypothesis](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/null-hypothesis/) is true. Alpha levels (sometimes just called “significance levels”) are used in [hypothesis tests](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/hypothesis-testing/). Usually, these tests are run with an alpha level of .05 (5%), but other levels commonly used are .01 and .10.
 
-- ### Alpha Level
+  - ### Alpha Level
 
-  [Aloha Level](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Khan%20Academy%20Statistics/alpha-level.jpg)
+    [Aloha Level](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Khan%20Academy%20Statistics/alpha-level.jpg)
 
-  - An **alpha level** is the probability of a type I error, or you [reject the null hypothesis](https://www.statisticshowto.datasciencecentral.com/support-or-reject-null-hypothesis/) when it is true. A related term, [beta](https://www.statisticshowto.datasciencecentral.com/beta-level/), is the opposite; the probability of rejecting the alternate hypothesis when it is true.
+    - An **alpha level** is the probability of a type I error, or you [reject the null hypothesis](https://www.statisticshowto.datasciencecentral.com/support-or-reject-null-hypothesis/) when it is true. A related term, [beta](https://www.statisticshowto.datasciencecentral.com/beta-level/), is the opposite; the probability of rejecting the alternate hypothesis when it is true.
 
-  - Alpha levels can be controlled by you and are related to **confidence levels**. To get α subtract your [confidence level](https://www.statisticshowto.datasciencecentral.com/confidence-level/) from 1. For example, if you want to be 95 percent confident that your analysis is correct, the alpha level would be 1 – .95 = 5 percent, assuming you had a one tailed test. 
+    - Alpha levels can be controlled by you and are related to **confidence levels**. To get α subtract your [confidence level](https://www.statisticshowto.datasciencecentral.com/confidence-level/) from 1. For example, if you want to be 95 percent confident that your analysis is correct, the alpha level would be 1 – .95 = 5 percent, assuming you had a one tailed test. 
 
-- ### Confidence Level
+  - ### Confidence Level
 
-  - The **width** of the [confidence interval](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/confidence-interval/) tells us more about how certain (or uncertain) we are about the true figure in the population. This width is stated as a plus or minus (in this case,+/- 3) and is called the **confidence interval**. When the interval and confidence level are put together, you get a spread of percentage. In this case, you would expect the results to be 35 (38-3) to 41 (35+3) percent, 95% of the time.
+    - The **width** of the [confidence interval](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/confidence-interval/) tells us more about how certain (or uncertain) we are about the true figure in the population. This width is stated as a plus or minus (in this case,+/- 3) and is called the **confidence interval**. When the interval and confidence level are put together, you get a spread of percentage. In this case, you would expect the results to be 35 (38-3) to 41 (35+3) percent, 95% of the time.
 
-  - In general, the higher the coefficient, the more certain you are that your results are accurate. For example, a .99 coefficient is more accurate than a coefficient of .89. It’s extremely rare to see a coefficient of 1 (meaning that you are positive without a doubt that your results are completely, 100% accurate). A coefficient of zero means that you have no faith that your results are accurate at all.
+    - In general, the higher the coefficient, the more certain you are that your results are accurate. For example, a .99 coefficient is more accurate than a coefficient of .89. It’s extremely rare to see a coefficient of 1 (meaning that you are positive without a doubt that your results are completely, 100% accurate). A coefficient of zero means that you have no faith that your results are accurate at all.
 
-    The following table lists confidence coefficients and the equivalent confidence levels.
+      The following table lists confidence coefficients and the equivalent confidence levels.
 
-    | Confidence coefficient (1 – α) | Confidence level (1 – α * 100%) |
-    | ------------------------------ | ------------------------------- |
-    | 0.90                           | 90 %                            |
-    | 0.95                           | 95 %                            |
-    | 0.99                           | 99 %                            |
+      | Confidence coefficient (1 – α) | Confidence level (1 – α * 100%) |
+      | ------------------------------ | ------------------------------- |
+      | 0.90                           | 90 %                            |
+      | 0.95                           | 95 %                            |
+      | 0.99                           | 99 %                            |
 
-- 随机变量之差的方差
+  - 随机变量之差的方差
 
-  - 2个随机变量之和：
-    $$
-    z = x + y \\
-    \mu_z = \mu_{x+y} = \mu_x + \mu_y \\
-     \sigma^2_z =\sigma^2_{x+y}= \sigma^2_x+\sigma^2_y
-    $$
+    - 2个随机变量之和：
+      $$
+      z = x + y \\
+      \mu_z = \mu_{x+y} = \mu_x + \mu_y \\
+       \sigma^2_z =\sigma^2_{x+y}= \sigma^2_x+\sigma^2_y
+      $$
 
-  - 2个随机变 量之差：
-    $$
-    a = x - y \\
-    \mu_a = \mu_{x-y} = \mu_x-\mu_y \\
-    \sigma^2_a = \sigma^2_{(x-y)}=\sigma^2_x+\sigma^2_y
-    $$
+    - 2个随机变 量之差：
+      $$
+      a = x - y \\
+      \mu_a = \mu_{x-y} = \mu_x-\mu_y \\
+      \sigma^2_a = \sigma^2_{(x-y)}=\sigma^2_x+\sigma^2_y
+      $$
 
-  - 2个样本均值之差的标准差：
-    $$
-    \sigma^2_{\overline{x}-\overline{y}} = {\sigma{^2_x}\over{n}}+{\sigma{^2_y}\over{m}} \\
-    \sigma_{\overline{x}-\overline{y}}=\sqrt {\sigma^2_x/n+\sigma^2_y/m}
-    $$
+    - 2个样本均值之差的标准差：
+      $$
+      \sigma^2_{\overline{x}-\overline{y}} = {\sigma{^2_x}\over{n}}+{\sigma{^2_y}\over{m}} \\
+      $$
+      $$
+      \sigma_{\overline x-\overline y}=\sqrt {\sigma^2_x/n+\sigma^2_y/m}
+      $$
+
 
 ## 21 Linear Regression(一元线性回归)
 
