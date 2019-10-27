@@ -1,7 +1,6 @@
 ---
 
-title: Khan Academy
-Statistics Basics
+title: Khan Academy Statistics Basics
 
 key: C20190903
 
@@ -664,9 +663,9 @@ $$
 
    - **F值决定组间差别是否具有显著性；P值决定哪个变量显著性最高。**
 - **Reject the null when your p value is smaller than your [alpha level](https://www.statisticshowto.datasciencecentral.com/what-is-an-alpha-level/). You should not reject the null if your critical f value is smaller than your F Value, unless you also have a small p-value. **
-   
+  
 
-   
+  
    ## 26 Causality(因果关系) vs. Correlation(相关关系)
    
    - **Causality**: X causes Y
