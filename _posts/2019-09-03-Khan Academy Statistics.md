@@ -2,7 +2,7 @@
 
 title: Khan Academy AP Statistics Basics
 
-key: C20190903
+key: S20190903
 
 tags: Random Variable; Poisson Distribution; Normal Distribution; Central Limit Theorem; Interval Confidence; T-distribution and Z-distribution; P Value; Linear Regression; R^2; X^2;   
 
@@ -14,7 +14,9 @@ mathjax_autoNumber: true
 
 # Statistics Basics
 
-*<!--more-->*
+<!--more-->
+
+
 
 ## 1. Statistics
 
