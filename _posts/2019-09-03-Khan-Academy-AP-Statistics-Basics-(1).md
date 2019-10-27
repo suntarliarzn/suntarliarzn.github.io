@@ -8,6 +8,8 @@ tags: Random Variable; Poisson Distribution; Normal Distribution; Central Limit 
 
 layout: article
 
+mathjax: true
+
 mathjax_autoNumber: true
 
 ---

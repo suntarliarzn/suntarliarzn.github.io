@@ -7,6 +7,8 @@ tags: P Value; Linear Regression; R^2; X^2;
 
 layout: article
 
+mathjax: true
+
 mathjax_autoNumber: true
 
 
