@@ -63,8 +63,9 @@ mathjax_autoNumber: true
     2. There are 8 planets in the solar system (excluding Pluto).
     3. Taking [Vioxx](https://usatoday30.usatoday.com/news/health/2004-10-12-vioxx-cover_x.htm) can increase your risk of heart problems (a drug now taken off the market).
 
- <video id="video" controls="" preload="none" width="640" height="360">
-<iframe height=500 width=880 src='http://open.163.com/newview/movie/free?pid=M82IC6GQU&mid=M83J9IK60&rel=0&amp;autoplay=1' frameborder=0 'allowfullscreen'></iframe>
+ <video id="video" controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Khan%20Academy%20Statistics/02%20P%20VALUE.mp4">
+       <source id="mp4" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Khan%20Academy%20Statistics/02%20P%20VALUE.mp4">
+     <iframe width="560" height="315" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Khan%20Academy%20Statistics/02%20P%20VALUE.mp4" frameborder="0" allowfullscreen></iframe>
   </video>
 
 
