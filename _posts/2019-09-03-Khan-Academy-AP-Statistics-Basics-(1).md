@@ -86,37 +86,49 @@ mathjax_autoNumber: true
 ## 3. Sample and Population
 
 - Sample
-  $$
-  sample \ mean = \overline x ={\sum_{i=1}^{n}{x_i}\over{n}}
-  $$
+  
+  - $$
+    sample \ mean = \overline x ={\sum_{i=1}^{n}{x_i}\over{n}}
+    $$
+  
+    
   
 - Population
-  $$
-  Population \ mean =\mu={\sum_{i=1}^{N}{x_i}\over{N}}
-  $$
   
+  - $$
+    Population \ mean =\mu={\sum_{i=1}^{N}{x_i}\over{N}}
+    $$
+  
+    
 
 ## 4. Dispersion 离散
 
 - variance方差
+  
+  - $$
+    variance=\sigma{^2}={\sum_{i=1}^{N}{(x_i-\mu)^2}\over{N}}={\sum_{i=1}^{N}{X_i^2}\over{N}}-\mu^2
   $$
-  variance=\sigma{^2}={\sum_{i=1}^{N}{(x_i-\mu)^2}\over{N}}={\sum_{i=1}^{N}{X_i^2}\over{N}}-\mu^2
-  $$
-
+  
 - sample variance 样本方差
+  
+  - $$
+    sample \ variance=S^2={\sum_{i=1}^{n}{(x_i-{\overline x})^2}\over{n}}
   $$
-  sample \ variance=S^2={\sum_{i=1}^{n}{(x_i-{\overline x})^2}\over{n}}
-  $$
-
+  
+  
+  
 - 更好的样本方差计算
+  
+  - $$
+    unbiased\ sample\ variance=S^2={\sum_{i=1}^{n}{(x_i-{\overline x})^2}\over{n-1}}
   $$
-  unbiased\ sample\ variance=S^2={\sum_{i=1}^{n}{(x_i-{\overline x})^2}\over{n-1}}
-  $$
-
+    
+  
 - standard deviation 标准差
-  $$
-  standard \ deviation = \sigma = \sqrt{\sum_{i=1}^{N}{(x_i-\mu)^2}\over{N}}
-  $$
+  
+  - $$
+    standard \ deviation = \sigma = \sqrt{\sum_{i=1}^{N}{(x_i-\mu)^2}\over{N}}
+    $$
 
 ## 5. Random Variable 随机变量
 
@@ -130,7 +142,8 @@ mathjax_autoNumber: true
     \end{Bmatrix}
     $$
 
-  - 
+    
+    
 
 - Continuous 连续随机变量--无限个数
 
@@ -151,17 +164,18 @@ mathjax_autoNumber: true
   - 计算投掷6次骰子出现正面的概率？
 
   $$
-  E(x) = n * p\qquad
+  E(x) = n * p\qquad \\
   0 * 1.56\% + 1 * 9.37\% + 2 * 23.43\% + 3 * 31.25\% + 4 * 23.43\% + 5 * 9.37\% + 6 * 1.56\% = 3
   $$
 
   ![probability distribution](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Khan%20Academy%20Statistics/probablity%20density%20rolling%20dice.jpg)
   
 - 二项式分布公式
+  
+  - $$
+    P_{(x=k)}=C^k_n(p^k)*(1-p)^{(n-k)}
   $$
-  P_{(x=k)}=C^k_n(p^k)*(1-p)^{(n-k)}
-  $$
-
+  
   - n表示试验次数
   - k表示指定事件发生次数
   - p代表指定事迹在一次试验中的发生概率
@@ -274,10 +288,11 @@ mathjax_autoNumber: true
 - 样本均值的抽样分布是所有的样本均值形成的分布，即μ的[概率分布](https://baike.baidu.com/item/概率分布/828907)。样本均值的抽样分布在形状上却是对称的。
 
 - 随着样本量n的增大，**不论原来的总体是否服从[正态分布](https://baike.baidu.com/item/正态分布/829892)，样本均值的抽样分布都将趋于正态分布，其分布的[数学期望](https://baike.baidu.com/item/数学期望/5362790)为总体均值μ，[方差(standard error)](https://baike.baidu.com/item/方差/3108412)为总体方差的1/n。**
-  $$
+  
+- $$
   \sigma^2_{\over{x}} = {\sigma^2\over{n}}
   $$
-
+  
 - 样本量n越大，标准差越小，越趋于正态分布。
 
 - The **standard error** of a [statistic](http://onlinestatbook.com/2/glossary/statistics.html) is the [standard deviation](http://onlinestatbook.com/2/glossary/standard_deviation.html) of the [sampling distribution](http://onlinestatbook.com/2/glossary/sampling_distribution.html) of that statistic. For example, the standard error of the mean is the standard deviation of the sampling distribution of the mean. Standard errors play a critical role in constructing [confidence intervals](http://onlinestatbook.com/2/glossary/confidence_interval.html) and in [significance testing](http://onlinestatbook.com/2/glossary/significance_testing.html).
@@ -301,29 +316,34 @@ mathjax_autoNumber: true
 - ### T-Score vs. Z-Score
 
   - T-Score
+    
+    - $$
+      T={(x-\mu)\over{s\over{\sqrt{n}}}}
     $$
-    T={(x-\mu)\over{s\over{\sqrt{n}}}}
-    $$
-
+    
     - x = [sample mean](https://www.statisticshowto.datasciencecentral.com/sample-mean/)
     - μ = [population mean](https://www.statisticshowto.datasciencecentral.com/population-mean/)
     - s = sample [standard deviation](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/standard-deviation/)
-    - n =[ sample size](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/find-sample-size/)
-
+  - n =[ sample size](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/find-sample-size/)
+    
   - Z-Score
+    
+    - $$
+      Z ={(x - \mu)\over{\sigma\over{\sqrt n}}}
     $$
-    Z ={(x - \mu)\over{\sigma\over{\sqrt n}}}
-    $$
-
+    
     - σ is the sample standard deviation
     - μ is the sample mean
 
 - ### Degrees of Freedom
 
   - Degrees of freedom of an estimate is **the number of independent pieces of information that went into calculating the estimate**. It’s not quite the same as the number of items in the sample. In order to get the df for the estimate, you have to subtract 1 from the number of items. Let’s say you were finding the mean weight loss for a low-carb diet. You could use 4 people, giving 3 degrees of freedom (4 – 1 = 3), or you could use one hundred people with df = 99.
-    $$
-    Degrees\ of\ Freedom(Df) = n-1
-    $$
+    
+    - $$
+      Degrees\ of\ Freedom(Df) = n-1
+      $$
+      
+      
     
   - **Why do we subtract 1 from the number of items?**
     
@@ -344,22 +364,26 @@ mathjax_autoNumber: true
 - 样本量大(n>30)或知道总样本σ时用z-distribution
 
   - If you don’t know your [population mean](https://www.statisticshowto.datasciencecentral.com/population-mean/) (μ) but you do know the [standard deviation](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/standard-deviation/) (σ), you can find a confidence interval for the population mean, with the formula:
-    $$
-    \overline{x} ± z* {σ \over{ \sqrt{n}}}
-    $$
     
-
+    - $$
+      \overline{x} ± z* {σ \over{ \sqrt{n}}}
+      $$
+  
+      
+    
     
 
 ## 16 伯努利分布（Bernoulli Distribution）
 
 - 伯努利分布亦称“零一分布”、“两点分布”。称随机变量X有伯努利分布, 参数为p(0<p<1),如果它分别以概率p和1-p取1和0为值。
+  
+  - $$
+    \mu = p
   $$
-  \mu = p
+    
+  - $$
+    \sigma^2 = (1-p)(0-p)^2 + p(1-p)^2=p(1-p)
   $$
-
-  $$
-  \sigma^2 = (1-p)(0-p)^2 + p(1-p)^2=p(1-p)
-  $$
-
+    
+  
 - p: probability of success

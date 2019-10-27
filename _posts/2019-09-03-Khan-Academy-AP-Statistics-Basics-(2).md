@@ -64,8 +64,10 @@ mathjax_autoNumber: true
     3. Taking [Vioxx](https://usatoday30.usatoday.com/news/health/2004-10-12-vioxx-cover_x.htm) can increase your risk of heart problems (a drug now taken off the market).
 
  <video id="video" controls="" preload="none" width="640" height="360">
-     <object ><param name="movie" value="//open.163.com/openplayer/-M82IC6GQU-M83JCBUOI-http://open-image.ws.126.net/cfd9b3d9a2e0441694e4f5f0715d60c9.jpg-openPlayer.swf?isUserAutoPlay=1"></param><param name="allowScriptAccess" value="always"></param><param name="wmode" value="transparent"></param><embed src="//open.163.com/openplayer/-M82IC6GQU-M83JCBUOI-http://open-image.ws.126.net/cfd9b3d9a2e0441694e4f5f0715d60c9.jpg-openPlayer.swf?isUserAutoPlay=1" type="application/x-shockwave-flash" width="640" height="360" allowFullScreen="true" wmode="transparent" allowScriptAccess="always"></embed></object>
+<iframe height=500 width=880 src='http://open.163.com/newview/movie/free?pid=M82IC6GQU&mid=M83J9IK60&rel=0&amp;autoplay=1' frameborder=0 'allowfullscreen'></iframe>
   </video>
+
+
 
 ## 18 [P Value](https://www.statisticshowto.datasciencecentral.com/p-value/)
 
@@ -75,21 +77,20 @@ mathjax_autoNumber: true
 
 - ### P Value vs Alpha level
 
-- When you run a [hypothesis test](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/hypothesis-testing/), you compare the p value from your test to the [alpha level ](https://www.statisticshowto.datasciencecentral.com/what-is-an-alpha-level/)you selected when you ran the test. Alpha levels can also be written as percentages.
+  - When you run a [hypothesis test](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/hypothesis-testing/), you compare the p value from your test to the [alpha level ](https://www.statisticshowto.datasciencecentral.com/what-is-an-alpha-level/)you selected when you ran the test. Alpha levels can also be written as percentages.
 
-- Alpha levels are controlled by the researcher and are related to [confidence levels](https://www.statisticshowto.datasciencecentral.com/confidence-level/). You get an alpha level by subtracting your confidence level from 100%. For example, if you want to be 98 percent confident in your research, the alpha level would be 2% (100% – 98%). When you run the hypothesis test, the test will give you a value for p. Compare that value to your chosen alpha level. For example, let’s say you chose an alpha level of 5% (0.05). If the results from the test give you:
-
+  - Alpha levels are controlled by the researcher and are related to [confidence levels](https://www.statisticshowto.datasciencecentral.com/confidence-level/). You get an alpha level by subtracting your confidence level from 100%. For example, if you want to be 98 percent confident in your research, the alpha level would be 2% (100% – 98%). When you run the hypothesis test, the test will give you a value for p. Compare that value to your chosen alpha level. For example, let’s say you chose an alpha level of 5% (0.05). If the results from the test give you:
   - **A small p** (≤ 0.05), [reject the null hypothesis](https://www.statisticshowto.datasciencecentral.com/support-or-reject-null-hypothesis/). This is strong evidence that the null hypothesis is invalid.
   - **A large p** (> 0.05) means the [alternate hypothesis](https://www.statisticshowto.datasciencecentral.com/what-is-an-alternate-hypothesis/) is weak, so you do not reject the null.
 
 - ### What if I Don’t Have an Alpha Level?
 
-- In an ideal world, you’ll have an alpha level. But if you do not, you can still use the following rough guidelines in deciding whether to support or reject the null hypothesis:
+  - In an ideal world, you’ll have an alpha level. But if you do not, you can still use the following rough guidelines in deciding whether to support or reject the null hypothesis:
 
-  - If p > .10 → “not significant”
-  - If p ≤ .10 → “marginally significant”
-  - If p ≤ .05 → “significant”
-  - If p ≤ .01 → “highly significant.”
+    - If p > .10 → “not significant”
+    - If p ≤ .10 → “marginally significant”
+    - If p ≤ .05 → “significant”
+    - If p ≤ .01 → “highly significant.”
 
 ## 19 Type I Error& Type II Error 第一&第二型错误
 
@@ -108,11 +109,11 @@ mathjax_autoNumber: true
 
 ## 20 Significance Level (alpha level)
 
-- - The significance level α is the probability of making the wrong decision when the [null hypothesis](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/null-hypothesis/) is true. Alpha levels (sometimes just called “significance levels”) are used in [hypothesis tests](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/hypothesis-testing/). Usually, these tests are run with an alpha level of .05 (5%), but other levels commonly used are .01 and .10.
+- The significance level α is the probability of making the wrong decision when the [null hypothesis](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/null-hypothesis/) is true. Alpha levels (sometimes just called “significance levels”) are used in [hypothesis tests](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/hypothesis-testing/). Usually, these tests are run with an alpha level of .05 (5%), but other levels commonly used are .01 and .10.
 
   - ### Alpha Level
 
-    [Aloha Level](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Khan%20Academy%20Statistics/alpha-level.jpg)
+    [Alpha Level](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Khan%20Academy%20Statistics/alpha-level.jpg)
 
     - An **alpha level** is the probability of a type I error, or you [reject the null hypothesis](https://www.statisticshowto.datasciencecentral.com/support-or-reject-null-hypothesis/) when it is true. A related term, [beta](https://www.statisticshowto.datasciencecentral.com/beta-level/), is the opposite; the probability of rejecting the alternate hypothesis when it is true.
 
@@ -149,12 +150,14 @@ mathjax_autoNumber: true
       $$
 
     - 2个样本均值之差的标准差：
-      $$
-      \sigma^2_{\overline{x}-\overline{y}} = {\sigma{^2_x}\over{n}}+{\sigma{^2_y}\over{m}}
-      $$
-      $$
-      \sigma_{\overline x - \overline y}=\sqrt {\sigma^2_x/n+\sigma^2_y/m}
-      $$
+      
+      - $$
+        \sigma^2_{\overline{x}-\overline{y}} = {\sigma{^2_x}\over{n}}+{\sigma{^2_y}\over{m}}
+        $$
+    
+    $$
+    \sigma_{\overline x - \overline y}=\sqrt {\sigma^2_x/n+\sigma^2_y/m}
+    $$
 
 
 ## 21 Linear Regression(一元线性回归)
@@ -192,8 +195,7 @@ $$
 - **The higher the coefficient, the higher percentage of points the line passes through when the data points and line are plotted.** If the coefficient is 0.80, then 80% of the points should fall within the regression line. Values of 1 or 0 would indicate the regression line represents all or none of the data, respectively. A higher coefficient is an indicator of a better [goodness of fit](https://www.statisticshowto.datasciencecentral.com/goodness-of-fit-test/) for the observations.
 - **线性回归就是将坐标系从原点（0,0）转移到（0，b）点，求出最佳拟合线条y=mx+b。这样可以将绝对比较转换为相对比较。**
 - **决定系数就是将最佳拟合（相对坐标系）的线条y=mx=b与实际值进行比较，从而得出拟合百分比，也叫做波动频率。**
-
-![r^2](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Khan%20Academy%20Statistics/r2.jpg)
+- ![r^2](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Khan%20Academy%20Statistics/r2.jpg)
 
 - 公式
 
@@ -221,7 +223,7 @@ $$
   >
   > 2.带入公式2求出m值：
   >
-  > $m = {\overline{x}\overline{y} - \overline {xy}\over{(\overline x) ^2 - \overline {x^2}}}=183/155\approx 1.18$
+  > $m = {{\overline{x}\overline{y}} - \overline {xy}\over{(\overline x) ^2 - \overline {x^2}}}=183/155\approx 1.18$
   >
   > 3.带入公式3求出b值：
   >
@@ -265,15 +267,18 @@ $$
     - A **very large chi square test statistic** means that the data does not fit very well. In other words, there isn’t a relationship.
 
 - 方程：
+  
+  - $$
+    {\chi^2_{df}}= \sum{(O_i-E_i)^2\over{E_i}}
   $$
-  {\chi^2_{df}}= \sum{(O_i-E_i)^2\over{E_i}}
-  $$
-
+    
+  
+  
   - df = the degrees of freedom
-  - O = observed value
+- O = observed value
   - E = expected value
   - i = number of items
-
+  
 - chi square table
 
   ![chi square table](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Khan%20Academy%20Statistics/chi%20square%20table.png)
@@ -300,7 +305,7 @@ $$
 4. ### **[F-statistics]( https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/f-statistic-value-test/#Fdist )**
 
    $$
-   F-statistic = {{SSB\over{m-1}}\over{SSW\over{m*(n-1)}}}
+   F-statistic = {SSB/(m-1) \over SSW/[m*(n-1)]}
    $$
 
    m = number of groups
@@ -327,7 +332,7 @@ $$
 
    - **F值决定组间差别是否具有显著性；P值决定哪个变量显著性最高。**
 
-- **Reject the null when your p value is smaller than your [alpha level](https://www.statisticshowto.datasciencecentral.com/what-is-an-alpha-level/). You should not reject the null if your critical f value is smaller than your F Value, unless you also have a small p-value. **
+- Reject the null when your p value is smaller than your [alpha level](https://www.statisticshowto.datasciencecentral.com/what-is-an-alpha-level/). You should not reject the null if your critical f value is smaller than your F Value, unless you also have a small p-value. 
 
   
 
