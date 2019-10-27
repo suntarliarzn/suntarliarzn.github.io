@@ -223,7 +223,7 @@ $$
   >
   > 2.带入公式2求出m值：
   >
-  > $m = {{\overline{x}\overline{y}} - \overline {xy}\over{(\overline x) ^2 - \overline {x^2}}}=183/155\approx 1.18$
+  > $m = {\overline{x}  \overline{y} - \overline {xy}\over{(\overline x) ^2 - \overline x^2}} \tag{2}=183/155\approx 1.18$
   >
   > 3.带入公式3求出b值：
   >
