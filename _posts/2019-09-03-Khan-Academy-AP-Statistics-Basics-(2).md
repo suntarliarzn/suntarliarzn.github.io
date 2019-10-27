@@ -136,20 +136,20 @@ mathjax_autoNumber: true
     $$
     z = x + y \\
     \mu_z = \mu_{x+y} = \mu_x + \mu_y \\
-     \sigma^2_z =\sigma{^2_{x+y}}= \sigma{^2_x}+\sigma{^2_y}
+     \sigma^2_z =\sigma^2_{x+y}= \sigma^2_x+\sigma^2_y
     $$
 
-  - 2个随机变量之差：
+  - 2个随机变 量之差：
     $$
     a = x - y \\
     \mu_a = \mu_{x-y} = \mu_x-\mu_y \\
-    \sigma{^2_a} = \sigma{^2_{(x-y)}}=  \sigma{^2_x} + \sigma{^2_y}
+    \sigma^2_a = \sigma^2_{(x-y)}=\sigma^2_x+\sigma^2_y
     $$
 
   - 2个样本均值之差的标准差：
     $$
     \sigma^2_{\overline{x}-\overline{y}} = {\sigma{^2_x}\over{n}}+{\sigma{^2_y}\over{m}} \\
-    \sigma_{\overline{x}-\overline{y}} = \sqrt{{\sigma{^2_x}\over{n}}+{\sigma{^2_y}\over{m}}}
+    \sigma_{\overline{x}-\overline{y}}=\sqrt{{\sigma^2_x\over n}+{\sigma^2_y\over m}}
     $$
 
 ## 21 Linear Regression(一元线性回归)
