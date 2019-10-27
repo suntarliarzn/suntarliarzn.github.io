@@ -1,6 +1,6 @@
 ---
 
-title: Khan Academy Statistics Basics
+title: Khan Academy AP Statistics Basics
 
 key: C20190903
 
