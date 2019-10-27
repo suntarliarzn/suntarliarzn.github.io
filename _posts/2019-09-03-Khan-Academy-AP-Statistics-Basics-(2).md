@@ -174,7 +174,7 @@ y = mx+b \tag{1}\\
 $$
 
 $$
-m = {{\overline x\overline y} - \overline {xy}\over{(\overline x) ^2 - \overline {x^2}}} \tag{2}\\
+m = {\overline{x}  \overline{y} - \overline {xy}\over{(\overline x) ^2 - \overline x^2}} \tag{2}\\
 $$
 
 $$
