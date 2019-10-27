@@ -85,7 +85,7 @@ mathjax_autoNumber: true
 
 - Sample
   $$
-  sample \ mean = \overline x ={{ \sum_{i=1}^{n}{x_i}}\over{n}}
+  sample \ mean = \overline x ={\sum_{i=1}^{n}{x_i}\over{n}}
   $$
   
 - Population
@@ -103,7 +103,7 @@ mathjax_autoNumber: true
 
 - sample variance 样本方差
   $$
-  sample\ variance=S^2={\sum_{i=1}^{n}{(x_i-{\overline x})^2}\over{n}}
+  sample \ variance=S^2={\sum_{i=1}^{n}{(x_i-{\overline x})^2}\over{n}}
   $$
 
 - 更好的样本方差计算
