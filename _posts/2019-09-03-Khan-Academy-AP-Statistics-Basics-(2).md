@@ -136,7 +136,7 @@ mathjax_autoNumber: true
     $$
     z = x + y \\
     \mu_z = \mu_{x+y} = \mu_x + \mu_y \\
-     \sigma^2_z =\sigma{^2_{x+y}} = \sigma{^2_x} + \sigma{^2_y}
+     \sigma^2_z =\sigma^2_{x+y}=\sigma^2_x + \sigma^2_y
     $$
 
   - 2个随机变量之差：
