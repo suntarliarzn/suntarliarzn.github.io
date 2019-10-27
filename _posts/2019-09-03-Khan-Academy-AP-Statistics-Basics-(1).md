@@ -192,7 +192,7 @@ mathjax_autoNumber: true
 
 - 公式
   $$
-  f(x) = {1\over\sqrt{2\pi}\sigma} * e^{-{1\over2}*({{x-\mu}\over{\sigma}})^2}
+  f(x) = {1\over\sqrt{2\pi}\sigma} * e^{-{1\over2}*({x-\mu\over\sigma})^2}
   $$
 
   - μ:总体期望均值
