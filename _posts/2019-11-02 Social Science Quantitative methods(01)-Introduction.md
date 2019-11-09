@@ -11,7 +11,9 @@ layout: article
 
 # Quantitative methods (01) - Introduction
 
-*<!--more-->*
+
+<!--more-->
+
 
 1. ## Non-scientific Methods
 
