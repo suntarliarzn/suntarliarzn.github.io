@@ -1,6 +1,6 @@
 ---
 
-title: Social Science Quantitative methods - (01) Introduction
+title: Social Science Quantitative methods (01) - Introduction
 key: D20191102
 
 tags: Scientific Methods; Observation; Hypothesis; Theory;  
@@ -9,7 +9,7 @@ layout: article
 
 ---
 
-# Quantitative methods - (01) Introduction
+# Quantitative methods (01) - Introduction
 
 *<!--more-->*
 
