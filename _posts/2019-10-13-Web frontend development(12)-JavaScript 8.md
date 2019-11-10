@@ -209,91 +209,89 @@ layout: article
     ```html
     <!DOCTYPE html>
     <html>
-    	<head>
-    		<meta charset="utf-8" />
-    		<title></title>
-    		<script type="text/javascript">
-    			
-    			window.onload = function(){
-    				
-    				var u1 = document.getElementById("u1");
-    				
-    				//点击按钮以后添加超链接
-    				 var btn01 = document.getElementById("btn01");
-    					//创建一个li
-    					btn01.onclick= function(){
-                            var li = document.createElement("li")
-                            li.innerHTML = "<a href='javascript:;' class='link'>超链接</a>";
-                            u1.appendChild(li);
-                        }
-    					
-    					//将li添加到ul中
-    				
-    				
-    				/*
-    				 * 为每一个超链接都绑定一个单击响应函数
-    				 * 这里我们为每一个超链接都绑定了一个单击响应函数，这种操作比较麻烦，
-    				 * 	而且这些操作只能为已有的超链接设置事件，而新添加的超链接必须重新绑定
-    				 */
-    				//获取所有的a
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <script type="text/javascript">
     
-    				//遍历
-    				/*for(var i=0 ; i<allA.length ; i++){
-    					allA[i].onclick = function(){
-    						alert("我是a的单击响应函数！！！");
-    					};
-    				}*/
-    				
-    				/*
-    				 * 我们希望，只绑定一次事件，即可应用到多个的元素上，即使元素是后添加的
-    				 * 我们可以尝试将其绑定给元素的共同的祖先元素
-    				 * 
-    				 * 事件的委派
-    				 * 	- 指将事件统一绑定给元素的共同的祖先元素，这样当后代元素上的事件触发时，会一直冒泡到祖先元素
-    				 * 		从而通过祖先元素的响应函数来处理事件。
-    				 *  - 事件委派是利用了冒泡，通过委派可以减少事件绑定的次数，提高程序的性能
-    				 */
-    				
-    				//为ul绑定一个单击响应函数
-                    u1.onclick = function(event){
-                        event = event || window.event;
-    					
-    					/*
-    					 * target
-    					 * 	- event中的target表示的触发事件的对象
-    					 */
-    					//alert(event.target)
-    					
-    					
-    					//如果触发事件的对象是我们期望的元素，则执行否则不执行
-                        if(event.target.className == "link" ){
-                            alert("我是ul的单击响应函数");
-                        }
-    					
-    				};
-    				
-    			};
-    			
-    		</script>
-    	</head>
-    	<body>
-    		<button id="btn01">添加超链接</button>
-    		
-    		<ul id="u1" style="background-color: #bfa;">
-    			<li>
-    				<p>我是p元素</p>
-    			</li>
-    			<li><a href="javascript:;" class="link">超链接一</a></li>
-    			<li><a href="javascript:;" class="link">超链接二</a></li>
-    			<li><a href="javascript:;" class="link">超链接三</a></li>
-    		</ul>
-    		
-    	</body>
+            window.onload = function () {
+    
+                var u1 = document.getElementById("u1");
+    
+                //点击按钮以后添加超链接
+                var btn01 = document.getElementById("btn01");
+                //创建一个li
+                btn01.onclick = function () {
+                    var li = document.createElement("li")
+                    li.innerHTML = "<a href='javascript:;' class='link'>超链接</a>";
+                    u1.appendChild(li);
+                }
+    
+                //将li添加到ul中
+    
+                /*
+                 * 为每一个超链接都绑定一个单击响应函数
+                 * 这里我们为每一个超链接都绑定了一个单击响应函数，这种操作比较麻烦，
+                 * 	而且这些操作只能为已有的超链接设置事件，而新添加的超链接必须重新绑定
+                 */
+                //获取所有的a
+    
+                //遍历
+                /*for(var i=0 ; i<allA.length ; i++){
+                    allA[i].onclick = function(){
+                        alert("我是a的单击响应函数！！！");
+                    };
+                }*/
+    
+                /*
+                 * 我们希望，只绑定一次事件，即可应用到多个的元素上，即使元素是后添加的
+                 * 我们可以尝试将其绑定给元素的共同的祖先元素
+                 * 
+                 * 事件的委派
+                 * 	- 指将事件统一绑定给元素的共同的祖先元素，这样当后代元素上的事件触发时，会一直冒泡到祖先元素
+                 * 		从而通过祖先元素的响应函数来处理事件。
+                 *  - 事件委派是利用了冒泡，通过委派可以减少事件绑定的次数，提高程序的性能
+                 */
+    
+                //为ul绑定一个单击响应函数
+                u1.onclick = function (event) {
+                    event = event || window.event;
+    
+                    /*
+                     * target
+                     * 	- event中的target表示的触发事件的对象
+                     */
+                    //alert(event.target)
+    
+                    //如果触发事件的对象是我们期望的元素，则执行否则不执行
+                    if (event.target.className == "link") {
+                        alert("我是ul的单击响应函数");
+                    }
+    
+                };
+    
+            };
+    
+        </script>
+    </head>
+    
+    <body>
+        <button id="btn01">添加超链接</button>
+    
+        <ul id="u1" style="background-color: #bfa;">
+            <li>
+                <p>我是p元素</p>
+            </li>
+            <li><a href="javascript:;" class="link">超链接一</a></li>
+            <li><a href="javascript:;" class="link">超链接二</a></li>
+            <li><a href="javascript:;" class="link">超链接三</a></li>
+        </ul>
+    </body>
     </html>
     ```
     
     
-
+  
 - ### 事件绑定
 
   - 使用`对象.事件=函数`的形式绑定响应函数，只能**为一个元素的一个事件绑定一个响应函数**。
@@ -513,123 +511,110 @@ layout: article
     ```html
     <!DOCTYPE html>
     <html>
-    	<head>
-    		<meta charset="UTF-8">
-    		<title></title>
-    		<style type="text/css">
-    			
-    			#box1{
-    				width: 100px;
-    				height: 100px;
-    				background-color: red;
-    			}
-    			
-    		</style>
-    		<script type="text/javascript">
-    			
-    			window.onload = function(){
-    				
-    				
-    				//获取id为box1的div
-                    var box1 = document.getElementById("box1");
-    				
-    				//为box1绑定一个鼠标滚轮滚动的事件
-    				/*
-    				 * onmousewheel鼠标滚轮滚动的事件，会在滚轮滚动时触发，
-    				 * 	但是火狐不支持该属性
-    				 * 
-    				 * 在火狐中需要使用 DOMMouseScroll 来绑定滚动事件
-    				 * 	注意该事件需要通过addEventListener()函数来绑定
-    				 */
     
-    				box1.onmousewheel = function(event){
-    					
-    					event = event || window.event;
-    					
-    					
-    					//event.wheelDelta 可以获取鼠标滚轮滚动的方向
-    					//向上滚 120   向下滚 -120
-    					//wheelDelta这个值我们不看大小，只看正负
-    					
-    					//alert(event.wheelDelta);
-    					
-    					//wheelDelta这个属性火狐中不支持
-    					//在火狐中使用event.detail来获取滚动的方向
-    					//向上滚 -3  向下滚 3
-    					//alert(event.detail);
-    					
-    					if (event.wheelDelta > 0 || event.detail < 0){
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style type="text/css">
+            #box1 {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+            }
+        </style>
+        <script type="text/javascript">
+    
+            window.onload = function () {
+    
+    
+                //获取id为box1的div
+                var box1 = document.getElementById("box1");
+    
+                //为box1绑定一个鼠标滚轮滚动的事件
+                /*
+                 * onmousewheel鼠标滚轮滚动的事件，会在滚轮滚动时触发，
+                 * 	但是火狐不支持该属性
+                 * 
+                 * 在火狐中需要使用 DOMMouseScroll 来绑定滚动事件
+                 * 	注意该事件需要通过addEventListener()函数来绑定
+                 */
+    
+                box1.onmousewheel = function (event) {
+    
+                    event = event || window.event;
+    
+    
+                    //event.wheelDelta 可以获取鼠标滚轮滚动的方向
+                    //向上滚 120   向下滚 -120
+                    //wheelDelta这个值我们不看大小，只看正负
+    
+                    //alert(event.wheelDelta);
+    
+                    //wheelDelta这个属性火狐中不支持
+                    //在火狐中使用event.detail来获取滚动的方向
+                    //向上滚 -3  向下滚 3
+                    //alert(event.detail);
+    
+                    if (event.wheelDelta > 0 || event.detail < 0) {
     
     
     					/*
     					 * 当鼠标滚轮向下滚动时，box1变长
     					 * 	当滚轮向上滚动时，box1变短
     					 */
-    					//判断鼠标滚轮滚动的方向
-    					
-    						//向上滚，box1变短
-                            box1.style.height = box1.clientHeight - 100 + "px";
-                        }else{
+                        //判断鼠标滚轮滚动的方向
+    
+                        //向上滚，box1变短
+                        box1.style.height = box1.clientHeight - 100 + "px";
+                    } else {
                         //向下滚，box1变长
-                        box1.style.height = box1.clientHeight + 100 + "px";        
-                        }	
-    						
-    					
-    					/*
-    					 * 使用addEventListener()方法绑定响应函数，取消默认行为时不能使用return false
-    					 * 需要使用event来取消默认行为event.preventDefault();
-    					 * 但是IE8不支持event.preventDefault();这个玩意，如果直接调用会报错
-    					 */
-                         event.preventDefault && event.preventDefault();
-    					
-    					
-    					/*
-    					 * 当滚轮滚动时，如果浏览器有滚动条，滚动条会随之滚动，
-    					 * 这是浏览器的默认行为，如果不希望发生，则可以取消默认行为
-    					 */
-                        return false;
-    					
-    					
-    					
-    					
-    				};
-    				
-    				//为火狐绑定滚轮事件
-    				bind(box1,"DOMMouseScroll",box1.onmousewheel);
-    				
-    				
-    			};
-    			
-    			
-    			function bind(obj , eventStr , callback){
-    				if(obj.addEventListener){
-    					//大部分浏览器兼容的方式
-    					obj.addEventListener(eventStr , callback , false);
-    				}else{
-    					/*
-    					 * this是谁由调用方式决定
-    					 * callback.call(obj)
-    					 */
-    					//IE8及以下
-    					obj.attachEvent("on"+eventStr , function(){
-    						//在匿名函数中调用回调函数
-    						callback.call(obj);
-    					});
-    				}
-    			}
-    			
-    		</script>
-    	</head>
-    	<body style="height: 2000px;">
-    		
-    		<div id="box1"></div>
-    		
-    	</body>
+                        box1.style.height = box1.clientHeight + 100 + "px";
+                    }
+    
+                    /*
+                     * 使用addEventListener()方法绑定响应函数，取消默认行为时不能使用return false
+                     * 需要使用event来取消默认行为event.preventDefault();
+                     * 但是IE8不支持event.preventDefault();这个玩意，如果直接调用会报错
+                     */
+                    event.preventDefault && event.preventDefault();
+                    /*
+                     * 当滚轮滚动时，如果浏览器有滚动条，滚动条会随之滚动，
+                     * 这是浏览器的默认行为，如果不希望发生，则可以取消默认行为
+                     */
+                    return false;
+                };
+    
+                //为火狐绑定滚轮事件
+                bind(box1, "DOMMouseScroll", box1.onmousewheel);
+            };
+    
+    
+            function bind(obj, eventStr, callback) {
+                if (obj.addEventListener) {
+                    //大部分浏览器兼容的方式
+                    obj.addEventListener(eventStr, callback, false);
+                } else {
+                    /*
+                     * this是谁由调用方式决定
+                     * callback.call(obj)
+                     */
+                    //IE8及以下
+                    obj.attachEvent("on" + eventStr, function () {
+                        //在匿名函数中调用回调函数
+                        callback.call(obj);
+                    });
+                }
+            }
+        </script>
+    </head>
+    <body style="height: 2000px;">
+        <div id="box1"></div>
+    </body>
     </html>
     ```
-
     
-
+    
+  
 - ### 键盘事件
 
   - #### `element.onkeydown`
