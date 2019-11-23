@@ -152,95 +152,95 @@ layout: article
            <source id="mp4" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/01%20quatitative%20methods/002-05%20Internal%20Validity%20Threats-Participants.mp4" type="video/mp4">   
          <iframe width="560" height="315" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/01%20quatitative%20methods/002-05%20Internal%20Validity%20Threats-Participants.mp4" frameborder="0" allowfullscreen></iframe>
            </video>
-     
-     - #### Maturation
-     
-  - alternative explanation: natural change 
-       - **solution: control group**
-
-     - #### Selection
-     
-  - alternative explanation: differences in participant characteristics
-       - **solution: randomized selection**
-
-     - #### Selection by maturation
-     
-  - alternative explanation: groups systematically differ in their rate of maturation 
+   
+      - #### Maturation
+   
+         - alternative explanation: natural change
+         - **solution: control group**
+   
+      - #### Selection
+   
+         - alternative explanation: differences in participant characteristics
+         - **solution: randomized selection**
+   
+      - #### Selection by maturation
+   
+         - alternative explanation: groups systematically differ in their rate of maturation 
          - selected groups become mature during the experiment
-  - **solution: randomized assignment to groups**
-     
+         - **solution: randomized assignment to groups**
+   
    - ### Instruments
    
-  - #### Low construct validity
+      - #### Low construct validity
    
-    - systematic bias/measures another construct
-       - prerequisite for internal validity
-    - **solution:**
-         - valid instruments
-         - valid manipulation methods
-         - used consistently
+         - systematic bias/measures another construct
+        - prerequisite for internal validity
+         - **solution:**
+              - valid instruments
+              - valid manipulation methods
+              - used consistently
    
-     - #### Instrumentation
+      - #### Instrumentation
    
-    - instruments changed during the process of the study
-       - **solution:**
-      - valid instruments
-         - valid manipulation methods
-         - used consistently
+         - instruments changed during the process of the study
+        - **solution:**
+          - valid instruments
+          - valid manipulation methods
+          - used consistently
    
-     - #### Testing
+      - #### Testing
    
-    - sensitization: measurement affects behavior
-       - **solution:**
-      - special design with multiple groups with/without pretest
+         - sensitization: measurement affects behavior
+        - **solution:**
+            - special design with multiple groups with/without pretest
    
    - ### Artificiality
    
-  expectation changes behaviors
+     expectation changes behaviors
    
-  - #### Experimenter expectancy
+     - #### Experimenter expectancy
    
-    - Researcher changes behavior(unconsciously) biasing effect researcher's expectations
+       - Researcher changes behavior(unconsciously) biasing effect researcher's expectations
        - influences participants' responses
-    - **solution: experimenter blind design**
+       - **solution: experimenter blind design**
    
      - #### Demand characteristics
    
-    - Participant changes behavior(unconsciously)
+       - Participant changes behavior(unconsciously)
    
-      biasing effect participant's expectations
+         biasing effect participant's expectations
    
-    - **Solution: leave participants unaware of the real purpose of the study or at least which group they are in**
+       - **Solution: leave participants unaware of the real purpose of the study or at least which group they are in**
    
-      - **Double Blind Research Design**
+         - **Double Blind Research Design**
    
-    - **solution: cover story**
+       - **solution: cover story**
    
-      - temporary deception-->needs to be necessary
+         - temporary deception-->needs to be necessary
          - risk of bias-->needs to be real
-      - researcher--> needs to debrief participants afterwards
-   
+         - researcher--> needs to debrief participants afterwards
+
    - ### Research Setup
    
-  - #### Ambiguous temporal precedence 时间先后模糊
-   
-    - **solution: manipulation of cause**
-   
-  - #### History
-   
-    - unforeseen event during study
-       - provides alternative explanation
-    - large-scale
-         - **solution: unavoidable**
+      - #### Ambiguous temporal precedence 时间先后模糊
+      
+      - **solution: manipulation of cause**
+      
+     - #### History
+      
+       - unforeseen event during study
+          - provides alternative explanation
+       - large-scale
+          - **solution: unavoidable**
        - small-scale
-         - **solution: test subjects separately, if possible**
+             - **solution: test subjects separately, if possible**
+       
+   - #### Mortality
    
-     - #### Mortality
-   
-    - participants dropout
-       - alternative explanation: differential dropout
-    - **solution: hard to avoid; document reasons for dropout for further research**
-   
+        - participants dropout
+           - alternative explanation: differential dropout
+        - **solution: hard to avoid; document reasons for dropout for further research**
+
 6. ## Relevant types of variables
 
    1. ### Construct
