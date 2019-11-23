@@ -13,9 +13,7 @@ layout: article
 
 <!--more-->
 
-## The scientific Methods
-
-1. ### Empirical Cycle
+1. ## Empirical Cycle
 
    ![Empirical Cycle](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/01%20quatitative%20methods/empirical%20cycle.jpg)
 
@@ -30,7 +28,7 @@ layout: article
 
    
 
-   1. #### Observation
+   1. ### Observation
 
       - **function**: sparks idea for hypothesis(anything we want to explain):
         - pattern
@@ -43,7 +41,7 @@ layout: article
         - previous research findings
       - **observing relation in one or more instances**
 
-   2. #### Induction
+   2. ### Induction
 
       ```mermaid
       graph TB
@@ -52,7 +50,7 @@ layout: article
 
       - general rule or hypothesis
 
-   3. #### Deduction
+   3. ### Deduction
 
       - hold true in new instances
       - expectation/prediction is deduced about new observations
@@ -60,7 +58,7 @@ layout: article
       - define **concepts, measurement instruments, procedures, sample**
       - hypothesis is transformed with deductive reasoning and specification of research setup into **prediction about new observations**
 
-   4. #### Testing
+   4. ### Testing
 
       - data collection
       - compare data to prediction
@@ -68,7 +66,7 @@ layout: article
         - descriptive: summarize
         - inferential: decide
 
-   5. #### Evaluation
+   5. ### Evaluation
 
       - Conclusion:
         1. Results confirm prediction--> Hypothesis provisionally supported
@@ -77,9 +75,9 @@ layout: article
            - adjust hypothesis
            - reject hypothesis
 
-2. ### Confirmation/Disconfirmation
+2. ## Confirmation/Disconfirmation
 
-   1. #### Confirmation
+   1. ### Confirmation
 
       - Prediction confirmed
       - Hypothesis not proven but **provisionally supported**
@@ -87,7 +85,7 @@ layout: article
 
       > No scientific empirical statement can ever be proven once and for all.
 
-   2. #### Disconfirmation
+   2. ### Disconfirmation
 
       - Prediction disconfirmed
         - Plausible explanations for  failure:
@@ -135,7 +133,7 @@ layout: article
         - hypothesized relation holds in general?
         - results generalize to other people,groups,environments,times?
 
-4. ### Causality
+4. ## Causality
 
    - Hume first list the criteria:
      1. cause and effect are connected
@@ -146,114 +144,111 @@ layout: article
         - **the most difficult one!!!**
         - methodology to minimize the alternatives
 
-5. ### Internal Validity Threats
+5. ## Internal Validity Threats
 
-   - #### Participants
+   - ### Participants
 
-     ```html
      <video id="video" controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/01%20quatitative%20methods/empirical%20cycle.jpg">
-           <source id="mp4" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/01%20quatitative%20methods/002-05%20Internal%20Validity%20Threats-Participants.mp4" type="video/mp4">
-         
+           <source id="mp4" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/01%20quatitative%20methods/002-05%20Internal%20Validity%20Threats-Participants.mp4" type="video/mp4">   
          <iframe width="560" height="315" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/01%20quatitative%20methods/002-05%20Internal%20Validity%20Threats-Participants.mp4" frameborder="0" allowfullscreen></iframe>
            </video>
-     ```
-
-     - ##### Maturation
-
-       - alternative explanation: natural change 
+     
+     - #### Maturation
+     
+  - alternative explanation: natural change 
        - **solution: control group**
 
-     - ##### Selection
-
-       - alternative explanation: differences in participant characteristics
+     - #### Selection
+     
+  - alternative explanation: differences in participant characteristics
        - **solution: randomized selection**
 
-     - ##### Selection by maturation
-
-       - alternative explanation: groups systematically differ in their rate of maturation 
+     - #### Selection by maturation
+     
+  - alternative explanation: groups systematically differ in their rate of maturation 
          - selected groups become mature during the experiment
-       - **solution: randomized assignment to groups**
-
-   - #### Instruments
-
-     - ##### Low construct validity
-
-       - systematic bias/measures another construct
+  - **solution: randomized assignment to groups**
+     
+   - ### Instruments
+   
+  - #### Low construct validity
+   
+    - systematic bias/measures another construct
        - prerequisite for internal validity
-       - **solution:**
+    - **solution:**
          - valid instruments
          - valid manipulation methods
          - used consistently
-
-     - ##### Instrumentation
-
-       - instruments changed during the process of the study
+   
+     - #### Instrumentation
+   
+    - instruments changed during the process of the study
        - **solution:**
-         - valid instruments
+      - valid instruments
          - valid manipulation methods
          - used consistently
-
-     - ##### Testing
-
-       - sensitization: measurement affects behavior
+   
+     - #### Testing
+   
+    - sensitization: measurement affects behavior
        - **solution:**
-         - special design with multiple groups with/without pretest
-
-   - #### Artificiality
-
-     expectation changes behaviors
-
-     - ##### Experimenter expectancy
-
-       - Researcher changes behavior(unconsciously) biasing effect researcher's expectations
+      - special design with multiple groups with/without pretest
+   
+   - ### Artificiality
+   
+  expectation changes behaviors
+   
+  - #### Experimenter expectancy
+   
+    - Researcher changes behavior(unconsciously) biasing effect researcher's expectations
        - influences participants' responses
-       - **solution: experimenter blind design**
-
-     - ##### Demand characteristics
-
-       - Participant changes behavior(unconsciously)
-
-         biasing effect participant's expectations
-
-       - **Solution: leave participants unaware of the real purpose of the study or at least which group they are in**
-
-         - **Double Blind Research Design**
-
-       - **solution: cover story**
-
-         - temporary deception-->needs to be necessary
+    - **solution: experimenter blind design**
+   
+     - #### Demand characteristics
+   
+    - Participant changes behavior(unconsciously)
+   
+      biasing effect participant's expectations
+   
+    - **Solution: leave participants unaware of the real purpose of the study or at least which group they are in**
+   
+      - **Double Blind Research Design**
+   
+    - **solution: cover story**
+   
+      - temporary deception-->needs to be necessary
          - risk of bias-->needs to be real
-         - researcher--> needs to debrief participants afterwards
-
-   - #### Research Setup
-
-     - ##### Ambiguous temporal precedence 时间先后模糊
-
-       - **solution: manipulation of cause**
-
-     - ##### History
-
-       - unforeseen event during study
+      - researcher--> needs to debrief participants afterwards
+   
+   - ### Research Setup
+   
+  - #### Ambiguous temporal precedence 时间先后模糊
+   
+    - **solution: manipulation of cause**
+   
+  - #### History
+   
+    - unforeseen event during study
        - provides alternative explanation
-       - large-scale
+    - large-scale
          - **solution: unavoidable**
        - small-scale
          - **solution: test subjects separately, if possible**
-
-     - ##### Mortality
-
-       - participants dropout
+   
+     - #### Mortality
+   
+    - participants dropout
        - alternative explanation: differential dropout
-       - **solution: hard to avoid; document reasons for dropout for further research**
+    - **solution: hard to avoid; document reasons for dropout for further research**
+   
+6. ## Relevant types of variables
 
-6. ### Relevant types of variables
-
-   1. #### Construct
+   1. ### Construct
 
       - denotes property in general, abstract terms
         - *loneliness&depression*
 
-   2. #### Variable
+   2. ### Variable
 
       - operationalized, concrete expression of construct.
 
@@ -266,12 +261,12 @@ layout: article
 
         ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/01%20quatitative%20methods/2019-11-12_types%20of%20variables.jpg)
 
-        1. ##### Independent variable
+        1. #### Independent variable
 
            - **In control of**
            - cause; explanatory; input; predictor
 
-        2. ##### Dependant variable
+        2. #### Dependant variable
 
            -  **influenced by/the result of dependent**
            - effect; response; outcome; output
@@ -280,7 +275,7 @@ layout: article
 
         extraneous properties
 
-        1. ##### Confounders/ lurking variable
+        1. #### Confounders/ lurking variable
 
            潜在变数(Lurking variable):指对研究中其他变数间的关系有重要影响,却没有被列入研究范围的变数.（要么因为此存在变量不为人知,或者它的影响被认为是可以忽略而其实不能忽略,或者是数据无法获得） 
 
@@ -288,13 +283,13 @@ layout: article
            - partially or entirely accounts for relationship
            - **solution: keeping it constant or  turn it into control variable**
 
-        2. ##### Control variables
+        2. #### Control variables
 
            - likely to be related to independent/dependent variables
            - effects can be controlled for (**unlike confounder**)
            - **solution: checking relationship at each level or value**
 
-        3. ##### Background variable
+        3. #### Background variable
 
            - not relevant in relation between independent+dependent variable
            - relevant for determining representativeness:
