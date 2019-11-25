@@ -9,11 +9,11 @@ layout: article
 
 ---
 
-# Definition of technical writing
+# 01 Definition of technical writing
 
 <!--more-->
 
-1. # Definition
+1. ## Definition
 
    A form of written document providing **technical information** that helps readers to solve complex problems.
 
@@ -21,29 +21,29 @@ layout: article
 - memos
    - reports
 
-2. # Main features
+2. ## Main features
 
-   - ## Reader-centeredness
+   - ### Reader-centeredness
 
-   - ## Clear organization and page design
+   - ### Clear organization and page design
 
-   - ## Readable style and effective visuals
+   - ### Readable style and effective visuals
 
-3. # Purposes
+3. ## Purposes
 
-   - ## inform
+   - ### inform
 
      provide information that users ask
 
-   - ## instruct
+   - ### instruct
 
      help people do sth.
 
-   - ## persuade
+   - ### persuade
 
      encourage people to take a desired action or make a decision
 
-4. # Meet the needs of specific audiences
+4. ## Meet the needs of specific audiences
 
    - who will use your documents?
 
@@ -65,7 +65,7 @@ layout: article
      - adapt to the knowledge, interests and needs pf target audiences
      - context
 
-5. # Weighing the ethical issues
+5. ## Weighing the ethical issues
 
    1. What is ethics?
       - Moral beliefs and values
@@ -76,9 +76,9 @@ layout: article
       - avoiding burying bad news in paragraphs
       - Use types sizes responsibly 
 
-6. # Process for writing technical documents
+6. ## Process for writing technical documents
 
-   1. ## Planning
+   1. ### Planning
 
       - Analyze your audience
         - Primary&secondary audiences
@@ -98,14 +98,14 @@ layout: article
         - use of color
       - Devise a schedule and budget
 
-   2. ## Drafting
+   2. ### Drafting
 
-   3. ## Revising
+   3. ### Revising
 
       - Audience analysis
       - Usability testing
 
-   4. ## Editing
+   4. ### Editing
 
       - grammar
       - punctuation
@@ -114,11 +114,11 @@ layout: article
       - diction: word choice
       - mechanics: numbers, sequence
 
-   5. ## Proofreading
+   5. ### Proofreading
 
-7. # Writing style and tone
+7. ## Writing style and tone
 
-   - ## Style
+   - ### Style
 
      - Readable
        - Correct grammar&Punctuation&Spelling
@@ -130,6 +130,6 @@ layout: article
      - Fluency
        - combine related ideas
 
-   - ## tone
+   - ### tone
 
      - first/second/third person
