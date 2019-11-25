@@ -59,7 +59,7 @@ layout: article
 
    - Types
 
-     - Table
+     - ### Table
 
        - Numerical table
 
@@ -69,19 +69,19 @@ layout: article
 
          ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/technical%20wrting/prose%20table.jpg)
 
-     - Graph
+     - ### Graph
 
        - Bar graph
        - Line graph
 
-     - Chart
+     - ### Chart
 
        - Flow chart
        - Gantt chart
        - Tree chart
        - Pictogram
 
-     - Graphic illustration
+     - ### Graphic illustration
 
    - How to choose the right visuals?
 
@@ -134,29 +134,35 @@ layout: article
           - 在小字体的场合，通常Sans Serif 比Serif 更清晰。
           - 中文字体中的[宋体](https://baike.baidu.com/item/宋体)就是一种最标准的 serif 字体，衬线的特征非常明显。字形结构也和手写的楷书一致。因此宋体一直被做为最适合的正文字体之一。不过由于强调横竖笔画的对比，在远处观看的时候横线就被弱化，导致识别性的下降.
 
-        - 对于中文来说，宋体属于serif 字体，而[黑体](https://baike.baidu.com/item/黑体) 、幼圆、雅黑则属于sans serif 字体。 
+        - 中文:
 
-        - 而英文，常用的 serif 字体为Times New Roman，常用的 sans serif 字体为Arial，Tahoma。
+          - **serif ：宋体**
+       - **sans serif: [黑体](https://baike.baidu.com/item/黑体) 、幼圆、雅黑** 
+        
+     - 英文
+        
+       -  **serif :Times New Roman**
+          -  **sans serif :Arial，Tahoma**
 
    3. ### Use full caps sparingly
-
+   
       ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/technical%20wrting/capitals.jpg)
-
+   
    4. ### Adding emphasis
 
       - Indention
-      - Lines
+   - Lines
       - Boldface
       - Small or large type sizes
       - Color
-
+   
    5. ### Using headings for access and orientation
-
-      - Topic headings
+   
+   - Topic headings
         - *Usable page design*
       - Statement headings
         - *How to create a usable page design*
       - Question headings
         - *How do I create a usable page design*
-
+   
    
