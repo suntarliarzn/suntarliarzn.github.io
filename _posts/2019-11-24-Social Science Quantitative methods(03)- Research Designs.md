@@ -60,15 +60,20 @@ Maximize internal validity
 
      - measured repeatedly
      - Short period
-  - at least one within factor and one or more between factors
+     
+   - at least one within factor and one or more between factors
    
-- #### Longitudinal design 纵向设计
-  
-     - measured repeatedly
-     - long period of time
-     - rare
-     - mostly correlation studies
-     - sometimes (quasi-) experimental studies
+3. ### Longitudinal design 纵向设计
+
+   - measured repeatedly
+
+   - long period of time
+
+   - rare
+
+   - mostly correlation studies
+
+   - sometimes (quasi-) experimental studies
 
 ## 4. Research Control
 
@@ -99,7 +104,7 @@ Maximize internal validity
 
        - ##### **measuring after the dependent effect variables**
 
-2. #### Control of variables of disinterest
+2. ### Control of variables of disinterest
 
    ##### ideal: only difference: independent variables
 
@@ -117,21 +122,21 @@ Maximize internal validity
 
          - **Randomization failure:** unequal distribution possible
 
-           - solution:
+         - solution:
 
-               1. **Randomization check:** measure relevant variables to check whether randomization worked and the conditions are the same.
+             1. **Randomization check:** measure relevant variables to check whether randomization worked and the conditions are the same.
 
-               2. **Restricted randomization**（限制性随机）
+             2. **Restricted randomization**（限制性随机）
 
-                   guarantee randomization over selected variables
-
+                 guarantee randomization over selected variables
+    
          - **blocking**（区组）: guarantees equal group sizes
 
            - pair participants in blocks of two
            - flip a coin to determine where the first participant goes
            - the second... participant is automatically assigned the other condition
 
-         - stratified restricted randomization(分层限制性随机): equal distribution on participant  characteristic
+         - **stratified restricted randomization(分层限制性随机)**: equal distribution on participant  characteristic
 
            - boys/girls
            - sex
@@ -151,7 +156,7 @@ Maximize internal validity
        - Within subject designs: **the order in which subjects are exposed to the conditions should be randomized.**
        - Subjects are assigned to one out of all possible orderings of the conditions possibly using blocking to ensure that no one ordering is over represented.列出所有可能的实验条件序列 并将受试者分配到每一组 尽量使用区组来确保各组人数相当
 
-3. #### Matching
+3. ### Matching
 
    - Random assignment impossible?
      - threat of selection to internal validity
@@ -167,7 +172,7 @@ Maximize internal validity
 
 ## 5. Lab vs Field
 
-- #### Lab
+- ### Lab
 
   - often experimental
   - maximizes internal validity
@@ -177,7 +182,7 @@ Maximize internal validity
   - experimental realism
     - experimental translation of natural setting
 
-- #### Field 
+- ### Field 
 
   - often non-experimental
   - maximize external validity
@@ -244,9 +249,9 @@ Maximize internal validity
   - like correlational studies
   - difference: 准实验研究检验的是因果假说 且会尽可能地极力控制额外变量.
 
-- ### Types of designs
+- Types of designs
 
-  1. #### Static groups comparison
+  1. ### Static groups comparison
 
      [Static groups comparison](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/01%20quatitative%20methods/stactic%20groups%20comparison.jpg)
 
@@ -256,7 +261,7 @@ Maximize internal validity
        - internal selection threat
        - Comparison of groups lessens the threats of maturation and history
 
-  2. #### Pre/post-test Non-equivalent control group 不等组前测-后测设计
+  2. ### Pre/post-test Non-equivalent control group 不等组前测/后测设计
 
      [Pre/post-test Non-equivalent control group](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/01%20quatitative%20methods/pre%20post%20non-equivalent%20control%20group.jpg)
 
@@ -264,9 +269,9 @@ Maximize internal validity
      - assess the size of any maturation effects
      - not always possible to use in control group
 
-  3. #### One group pre/post-test  单组前测-后测设计
+  3. ### One group pre/post-test  单组前测-后测设计
 
-  4. #### Interrupted time-series design 中断时间序列设计
+  4. ### Interrupted time-series design 中断时间序列设计
 
      ![interrupted time-series design](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/01%20quatitative%20methods/interrupted%20time-series%20design.jpg)
 
@@ -298,18 +303,18 @@ Maximize internal validity
 
 - **don't select/manipulate just measure**
 
-- ### types:
+- types:
 
   ![correlational design](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/01%20quatitative%20methods/correlation%20design.jpg)
 
-  1. #### Cross sectional design 横断面实验设计
+  1. ### Cross sectional design 横断面实验设计
 
      - **one large group is considered at one specific point of time**
      - a fairly large number of properties are measured at once
      - aim: to investigate the association between variables in a way that accurately describes a larger population
      - survey study or survey design
 
-  2. #### time-series design 时间序列设计
+  2. ### time-series design 时间序列设计
 
      - **one person is measured at several points in time, usually with many measurement moments in quick succession and in fixed intervals.**
 
@@ -330,7 +335,7 @@ Maximize internal validity
            - experimental: persons measured over time in all conditions where
            - one or more independent variables are manipulated
 
-  3. #### Panel design 群组实验设计
+  3. ### Panel design 群组实验设计
 
      - also call time-series cross-sectional design(TSCS)
      - the same group of people is measured at several points in time
