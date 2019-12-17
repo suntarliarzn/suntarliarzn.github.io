@@ -395,3 +395,11 @@ layout: article
       - **oral histories**
       - **participatory observation**
       - **...**
+
+## 10. Interview
+
+- 3 utmost important things:
+  1. more theory about the constructs.
+  2.  more up to date norms（常模） studies to have meaningful interpretation of the test scores.
+     - scores are changing.
+  3.  people are complicated.
