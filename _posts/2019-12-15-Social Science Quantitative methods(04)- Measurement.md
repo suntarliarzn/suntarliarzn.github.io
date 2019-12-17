@@ -3,7 +3,7 @@
 title: Social Science Quantitative methods(04) - Measurement
 key: D20191215
 
-tags: Measurement; 
+tags: Measurement; Operationalization; Measurement level; Variable Types; Measurement Validity; Measurement Reliability; Survey; Questionnaire; Test; Scales and Response Options; Bias; Other Measurement Types 
 
 layout: article
 
