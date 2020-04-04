@@ -37,8 +37,6 @@ layout: article
 
 ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Web%20development%20for%20everybody/HTML%205/CS%20relationship.jpg)
 
-![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Web%20development%20for%20everybody/HTML%205/CS%20relationship.jpg)
-
 - **HTTP request**
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/Web%20development%20for%20everybody/HTML%205/12%20The%20Request.jpg)
