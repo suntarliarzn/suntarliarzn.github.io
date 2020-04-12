@@ -9,7 +9,7 @@ tags: HTML 5;
 layout: article
 ---
 
-# Web Design for everybody-HTML 5(01).md
+# Web Design for everybody-HTML 5(01)
 
 <!--more-->
 

@@ -11,7 +11,7 @@ layout: article
 
 # Basic Statistics - (02) R[1]
 
-*<!--more-->*
+<!--more-->
 
 ## 1.  Bar Graph
 
@@ -131,9 +131,9 @@ layout: article
 
     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/R/04%20histogram%20with%20labels.png)
 
-### 3. Mean and Median
+## 3. Mean and Median
 
-- `mean()`&`median()`
+- ### `mean()`&`median()`
 
   We can measure the mean and median of a variable using the functions `mean()` and `median()`, using the variable in question as the first argument between brackets. Let's try it out!
 
@@ -174,9 +174,9 @@ layout: article
     [1] 19.2
     ```
 
-### 4. Mode
+## 4. Mode
 
-- `sort()`
+- ### `sort()`
 
   Sometimes it is useful to look at the the most frequent value in a data set, known as the 'mode'. R doesn't have a standard function for mode, but we can calculate the mode easily using the `table()` function, which you might be familiar with now.
 
@@ -209,9 +209,9 @@ layout: article
     10 10  7  3  1  1
     ```
 
-### 5. Range
+## 5. Range
 
-- `max()&min()`
+- ### `max()&min()`
 
   The range of a variable is the difference between the highest and lowest value. We can find these values using `max()` and `min()` on the variables of our choice. The value returned tells us which row (or case) contains the requested value. We can then index this case to find the desired values. Remember, you can index using `[]`.
 
@@ -250,9 +250,9 @@ layout: article
 
 
 
-### 6. Quartiles
+## 6. Quartiles
 
-- `quartile()`
+- ### `quartile()`
 
   You can calculate the quartiles in your data set using the function `quantile()`. The output of `quantile()` gives you the lowest value, first quartile, second quartile, third quartile and highest value. 25% of your data lies below the first quartile value, 50% lies below the second quartile, and 75% lies below the third quartile value. Let's see for ourselves!
 
@@ -277,7 +277,7 @@ layout: article
     14.5000 16.8925 17.7100 18.9000 22.9000
     ```
 
-- `boxplot()`&`IQR()`
+- ### `boxplot()`&`IQR()`
 
   To better visualise your data's quartiles you can create a boxplot using the function `boxplot()` (in the same way as you used `hist()` and `barplot()`). Similarly, you can calculate the interquartile range manually by subtracting the value of the third quartile from the value of the first quartile, or we can use the function `IQR()` on your variable of interest. Let's try out making a boxplot and calculating the interquartile range of the `mtcars` variable `qsec`.
 
@@ -305,7 +305,7 @@ layout: article
     [1] 2.0075
     ```
 
-- IQR outliers
+- ### IQR outliers
 
   In the boxplot you created you can see a circle above the boxplot. This indicates an outlier. We can calculate an outlier as a value `1.5 * IQR` above the third quartile, or `1.5 * IQR` below the first quartile. Let's try it out with the `qsec` variable from `mtcars`.
 
@@ -357,9 +357,9 @@ layout: article
 
     
 
-### 7. Standard Deviation
+## 7. Standard Deviation
 
-- `sd()`
+- ### `sd()`
 
   We can also measure the spread of data through the standard deviation. You can calculate these using the function `sd()`, which takes a vector of the variable in question as its first argument. Let's try it out!
 
@@ -398,7 +398,7 @@ layout: article
 
 
 
-### 8. Z-score
+## 8. Z-score
 
 We can calculate the z-score for a given value (X) as **(X - mean) / standard deviation**. In R you can do this with a whole variable at once by putting the variable name in the place of X. Let's try this!
 

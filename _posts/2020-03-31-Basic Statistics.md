@@ -11,7 +11,7 @@ layout: article
 
 # Basic Statistics - (01) Introduction
 
-*<!--more-->*
+<!--more-->
 
 ## 1. Cases, Variables and levels of measurements
 
