@@ -221,7 +221,7 @@ Let's have a look at the relationship between height and weight through a scatte
 
 ## 4. Finding the line 回归系数
 
-- squared error
+- ### squared error
 
   When we draw a line through our data, we measure error as the sum of the difference between the observation and the line. We usually square this so that positive and negative residuals don't cancel each other out. The line that gives us the least error is our regression line.
 
