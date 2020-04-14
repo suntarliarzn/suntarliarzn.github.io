@@ -31,8 +31,8 @@ Let's have a look at the relationship between height and weight through a scatte
     # Plot height and weight of the "women" dataset. Make the title "Heights and Weights"
   str(women)
     plot(women$weight,women$height, main = "Heights and Weights")
-    ```
-    
+  ```
+  
     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/R/week%202/01%20scatterplot.png)
   
   
@@ -270,7 +270,7 @@ Let's have a look at the relationship between height and weight through a scatte
     [1] 46
     ```
 
-### 5. The Regression Coefficients
+## 5. The Regression Coefficients
 
 - ### a,b
 
@@ -322,7 +322,7 @@ Let's have a look at the relationship between height and weight through a scatte
          1.2000       0.7818
     ```
 
-- ### Using lm() To Add A Regression Line To Your Plot
+- ### lm() 
 
   In the last exercise you used `lm()` to obtain the coefficients for your model's regression equation, in the format `lm(y ~ x)`. takes the y variabWe can store this output and use it to add the regression line to your scatterplots! After you have created your scatterplot, you can add a line using the function `abline()`. `abline()` takes the intercept of the line as its first argument, and the slope of the line as its second argument. This makes it a pretty good candidate for storing your `lm()` output as an object, and putting it straight into `abline`. Let's try this out!
 
