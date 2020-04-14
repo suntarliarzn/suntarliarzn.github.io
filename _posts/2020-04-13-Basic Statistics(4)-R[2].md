@@ -20,11 +20,10 @@ layout: article
   Saved in your console is a dataset called `women` which contains the `height` and `weight` of 15 women (try typing it into your console and press enter to have a look).
 Let's have a look at the relationship between height and weight through a scatterplot, using the R function `plot()`. The first argument of `plot()` is the x-axis coordinates, and the second argument is the y-axis coordinates.
   
-- Instructions
-  
-  - In your script, make a scatterplot of `women` with `weight` on the x-axis, and `height` on the y-axis.
-    - Use `main = *title here*` inside `plot()` to add the title "Heights and Weights"
-
+  - Instructions
+    - In your script, make a scatterplot of `women` with `weight` on the x-axis, and `height` on the y-axis.
+      - Use `main = *title here*` inside `plot()` to add the title "Heights and Weights"
+    
   - **Answer**
   
   ```R
