@@ -140,45 +140,49 @@ Let's have a look at the relationship between height and weight through a scatte
     [1] 48
     ```
 
-- `prop.table`
+- ### `prop.table`
 
   ```rconsole
   mytable <- table(A,B) # 在这里，A变量的信息变成行，B变成列
   mytable # 输出表格
   ```
 
+  
+
   ![img](https://pic3.zhimg.com/80/v2-f72142c55dd371974eece2723ed0e9fa_1440w.png)
+  
+  
 
   ```text
-  margin.table(mytable, 1) # 对每一行的数据求和 
+margin.table(mytable, 1) # 对每一行的数据求和 
   ```
-
+  
   ![img](https://pic2.zhimg.com/80/v2-6d79938741380bc97ac8b8c14f6c44bd_1440w.png)
 
   ```text
-  margin.table(mytable, 2) # 对每一列的数据求和
+margin.table(mytable, 2) # 对每一列的数据求和
   ```
-
+  
   ![img](https://pic1.zhimg.com/80/v2-cb96da3d1a6343058805b1c06fc4ad40_1440w.png)
 
   ```text
-  prop.table(mytable) # 计算每一格数据占总数的比例
+prop.table(mytable) # 计算每一格数据占总数的比例
   ```
-
+  
   ![img](https://pic2.zhimg.com/80/v2-adc37cbfa985f6f7f1b14da7e8f3184d_1440w.png)
 
   ```text
-  prop.table(mytable, 1) # 以行为单位，计算其中每个变量的占比，每行求和为1
+prop.table(mytable, 1) # 以行为单位，计算其中每个变量的占比，每行求和为1
   ```
-
+  
   ![img](https://pic4.zhimg.com/80/v2-4bc348a0936d83c943315ca3a01d6b33_1440w.jpg)
 
   ```text
-  prop.table(mytable, 2) # 以列为单位，计算其中每个变量的占比，每列求和为1
+prop.table(mytable, 2) # 以列为单位，计算其中每个变量的占比，每列求和为1
   ```
-
   
-
+  
+  
   ![img](https://pic2.zhimg.com/80/v2-40782ca43a3118195c4d07cda3223319_1440w.jpg)
 
 
