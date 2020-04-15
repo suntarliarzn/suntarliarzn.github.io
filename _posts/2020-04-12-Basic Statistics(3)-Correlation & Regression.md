@@ -9,7 +9,7 @@ layout: article
 
 ---
 
-# Basic Statistics - (02) Correlation & Regression
+# Basic Statistics - (03) Correlation & Regression
 
 <!--more-->
 
@@ -116,5 +116,3 @@ $$
   - Outlier may cause the **positive** coefficient into a **negative** one.
 
 ## 5. Example Pearson's r and regression
-
-
