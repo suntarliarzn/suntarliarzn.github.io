@@ -60,16 +60,12 @@ $$
 
   - **Ordinary least square regression** 最小二乘法
   $$
-  \widehat{y} = bx + a
-  $$
-  
-  
-  $$
-  \hat{y} = predicted \quad  value \quad  of \quad  y
-  $$
-  
-  $$
-  a = intercept \quad b = regression \quad coefficient \quad (slope)
+  \begin{eqnarray*}
+  &\widehat{y} = bx + a \\
+  \\
+  &\hat{y} = predicted \quad value \quad of \quad y \\
+  &a = intercept \qquad b = regression \quad coefficient \quad(slope)
+  \end{eqnarray*}
   $$
   
    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/08%20ordinary%20least%20squre%20regression.jpg)
@@ -81,6 +77,7 @@ $$
   \begin{eqnarray*}
   &b& = r({{S_y}\over{S_x}}) \\
   &a& = \overline{y} - b({\overline{x}}) \\
+  \\
   &S_y& = standard \quad deviation \quad of \quad y \\
   &S_x& = standard \quad deviation \quad of \quad x \\
   &\overline{y}& = mean \quad of \quad y \\
