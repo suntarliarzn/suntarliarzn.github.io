@@ -62,10 +62,10 @@ $$
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/08%20ordinary%20least%20squre%20regression.jpg)
     $$
     \begin{eqnarray*}
-      &\widehat{y} = bx + a \\
-      &\hat{y} = predicted \quad value \quad of \quad y \\
-      &a = intercept \qquad b = regression \quad coefficient \quad(slope)
-      \end{eqnarray*}
+    &\widehat{y} = bx + a \\
+    &\hat{y} = predicted \quad value \quad of \quad y \\
+    &a = intercept \qquad b = regression \quad coefficient \quad(slope)
+    \end{eqnarray*}
     $$
   
     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/09%20regression%20formula%20example.jpg)
