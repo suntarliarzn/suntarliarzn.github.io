@@ -23,15 +23,15 @@ layout: article
 
   - something or someone
 
-  ![cases and variables](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/01%20cases%20and%20varibles.jpg){:height="10%" width="50%"}
+  ![cases and variables](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/01%20cases%20and%20varibles.jpg){:height="100px" width="400px"}
 
 - **Variable vs Constant**
 
-  ![variable vs constant](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/02%20variables%20vs%20constants.jpg){:height="10%" width="50%"}
+  ![variable vs constant](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/02%20variables%20vs%20constants.jpg){:height="100px" width="400px"}
 
 - [**Levels of measurements**](https://suntarliarzn.github.io/2019/12/15/Social-Science-Quantitative-methods(04)-Measurement.html)
 
-  ![levels of measurements](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/03%20level%20of%20measurements.jpg){:height="10%" width="50%"}
+  ![levels of measurements](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/03%20level%20of%20measurements.jpg){:height="100px" width="400px"}
 
 ## 2. Data matrix and frequency table
 
@@ -41,21 +41,21 @@ layout: article
 
   - data table: the starting point of any statistic analysis
 
-  ![Data Matrix](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/04%20data%20matrix.jpg){:height="10%" width="50%"}
+  ![Data Matrix](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/04%20data%20matrix.jpg){:height="100px" width="400px"}
 
 - **Frequency Table**
 
   - Categorical
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/05%20categorical%20frequency%20table.jpg){:height="10%" width="50%"}
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/05%20categorical%20frequency%20table.jpg){:height="100px" width="400px"}
 
   - Ordinal
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/06%20ordinal%20frequency%20table.jpg){:height="10%" width="50%"}
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/06%20ordinal%20frequency%20table.jpg){:height="100px" width="400px"}
 
 ## 03 Graphs and shapes of distributions
 
-![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/14%20summary%20of%20charts.jpg){:height="10%" width="50%"}
+![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/14%20summary%20of%20charts.jpg){:height="100px" width="400px"}
 
 - **Graphs**
 
@@ -65,39 +65,39 @@ layout: article
 
     - pie chart
 
-    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/08%20pie%20chart.jpg){:height="10%" width="50%"}
+    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/08%20pie%20chart.jpg){:height="100px" width="400px"}
 
     - bar graph
 
-    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/09%20bar%20garph.jpg){:height="10%" width="50%"}
+    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/09%20bar%20garph.jpg){:height="100px" width="400px"}
 
   - advantages and contrast of bar/pie
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/09%20advantages%20of%20bar%20and%20pie.jpg){:height="10%" width="50%"}
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/09%20advantages%20of%20bar%20and%20pie.jpg){:height="100px" width="400px"}
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/11%20comparison%20of%20bar%20and%20pie.jpg){:height="10%" width="50%"}
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/11%20comparison%20of%20bar%20and%20pie.jpg){:height="100px" width="400px"}
 
 - **Histogram**
 
   - Interval/ratio
   - histogram
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/12%20histogram.jpg){:height="10%" width="50%"}
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/12%20histogram.jpg){:height="100px" width="400px"}
 
 - **Shapes of distributions**
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/13%20normal%20distribution.jpg){:height="10%" width="50%"}
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/13%20normal%20distribution.jpg){:height="100px" width="400px"}
 
   - unimodal: bell shape
   - other shapes:
     - skewed to the right/left
     - bimodal: two peaks
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/15%20summary%20of%20histogram.jpg){:height="10%" width="50%"}
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/15%20summary%20of%20histogram.jpg){:height="100px" width="400px"}
 
 ## 4.Mode, median and mean
 
-![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/16%20mode%2Cmedian%20and%20mean.jpg){:height="10%" width="50%"}
+![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/16%20mode%2Cmedian%20and%20mean.jpg){:height="100px" width="400px"}
 
 - **Mode** 众数
 
@@ -168,7 +168,7 @@ layout: article
 
 - [**Box plot箱型图**]([https://baike.baidu.com/item/%E7%AE%B1%E5%BD%A2%E5%9B%BE/10671164?fr=aladdin](https://baike.baidu.com/item/箱形图/10671164?fr=aladdin))
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/18%20box%20plot.jpg){:height="10%" width="50%"}
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/18%20box%20plot.jpg){:height="100px" width="400px"}
 
   
 
@@ -205,19 +205,19 @@ layout: article
   $$
   
 
-![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/19%20z%20score.jpg){:height="10%" width="50%"}
+![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/19%20z%20score.jpg){:height="100px" width="400px"}
 
 - **z score and normal distribution**
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/20%20normal%20distribution.jpg){:height="10%" width="50%"}
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/20%20normal%20distribution.jpg){:height="100px" width="400px"}
 
 - any distribution
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/22%20any%20distribution%202%20means.jpg){:height="10%" width="50%"}
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/22%20any%20distribution%202%20means.jpg){:height="100px" width="400px"}
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/23%20any%20distribution%203%20means.jpg){:height="10%" width="50%"}
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/23%20any%20distribution%203%20means.jpg){:height="100px" width="400px"}
 
 - standardization process 标准化
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/21%20standardization.jpg){:height="10%" width="50%"}
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/21%20standardization.jpg){:height="100px" width="400px"}
 
