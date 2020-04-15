@@ -15,13 +15,13 @@ layout: article
 
 ## 1. Correlation
 
-![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/01%20correlation.jpg =100x20)
+<img src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/01%20correlation.jpg" width = "300" height = "200" alt="correlation" align=center />
 
 - ### Contingency table 列联表
 
   A contingency table enables you to display the relationship between **two ordinal or nominal variables**.
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/02%20contingency%20table.jpg)
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/02%20contingency%20table.jpg){:height="50%" width="50%"}
 
   - **Conditional proportion元素比例**: A particular row/column of the contingency table. 
   - **Marginal proportion综合比例**: the row/column sum of the contingency table.
@@ -115,5 +115,6 @@ To determine how strong the correlations are.
 
 <video id="regression" height=500px controls="" autoplay="autoplay">
     <source src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/208%20Example%20Pearson%27s%20r%20and%20regression.mp4" type="video/mp4">
+       <iframe width="560" height="315" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/208%20Example%20Pearson%27s%20r%20and%20regression.mp4" frameborder="0" allowfullscreen></iframe>
 	</video>
 
