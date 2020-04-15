@@ -64,36 +64,29 @@ $$
   
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/09%20regression%20formula%20example.jpg)
   $$
-  {% raw %}\begin{eqnarray*}
-    &\widehat{y} = bx + a \\
-    &\hat{y} = predicted \quad value \quad of \quad y \\
-    &a = intercept \qquad b = regression \quad coefficient \quad(slope)
-    \end{eqnarray*}{% endraw %}
+  \widehat{y} = bx + a
   $$
   
   - #### compute regression line
   $$
-  \begin{eqnarray*}
-  &b& = r({{S_y}\over{S_x}}) \\
-  &a& = \overline{y} - b({\overline{x}}) \\
-  &S_y& = standard \quad deviation \quad of \quad y \\
-  &S_x& = standard \quad deviation \quad of \quad x \\
-  &\overline{y}& = mean \quad of \quad y \\
-  &\overline{x}& = mean \quad of \quad x
-  \end{eqnarray*}
-$$
-
+  b = r({{S_y}\over{S_x}}) 
+  $$
+  
+  $$
+  a = \overline{y} - b({\overline{x}}) 
+  $$
+  
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/10%20compute%20regression%20line.jpg)
-
+  
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/11%20regression%20line%20example.jpg)
-
+  
   - #### r^2
+
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/14%20explained%20variance.jpg)
   
-    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/14%20explained%20variance.jpg)
+  **The prediction with only one variable is much less accurate than when you have information about two "related" variables.**
   
-    **The prediction with only one variable is much less accurate than when you have information about two "related" variables.**
-  
-    万物相连，世间的许多关系可能让你无法想象。[巧克力和诺贝尔奖获得者国籍](https://www.nejm.org/doi/full/10.1056/NEJMon1211064)
+  万物相连，世间的许多关系可能让你无法想象。[巧克力和诺贝尔奖获得者国籍](https://www.nejm.org/doi/full/10.1056/NEJMon1211064)
   
     - tells you how much better a regression line predicts the value of a dependent variable than the mean of the variable.
     
@@ -102,7 +95,7 @@ $$
     - the amount of variance in your dependent variable(y) that is explained by your independent variable(x).
     
       ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/13%20r2%20prediction.jpg)
-
+  
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/15%20r%20and%20r2.jpg)
 
 ## 4.**confounding** or **lurking** variables
