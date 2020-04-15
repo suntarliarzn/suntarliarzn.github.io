@@ -15,7 +15,7 @@ layout: article
 
 ## 1. Correlation
 
-![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/01%20correlation.jpg){:height="100px" width="400px"}
+![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/01%20correlation.jpg){:height="400px" width="100px"}
 
 - ### Contingency table 列联表
 
@@ -78,7 +78,7 @@ To determine how strong the correlations are.
   
   - #### r^2
   
-    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/14%20explained%20variance.jpg){:height="10%" width="50%"}
+    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/14%20explained%20variance.jpg){:height="400px" width="100px"}
 
   **The prediction with only one variable is much less accurate than when you have information about two "related" variables.**
   
@@ -86,13 +86,13 @@ To determine how strong the correlations are.
   
   - tells you how much better a regression line predicts the value of a dependent variable than the mean of the variable.
     
-      ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/12%20r%20prediction.jpg){:height="100px" width="400px"}
+      ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/12%20r%20prediction.jpg){:height="400px" width="100px"}
     
     - the amount of variance in your dependent variable(y) that is explained by your independent variable(x).
     
-      ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/13%20r2%20prediction.jpg){:height="100px" width="400px"}
+      ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/13%20r2%20prediction.jpg){:height="400px" width="100px"}
       
-      ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/15%20r%20and%20r2.jpg){:height="100px" width="400px"}
+      ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/15%20r%20and%20r2.jpg){:height="400px" width="100px"}
   
 
 ## 4.**confounding** or **lurking** variables
