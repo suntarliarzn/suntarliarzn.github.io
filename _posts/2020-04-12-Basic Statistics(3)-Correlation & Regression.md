@@ -15,7 +15,8 @@ layout: article
 
 ## 1. Correlation
 
-![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/01%20correlation.jpg)
+- ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/01%20correlation.jpg)
+
 
 - ### Contingency table 列联表
 
@@ -39,9 +40,9 @@ layout: article
 ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/04%20pearson%27r.jpg)
 
 To determine how strong the correlations are.
-$$
-r ={{\sum{Z_xZ_Y}}\over{n-1}}
-$$
+
+![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/16%20r%20equation.jpg)
+
 ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/07%20r%20formula.jpg)
 
 - The shape of scatterplot
@@ -60,35 +61,33 @@ $$
 
   - #### Ordinary least square regression 最小二乘法
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/08%20ordinary%20least%20squre%20regression.jpg)
+    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/18%20regression%20line.jpg)
   
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/09%20regression%20formula%20example.jpg)
-  $$
-  \widehat{y} = bx + a
-  $$
+    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/08%20ordinary%20least%20squre%20regression.jpg)
+  
+    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/09%20regression%20formula%20example.jpg)
+  
+  
   
   - #### compute regression line
-  $$
-  b = r({{S_y}\over{S_x}}) 
-  $$
   
-  $$
-  a = \overline{y} - b({\overline{x}}) 
-  $$
+  ![https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/17%20regression%20line%20equation.jpg]()
+  
+  
   
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/10%20compute%20regression%20line.jpg)
   
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/11%20regression%20line%20example.jpg)
   
   - #### r^2
-
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/14%20explained%20variance.jpg)
   
+    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/14%20explained%20variance.jpg)
+
   **The prediction with only one variable is much less accurate than when you have information about two "related" variables.**
   
   万物相连，世间的许多关系可能让你无法想象。[巧克力和诺贝尔奖获得者国籍](https://www.nejm.org/doi/full/10.1056/NEJMon1211064)
   
-    - tells you how much better a regression line predicts the value of a dependent variable than the mean of the variable.
+  - tells you how much better a regression line predicts the value of a dependent variable than the mean of the variable.
     
       ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/12%20r%20prediction.jpg)
     
@@ -114,3 +113,7 @@ $$
   - Outlier may cause the **positive** coefficient into a **negative** one.
 
 ## 5. Example Pearson's r and regression
+
+<div>
+    <video id="regression" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/208%20Example%20Pearson%27s%20r%20and%20regression.mp4" height=500px loop=true controls=true autoplay="autoplay">example of pearson's r and regression</video>
+</div>
