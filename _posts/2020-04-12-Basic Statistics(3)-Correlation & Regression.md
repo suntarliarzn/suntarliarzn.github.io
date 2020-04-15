@@ -58,21 +58,20 @@ $$
 
 - ### Regression line--r
 
-  - **Ordinary least square regression** 最小二乘法
-  $$
-  \begin{eqnarray*}
-  &\widehat{y} = bx + a \\
-  \\
-  &\hat{y} = predicted \quad value \quad of \quad y \\
-  &a = intercept \qquad b = regression \quad coefficient \quad(slope)
-  \end{eqnarray*}
-  $$
-  
-   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/08%20ordinary%20least%20squre%20regression.jpg)
+  - #### Ordinary least square regression 最小二乘法
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/08%20ordinary%20least%20squre%20regression.jpg)
+    $$
+    \begin{eqnarray*}
+      &\widehat{y} = bx + a \\
+      \\
+      &\hat{y} = predicted \quad value \quad of \quad y \\
+      &a = intercept \qquad b = regression \quad coefficient \quad(slope)
+      \end{eqnarray*}
+    $$
   
     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/09%20regression%20formula%20example.jpg)
   
-    - compute regression line
+  - #### compute regression line
   $$
   \begin{eqnarray*}
   &b& = r({{S_y}\over{S_x}}) \\
@@ -89,7 +88,7 @@ $$
   
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/11%20regression%20line%20example.jpg)
   
-  - **r^2**
+  - #### r^2
   
     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/14%20explained%20variance.jpg)
   
