@@ -114,5 +114,6 @@ To determine how strong the correlations are.
 
 ## 5. Example Pearson's r and regression
 
-
-    <video id="regression" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/208%20Example%20Pearson%27s%20r%20and%20regression.mp4" height=500px loop=true controls=true autoplay="autoplay">example of pearson's r and regression</video>
+<video id="regression" height=500px controls=true autoplay="autoplay">example of pearson's r and regression
+    <source src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/208%20Example%20Pearson%27s%20r%20and%20regression.mp4" type="video/mp4">
+	</video>
