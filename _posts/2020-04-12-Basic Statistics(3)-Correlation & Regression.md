@@ -69,7 +69,7 @@ $$
   $$
   
   $$
-  a = intercept \quad  \quad  \quad   b = regression \quad coefficient  \quad (slope)
+  a = intercept \quad b = regression \quad coefficient \quad (slope)
   $$
   
    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/08%20ordinary%20least%20squre%20regression.jpg)
