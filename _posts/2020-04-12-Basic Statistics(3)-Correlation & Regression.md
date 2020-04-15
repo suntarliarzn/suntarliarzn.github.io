@@ -15,7 +15,7 @@ layout: article
 
 ## 1. Correlation
 
-<img src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/01%20correlation.jpg" width = "300" height = "200" alt="correlation" align=center />
+![]("https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/01%20correlation.jpg"){:height="50%" width="50%"}
 
 - ### Contingency table 列联表
 
@@ -30,27 +30,25 @@ layout: article
 
   A scatterplot is a graphical display for **two quantitative variables** using the horizontal (x) axis for the explanatory variable *x* and the vertical (y) axis for the response variable *y*.
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/03%20scatterplot.jpg)
-
-
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/03%20scatterplot.jpg){:height="50%" width="50%"}
 
 ## 2. Pearson's r
 
-![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/04%20pearson%27r.jpg)
+![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/04%20pearson%27r.jpg){:height="50%" width="50%"}
 
 To determine how strong the correlations are.
 
-![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/16%20r%20equation.jpg)
+![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/16%20r%20equation.jpg){:height="50%" width="50%"}
 
-![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/07%20r%20formula.jpg)
+![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/07%20r%20formula.jpg){:height="50%" width="50%"}
 
 - The shape of scatterplot
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/05%20scatterplot%20shape.jpg)
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/05%20scatterplot%20shape.jpg){:height="50%" width="50%"}
 
 - r value: [-1, 1]
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/06%20correlation%20r%20value.jpg)
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/06%20correlation%20r%20value.jpg){:height="50%" width="50%"}
 
 - **Important note: Check scatterplot before you calculate Pearson's r.**
 
@@ -60,27 +58,27 @@ To determine how strong the correlations are.
 
   - #### Ordinary least square regression 最小二乘法
 
-    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/18%20regression%20line.jpg)
+    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/18%20regression%20line.jpg){:height="50%" width="50%"}
   
-    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/08%20ordinary%20least%20squre%20regression.jpg)
+    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/08%20ordinary%20least%20squre%20regression.jpg){:height="50%" width="50%"}
   
-    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/09%20regression%20formula%20example.jpg)
+    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/09%20regression%20formula%20example.jpg){:height="50%" width="50%"}
   
   
   
   - #### compute regression line
   
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/17%20regression%20line%20equation.jpg)
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/17%20regression%20line%20equation.jpg){:height="50%" width="50%"}
   
   
   
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/10%20compute%20regression%20line.jpg)
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/10%20compute%20regression%20line.jpg){:height="50%" width="50%"}
   
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/11%20regression%20line%20example.jpg)
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/11%20regression%20line%20example.jpg){:height="50%" width="50%"}
   
   - #### r^2
   
-    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/14%20explained%20variance.jpg)
+    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/14%20explained%20variance.jpg){:height="50%" width="50%"}
 
   **The prediction with only one variable is much less accurate than when you have information about two "related" variables.**
   
@@ -88,13 +86,13 @@ To determine how strong the correlations are.
   
   - tells you how much better a regression line predicts the value of a dependent variable than the mean of the variable.
     
-      ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/12%20r%20prediction.jpg)
+      ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/12%20r%20prediction.jpg){:height="50%" width="50%"}
     
     - the amount of variance in your dependent variable(y) that is explained by your independent variable(x).
     
-      ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/13%20r2%20prediction.jpg)
+      ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/13%20r2%20prediction.jpg){:height="50%" width="50%"}
   
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/15%20r%20and%20r2.jpg)
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/15%20r%20and%20r2.jpg){:height="50%" width="50%"}
 
 ## 4.**confounding** or **lurking** variables
 
@@ -113,8 +111,6 @@ To determine how strong the correlations are.
 
 ## 5. Example Pearson's r and regression
 
-<video id="regression" height=500px controls="" autoplay="autoplay">
-    <source src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/208%20Example%20Pearson%27s%20r%20and%20regression.mp4" type="video/mp4">
-       <iframe width="560" height="315" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/208%20Example%20Pearson%27s%20r%20and%20regression.mp4" frameborder="0" allowfullscreen></iframe>
-	</video>
+<video id="video" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/208%20Example%20Pearson%27s%20r%20and%20regression.mp4"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/order%20low%20to%20high.jpg">
+      </video>
 
