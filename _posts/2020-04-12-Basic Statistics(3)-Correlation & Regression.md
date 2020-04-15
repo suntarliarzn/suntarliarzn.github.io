@@ -63,7 +63,6 @@ $$
     $$
     \begin{eqnarray*}
       &\widehat{y} = bx + a \\
-      \\
       &\hat{y} = predicted \quad value \quad of \quad y \\
       &a = intercept \qquad b = regression \quad coefficient \quad(slope)
       \end{eqnarray*}
@@ -76,7 +75,6 @@ $$
   \begin{eqnarray*}
   &b& = r({{S_y}\over{S_x}}) \\
   &a& = \overline{y} - b({\overline{x}}) \\
-  \\
   &S_y& = standard \quad deviation \quad of \quad y \\
   &S_x& = standard \quad deviation \quad of \quad x \\
   &\overline{y}& = mean \quad of \quad y \\
