@@ -64,23 +64,23 @@ $$
   
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/09%20regression%20formula%20example.jpg)
   $$
-  \begin{eqnarray*}
+  {% raw %}\begin{eqnarray*}
     &\widehat{y} = bx + a \\
     &\hat{y} = predicted \quad value \quad of \quad y \\
     &a = intercept \qquad b = regression \quad coefficient \quad(slope)
-    \end{eqnarray*}
+    \end{eqnarray*}{% endraw %}
   $$
   
   - #### compute regression line
   $$
-  \begin{eqnarray*}
+  {% raw %}\begin{eqnarray*}
   &b& = r({{S_y}\over{S_x}}) \\
   &a& = \overline{y} - b({\overline{x}}) \\
   &S_y& = standard \quad deviation \quad of \quad y \\
   &S_x& = standard \quad deviation \quad of \quad x \\
   &\overline{y}& = mean \quad of \quad y \\
   &\overline{x}& = mean \quad of \quad x
-  \end{eqnarray*}
+  \end{eqnarray*}{% endraw %}
 $$
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/10%20compute%20regression%20line.jpg)
