@@ -59,16 +59,17 @@ $$
 - ### Regression line--r
 
   - #### Ordinary least square regression 最小二乘法
+
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/08%20ordinary%20least%20squre%20regression.jpg)
-    $$
-    \begin{eqnarray*}
+  
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/09%20regression%20formula%20example.jpg)
+  $$
+  \begin{eqnarray*}
     &\widehat{y} = bx + a \\
     &\hat{y} = predicted \quad value \quad of \quad y \\
     &a = intercept \qquad b = regression \quad coefficient \quad(slope)
     \end{eqnarray*}
-    $$
-  
-    ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/09%20regression%20formula%20example.jpg)
+  $$
   
   - #### compute regression line
   $$
@@ -80,12 +81,12 @@ $$
   &\overline{y}& = mean \quad of \quad y \\
   &\overline{x}& = mean \quad of \quad x
   \end{eqnarray*}
-  $$
-  
+$$
+
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/10%20compute%20regression%20line.jpg)
-  
+
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/11%20regression%20line%20example.jpg)
-  
+
   - #### r^2
   
     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/14%20explained%20variance.jpg)
@@ -95,13 +96,13 @@ $$
     万物相连，世间的许多关系可能让你无法想象。[巧克力和诺贝尔奖获得者国籍](https://www.nejm.org/doi/full/10.1056/NEJMon1211064)
   
     - tells you how much better a regression line predicts the value of a dependent variable than the mean of the variable.
-  
+    
       ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/12%20r%20prediction.jpg)
-  
+    
     - the amount of variance in your dependent variable(y) that is explained by your independent variable(x).
     
       ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/13%20r2%20prediction.jpg)
-  
+
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%202/15%20r%20and%20r2.jpg)
 
 ## 4.**confounding** or **lurking** variables
