@@ -585,12 +585,12 @@ layout: article
   
   <p> 该段落文字从左到右显示。</p>   <p><bdo dir="rtl">该段落文字从右到左显示。</bdo></p>
   
-  - ### `<map> & <area>`
+- ### `<map> & <area>`
 
-    - `<map> `标签用于客户端图像映射。图像映射指带有可点击区域的一幅图像。
-    - `<img>`中的 usemap 属性可引用` <map>` 中的 id 或 name 属性（取决于浏览器），所以我们应同时向 `<map> `添加 id 和 name 属性。
-    - area 元素永远嵌套在 map 元素内部。area 元素可定义图像映射中的区域。
-
+  - `<map> `标签用于客户端图像映射。图像映射指带有可点击区域的一幅图像。
+  - `<img>`中的 usemap 属性可引用` <map>` 中的 id 或 name 属性（取决于浏览器），所以我们应同时向 `<map> `添加 id 和 name 属性。
+  - area 元素永远嵌套在 map 元素内部。area 元素可定义图像映射中的区域。
+  
   ```html
   <!Doctype html>
   <html lang="en">
@@ -637,6 +637,6 @@ layout: article
   
   </html>
   ```
-
+  
   
 
