@@ -485,30 +485,27 @@ layout: article
   - **`<span>`** 
 
     - `<span> `用于对文档中的行内元素进行组合。
-
-    - `<span>` 标签没有固定的格式表现。当对它应用样式时，它才会产生视觉上的变化。如果不对 `<span>` 应用样式，那么 `<span> `元素中的文本与其他文本不会任何视觉上的差异。
-
+  - `<span>` 标签没有固定的格式表现。当对它应用样式时，它才会产生视觉上的变化。如果不对 `<span>` 应用样式，那么 `<span> `元素中的文本与其他文本不会任何视觉上的差异。
     - `<span>` 标签提供了一种将文本的一部分或者文档的一部分独立出来的方式。
-
-    - 被 <span> 元素包含的文本，您可以使用 CSS 对它定义样式，或者使用 JavaScript 对它进行操作。
-
-      <p>Example:我的母亲有 <span style="color:blue">蓝色</span> 的眼睛。</p>
-
+  - 被 <span> 元素包含的文本，您可以使用 CSS 对它定义样式，或者使用 JavaScript 对它进行操作。
+    
+  <p>我的母亲有 <span style="color:blue">蓝色</span> 的眼睛。</p>
+    
   - **`<cite>`**
 
     - `<cite>` 标签定义作品（比如书籍、歌曲、电影、电视节目、绘画、雕塑等等）的标题。
-
-    - `<cite>`一般会由*斜体*标识。
-
-      <p>Example:<cite>The Scream Maaaaan</cite> by Edward Munch. Painted in 1893.</p>
-
+  - `<cite>`一般会由*斜体*标识。
+    
+  <p><cite>The Scream Maaaaan</cite> by Edward Munch. Painted in 1893.</p>
+    
   - **`<abbr>`**
 
     - `<abbr>` 标签用来表示一个缩写词或者首字母缩略词，如"WWW"或者"NATO"。
 
       - 通过对缩写词语进行标记，您就能够为浏览器、拼写检查程序、翻译系统以及搜索引擎分度器提供有用的信息。
 
-      <p>Example: The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
 
   - **`<time>`**
 
@@ -517,8 +514,9 @@ layout: article
       - 该元素能够以机器可读的方式对日期和时间进行编码，这样，举例说，用户代理能够把生日提醒或排定的事件添加到用户日程表中，搜索引擎也能够生成更智能的搜索结果。
       - 所有浏览器中不会渲染任何特殊的效果。
 
-      <p>Example: 我们在每天早上 <time>9:00</time> 开始营业。</p>
-      <p>Example: 我在 <time datetime="2016-02-14">情人节</time> 有个约会。</p>
+
+    <p>我们在每天早上 <time>9:00</time> 开始营业。</p>
+    <p>我在 <time datetime="2016-02-14">情人节</time> 有个约会。</p>
 
   - **`<code>`**
 
@@ -526,35 +524,31 @@ layout: article
 
       - **提示：**我们并不反对使用这个标签，但是如果您只是为了达到某种视觉效果而使用这个标签的话，我们建议您使用 CSS ，这样可能会取得更丰富的效果。
 
-      Example:
-      
-      <em>强调文本</em><br>
-      <strong>加粗文本</strong><br>
-      <dfn>定义项目</dfn><br>
-      <code>hello world </code><br>
-      <samp>计算机样本</samp><br>
-      <kbd>键盘输入</kbd><br>
-      <var>变量</var>
+
+    <em>强调文本</em><br>
+    <strong>加粗文本</strong><br>
+    <dfn>定义项目</dfn><br>
+    <code>hello world </code><br>
+    <samp>计算机样本</samp><br>
+    <kbd>键盘输入</kbd><br>
+    <var>变量</var>
 
   - **`<sub>`&`<sup>`**
 
     - `<sup> `标签定义上标文本。上标文本将会显示在当前文本流中字符高度的一半为基准线的上方，但是与当前文本流中文字的字体和字号都是一样的。上标文本能用来添加脚注，比如 WWW<sup>[1]</sup>。
-
-    - `<sub>` 标签定义下标文本。下标文本将会显示在当前文本流中字符高度的一半为基准线的下方，但是与当前文本流中文字的字体和字号都是一样的。下标文本能用来表示化学公式，比如 H<sub>2</sub>O。
-
-      <p>这个文本包含<sup>上标</sup> <sub>下标</sub>文本。</p>
+  - `<sub>` 标签定义下标文本。下标文本将会显示在当前文本流中字符高度的一半为基准线的下方，但是与当前文本流中文字的字体和字号都是一样的。下标文本能用来表示化学公式，比如 H<sub>2</sub>O。
+    
+  <p>这个文本包含<sup>上标</sup> <sub>下标</sub>文本。</p>
 
 - ### Tags that works with JavaScript
 
   - ### `<button>`
 
     - `<button> `标签定义一个按钮。
-
-    - 在` <button>` 元素内部，您可以放置内容，比如文本或图像。这是该元素与使用 `<input> `元素创建的按钮之间的不同之处。
-
+- 在` <button>` 元素内部，您可以放置内容，比如文本或图像。这是该元素与使用 `<input> `元素创建的按钮之间的不同之处。
     - **提示：**请始终为 `<button> `元素规定 type 属性。不同的浏览器对` <button>` 元素的 type 属性使用不同的默认值。
 
-      Example: <button type="button" onclick="alert('你好，世界!')">点我!</button>
+     <button type="button" onclick="alert('你好，世界!')">点我!</button>
 
   - ### `<meter>`
 
@@ -563,46 +557,42 @@ layout: article
     - **注意：** `<meter>` 不能作为一个进度条来使用， [进度条 ](https://www.runoob.com/tags/tag-progress.html) 标签。
 
       <p>展示给定的数据范围：</p>
-      <meter value="2" min="0" max="10">2 out of 10</meter><br>
-      <meter value="0.6">60%</meter>
+
+    <meter value="2" min="0" max="10">2 out of 10</meter><br>
+  
+    <meter value="0.6">60%</meter>
 
   - ### `<progress>`
 
     - 定义运行中的任务进度（进程）。
-
-    - **提示：**请将 `<progress>` 标签与 JavaScript 一起使用来显示任务的进度。
-
-      <progress value="22" max="100">
-      </progress>
-
-  - ### `<iframe>`
-
-    - 一个内联框架被用来在当前 HTML 文档中嵌入另一个文档。
+- **提示：**请将 `<progress>` 标签与 JavaScript 一起使用来显示任务的进度。
+    
+<progress value="22" max="100">
+    </progress>
+    
+- ### `<iframe>`
   
+  - 一个内联框架被用来在当前 HTML 文档中嵌入另一个文档。
     - **提示：**您可以把需要的文本放置在` <iframe> `和` </iframe> `之间，这样就可以应对不支持 `<iframe>` 的浏览器。
-
     - **提示：**使用 CSS 为 `<iframe> `（包括滚动条）定义样式。
-
-      ```html
-    <iframe src="https://v.youku.com/v_show/id_XMjkxMTg4NzY5Ng==.html?spm=a2hzp.8244740.0.0" width="800" height="600"></iframe>
-      ```
-
-      
-
-  - ### `<bdo dir=ltr/rtl>`
-
-    - bdo 指的是 bidi 覆盖（Bi-Directional Override）。
-
-    - `<bdo> `标签用来覆盖默认的文本方向。
   
-      <p>Example: 该段落文字从左到右显示。</p>   <p><bdo dir="rtl">该段落文字从右到左显示。</bdo></p>
-
+  <iframe src="https://v.youku.com/v_show/id_XMjkxMTg4NzY5Ng==.html?spm=a2hzp.8244740.0.0" width="800" height="600"></iframe>
+  
+  
+  
+- ### `<bdo dir=ltr/rtl>`
+  
+  - bdo 指的是 bidi 覆盖（Bi-Directional Override）。
+  - `<bdo> `标签用来覆盖默认的文本方向。
+  
+  <p> 该段落文字从左到右显示。</p>   <p><bdo dir="rtl">该段落文字从右到左显示。</bdo></p>
+  
   - ### `<map> & <area>`
-  
+
     - `<map> `标签用于客户端图像映射。图像映射指带有可点击区域的一幅图像。
     - `<img>`中的 usemap 属性可引用` <map>` 中的 id 或 name 属性（取决于浏览器），所以我们应同时向 `<map> `添加 id 和 name 属性。
     - area 元素永远嵌套在 map 元素内部。area 元素可定义图像映射中的区域。
-  
+
   ```html
   <!Doctype html>
   <html lang="en">
@@ -643,12 +633,12 @@ layout: article
           <area shape="circle" coords="90,58,3" alt="Mercury"
               href="https://suntarliarzn.github.io/2020/03/31/Basic-Statistics.html">
           <area shape="circle" coords="124,58,8" alt="Venus"
-            href="https://suntarliarzn.github.io/2020/04/11/Basic-Statistics(2)-R-1.html">
+              href="https://suntarliarzn.github.io/2020/04/11/Basic-Statistics(2)-R-1.html">
       </map>
   </body>
   
   </html>
   ```
-  
+
   
 
