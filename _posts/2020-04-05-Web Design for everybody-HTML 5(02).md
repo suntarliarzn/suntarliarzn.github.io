@@ -4,7 +4,7 @@ title: Web Design for everybody-HTML 5(02).md
 
 key: C20200405
 
-tags: HTML 5; DOM; tags; <nav>; <img>; <div>; <figure>;<detals>; <summary; <blockquote>; <address>; <span>; <cite>; <abbr>; <time>; <code>; <sup>&<sub>; <button>; <meter>; <progress>; <iframe>; <bdo>; <map>; <area>
+tags: HTML 5; DOM; tags; nav; img; div; figure;detals; summary; blockquote; address; span; cite; abbr; time; code; sup&sub; button; meter; progress; iframe; bdo; map; area；
 
 layout: article
 ---
@@ -299,8 +299,7 @@ layout: article
   - buffered
   - muted
   - volume
-  - 
-
+  
 - **Multimedia should enhance your content, not be a distraction.**
 
 ## 6. Tables
