@@ -25,7 +25,7 @@ layout: article
 
     - **apophenia**
 
-      **When someone sees patterns which do not really exist, this is known as apophenia. **Apophenia can take a wide range of forms, from thinking that the same number turns up too often to be mere coincidence to seeing a [man in the moon](https://www.wisegeek.com/what-is-the-man-in-the-moon.htm). 
+      **When someone sees patterns which do not really exist, this is known as apophenia. ** Apophenia can take a wide range of forms, from thinking that the same number turns up too often to be mere coincidence to seeing a [man in the moon](https://www.wisegeek.com/what-is-the-man-in-the-moon.htm). 
 
 - Humans are bad in **constructing random data**.
 
@@ -135,13 +135,13 @@ layout: article
 
 - The probability of an event, given that another event occurs.
 
-- **P(A|B) = P(A and B)/P(B)**
+- **P(A\|B) = P(A and B)/P(B)**
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%203/09%20conditional%20probabilities.jpg){:height="40%" width="40%"}
 
 - ### Independent & Non-independent Joint Probability
 
-  - **P(A and B) = P(B) * P(A|B)**
+  - **P(A and B) = P(B) * P(A\|B)**
 
 
 
@@ -151,7 +151,7 @@ layout: article
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%203/10%20independence.jpg){:height="40%" width="40%"}
 
-  - P(A|B) = P(A) or P(B|A) = P(B)
+  - P(A\|B) = P(A) or P(B\|A) = P(B)
   - P(A and B) =P(A) * P(B)
 
 - **概率论上讲，万物都是联系的，基本不具有独立性。比如蝴蝶效应。因此，[要将两个事件独立起来，需要特别谨慎](https://www.bilibili.com/video/BV1o7411a76m)。**
