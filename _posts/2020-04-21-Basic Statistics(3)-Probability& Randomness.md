@@ -1,6 +1,6 @@
 ---
 
-title: Basic Statistics(3)-Probability & Randomness
+title: Basic Statistics(05)-Probability & Randomness
 key: 20200413
 
 tags: Statistics; Probability; Randomness; The Law of Large Numbers; Tree Diagram; Event; Union; independence; Bayes' Law;
@@ -9,7 +9,7 @@ layout: article
 
 ---
 
-# Basic Statistics - (03) Probability & Randomness
+# Basic Statistics - (05) Probability & Randomness
 
 <!--more-->
 

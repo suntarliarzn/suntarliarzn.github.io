@@ -1,6 +1,6 @@
 ---
 
-title: Basic Statistics- (3)Correlation & Regression
+title: Basic Statistics- (03)Correlation & Regression
 key: 20200412
 
 tags: Statistics; Correlation; Regression; R; R^2; Regression line; Confounding variable; lurking variable; 
