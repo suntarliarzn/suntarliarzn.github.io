@@ -42,7 +42,7 @@ Variables whose possible values are numerical outcomes of a random phenomenon.
 
 ## 3. The Mean of a Random Variable
 
-- $\mu_x$
+- $$\mu_x$$
 
   - mean of random variable
 
@@ -89,14 +89,15 @@ Variables whose possible values are numerical outcomes of a random phenomenon.
     $$
     var(X + Y) = var(X) + var(Y) {\color{BurntOrange}+} 2cov(X,Y) \\
     var(X-Y) = var(X) + var(Y) {\color{BurntOrange}+} 2cov(X,Y)
-$$
+	$$
+
     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/07%20covariance.jpg){:height="40%" width="40%"}
-    
+  
 - [covariance 协方差](https://www.zhihu.com/question/20852004)
-    $$
-    cov(X,Y) = E{[(X-\mu_x)(Y-\mu_y)]}
-    $$
-    公式简单翻译一下是：**如果有X,Y两个变量，每个时刻的“X值与其均值之差”乘以“Y值与其均值之差”得到一个乘积，再对这每时刻的乘积求和并求出均值（其实是求“期望”，但就不引申太多新概念了，简单认为就是求均值了）。**
+$$
+cov(X,Y) = E{[(X-\mu_x)(Y-\mu_y)]}
+$$
+公式简单翻译一下是：**如果有X,Y两个变量，每个时刻的“X值与其均值之差”乘以“Y值与其均值之差”得到一个乘积，再对这每时刻的乘积求和并求出均值（其实是求“期望”，但就不引申太多新概念了，简单认为就是求均值了）。**
 
 ## 5. [Normal Probability Distribution 正态分布](https://suntarliarzn.github.io/2019/05/19/Introduction-to-Computational-Thinking-and-Data-Science-(3).html#33-normal-distribution)
 
@@ -114,9 +115,9 @@ $$
   - μ:总体期望均值
   - σ^2:方差
   - x:随机变量
-  - ${x-\mu}\over{\sigma}$: Z score
+  - $${x-\mu}\over{\sigma}$$: Z score
 
-- $\mu$ & $\sigma$
+- $$\mu$$ & $$\sigma$$
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/08%20normal%20distribution.jpg){:height="40%" width="40%"}
 
@@ -124,7 +125,7 @@ $$
 
 
 
-## 6.[Empirical Rule(68-95-99.7 法则)]([https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#9-normalgaussian-distribution-%E6%AD%A3%E6%80%81%E9%AB%98%E6%96%AF%E5%88%86%E5%B8%83](https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#9-normalgaussian-distribution-正态高斯分布)
+## 6.[Empirical Rule(68-95-99.7 法则)]([https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#9-normalgaussian-distribution-%E6%AD%A3%E6%80%81%E9%AB%98%E6%96%AF%E5%88%86%E5%B8%83](https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#9-normalgaussian-distribution-正态高斯分布))
 
 ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/12%20z%20score.jpg){:height="40%" width="40%"}
 
@@ -141,7 +142,7 @@ $$
 <video id="video" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/407%20The%20standard%20normal%20distribution.mp4"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/14%20z%20score.jpg">
       </video>
 
-## 8. [Binominal Distribution 二项分布]([https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#16-%E4%BC%AF%E5%8A%AA%E5%88%A9%E5%88%86%E5%B8%83bernoulli-distribution](https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#16-伯努利分布bernoulli-distribution)
+## 8. [Binominal Distribution 二项分布]([https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#16-%E4%BC%AF%E5%8A%AA%E5%88%A9%E5%88%86%E5%B8%83bernoulli-distribution](https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#16-伯努利分布bernoulli-distribution))
 
 - binomial distribution=discrete probability distribution
 
@@ -160,6 +161,6 @@ $$
   \sigma = \sqrt{np(1-p)}
   $$
 
-  $n$ trials
+  $$n$$: trials
 
-  $p$ probability of success
+  $$p$$: probability of success
