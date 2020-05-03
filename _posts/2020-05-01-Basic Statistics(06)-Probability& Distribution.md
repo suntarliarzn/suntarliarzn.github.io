@@ -138,6 +138,8 @@ $$
 - standardized data
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/13%20standardize%20data.jpg){:height="40%" width="40%"}
+  
+- How to calculate Z-score?
 
 <video id="video" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/407%20The%20standard%20normal%20distribution.mp4"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/14%20z%20score.jpg">
       </video>
