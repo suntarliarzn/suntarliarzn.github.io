@@ -42,7 +42,7 @@ Variables whose possible values are numerical outcomes of a random phenomenon.
 
 ## 3. The Mean of a Random Variable
 
-- $$\mu_x$$
+-  $$\mu_x$$
 
   - mean of random variable
 
@@ -111,13 +111,20 @@ $$
   $$
   f(x) = {1\over\sqrt{2\pi}\sigma} * e^{-{1\over2}*({x-\mu\over\sigma})^2}
   $$
-  
-  - μ:总体期望均值
-  - σ^2:方差
-  - x:随机变量
-  - $${x-\mu}\over{\sigma}$$: Z score
 
-- $$\mu$$ & $$\sigma$$
+  - μ:总体期望均值
+
+  - σ^2:方差
+
+  - x:随机变量
+
+  - **Z score**
+    $$
+    {x-\mu}\over{\sigma}
+    $$
+    
+
+- μ& σ
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/08%20normal%20distribution.jpg){:height="40%" width="40%"}
 
@@ -163,6 +170,6 @@ $$
   \sigma = \sqrt{np(1-p)}
   $$
 
-  $$n$$: trials
+  *n*: trials
 
-  $$p$$: probability of success
+  *p*: probability of success
