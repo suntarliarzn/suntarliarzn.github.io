@@ -132,7 +132,7 @@ $$
 
 
 
-## 6.[Empirical Rule(68-95-99.7 法则)]([https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#9-normalgaussian-distribution-%E6%AD%A3%E6%80%81%E9%AB%98%E6%96%AF%E5%88%86%E5%B8%83](https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#9-normalgaussian-distribution-正态高斯分布))
+## 6.[Empirical Rule(68-95-99.7 法则)]([https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#9-normalgaussian-distribution-%E6%AD%A3%E6%80%81%E9%AB%98%E6%96%AF%E5%88%86%E5%B8%83](https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#9-normalgaussian-distribution-正态高斯分布)
 
 ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/12%20z%20score.jpg){:height="40%" width="40%"}
 
@@ -151,7 +151,7 @@ $$
 <video id="video" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/407%20The%20standard%20normal%20distribution.mp4"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/14%20z%20score.jpg">
       </video>
 
-## 8. [Binominal Distribution 二项分布]([https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#16-%E4%BC%AF%E5%8A%AA%E5%88%A9%E5%88%86%E5%B8%83bernoulli-distribution](https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#16-伯努利分布bernoulli-distribution))
+## 8. [Binominal Distribution 二项分布]([https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#16-%E4%BC%AF%E5%8A%AA%E5%88%A9%E5%88%86%E5%B8%83bernoulli-distribution](https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#16-伯努利分布bernoulli-distribution)
 
 - binomial distribution=discrete probability distribution
 
