@@ -63,10 +63,10 @@ Methods to draw conclusion about **a population** based on data coming from **sa
     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%205/06%20sample%20mean.jpg){:height="40%" width="40%"}
 
 - Sample mean
-  $$
-  \mu_{\overline{x}} = \mu
-  $$
   
+  - $$
+    \mu_{\overline{x}} = \mu
+    $$
 
   
   
@@ -74,10 +74,10 @@ Methods to draw conclusion about **a population** based on data coming from **sa
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%205/07%20mean%20example.jpg){:height="40%" width="40%"}
   
 - Sample deviation
+  
+  - $$
+    \sigma_{\overline{x}} =  \frac{\sigma} {\sqrt{n}}
   $$
-  \sigma_{\overline{x}} =  \frac{\sigma} {\sqrt{n}}
-  $$
-
   
   
   - 总体方差与样本方差正相关。Larger variation in population :arrow_right:larger variation in samples
@@ -108,40 +108,36 @@ Methods to draw conclusion about **a population** based on data coming from **sa
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%205/11%20sample%20proportion.jpg){:height="40%" width="40%"}
 
   - Sample space
-    $$
-    n * \pi >= 15
-    $$
     
-    $$
-  n(1-\pi) >= 15
-    $$
+    - $$
+      n * \pi >= 15
+      $$
     
-    
-    
-    
-
-  n为每次sample取样，样本个数。所以，一次取样样本量小的话，sampling distribution将不准确。
-
-  - mean
-    $$
-    \mu_p =\pi
+    - $$
+      n(1-\pi) >= 15
     $$
     
-
+      n为每次sample取样，样本个数。所以，一次取样样本量小的话，sampling distribution将不准确。
+    
+- mean
+    
+    - $$
+      \mu_p =\pi
+      $$
     
     pi为事件成功概率。
     
   - deviation
-    $$
-    \sigma_{p}^2 =\frac{\pi(1-\pi)}{\sqrt{n}}
-    $$
     
-
-    注：[二项分布总体方差](https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#16-伯努利分布bernoulli-distribution):
-    $$
-    \sigma^2 = p(1-p)
-    $$
+    - $$
+      \sigma_{p}^2 =\frac{\pi(1-\pi)}{\sqrt{n}}
+      $$
     
+    - 注：[二项分布总体方差](https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#16-伯努利分布bernoulli-distribution):
+    $$
+      \sigma^2 = p(1-p)
+      $$
+      
 
 ## 5. Example
 
