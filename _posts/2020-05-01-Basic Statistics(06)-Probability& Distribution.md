@@ -55,14 +55,16 @@ Variables whose possible values are numerical outcomes of a random phenomenon.
 - add or subtract two random variables: X+/- Y
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/05%20abb%20or%20subtract%20mean.jpg){:height="40%" width="40%"}
+  
+  
   $$
-  \mu_{a+bX}=a + b*X
+\mu_{a+bX}=a + b*X
   $$
-
+  
   $$
-  \mu_{x+y} = \mu_x + \mu_y
+\mu_{x+y} = \mu_x + \mu_y
   $$
-
+  
   
 
 ## 4. Variance of a Random Variable
@@ -90,19 +92,20 @@ Variables whose possible values are numerical outcomes of a random phenomenon.
   $$
 
   - Two Variables X and Y
+    
+    
     $$
-    var(X + Y) = var(X) + var(Y) {\color{BurntOrange}+} 2cov(X,Y) \\
-    var(X-Y) = var(X) + var(Y) {\color{BurntOrange}+} 2cov(X,Y)
-	$$
-
+	var(X + Y) = var(X) + var(Y) {\color{BurntOrange}+} 2cov(X,Y) \\
+var(X-Y) = var(X) + var(Y) {\color{BurntOrange}+} 2cov(X,Y)
+    $$
+    
     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/07%20covariance.jpg){:height="40%" width="40%"}
   
 - [covariance 协方差](https://www.zhihu.com/question/20852004)
-$$
-cov(X,Y) = E{[(X-\mu_x)(Y-\mu_y)]}
-$$
-公式简单翻译一下是：**如果有X,Y两个变量，每个时刻的“X值与其均值之差”乘以“Y值与其均值之差”得到一个乘积，再对这每时刻的乘积求和并求出均值（其实是求“期望”，但就不引申太多新概念了，简单认为就是求均值了）。**
-
+  $$
+  cov(X,Y) = E{[(X-\mu_x)(Y-\mu_y)]}
+  $$
+  公式简单翻译一下是：**如果有X,Y两个变量，每个时刻的“X值与其均值之差”乘以“Y值与其均值之差”得到一个乘积，再对这每时刻的乘积求和并求出均值（其实是求“期望”，但就不引申太多新概念了，简单认为就是求均值了）。**
 ## 5. [Normal Probability Distribution 正态分布](https://suntarliarzn.github.io/2019/05/19/Introduction-to-Computational-Thinking-and-Data-Science-(3).html#33-normal-distribution)
 
 - 表达式
@@ -112,9 +115,12 @@ $$
 - ### 公式
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/11%20equation%20explaination.jpg){:height="40%" width="40%"}
+
+  
   $$
   f(x) = {1\over\sqrt{2\pi}\sigma} * e^{-{1\over2}*({x-\mu\over\sigma})^2}
   $$
+  
 
   - μ:总体期望均值
 
@@ -166,14 +172,16 @@ $$
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/15%20binominial%20equation.jpg){:height="40%" width="40%"}
 
 - 属性
+  
+  
   $$
-  \mu = n * p
+\mu = n * p
   $$
-
+  
   $$
-  \sigma = \sqrt{np(1-p)}
+\sigma = \sqrt{np(1-p)}
   $$
 
   *n*: trials
-
+  
   *p*: probability of success
