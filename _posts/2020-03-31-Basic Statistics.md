@@ -230,4 +230,3 @@ mathjax_autoNumber: true
 - standardization process 标准化
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/21%20standardization.jpg){:height="30%" width="30%"}
-
