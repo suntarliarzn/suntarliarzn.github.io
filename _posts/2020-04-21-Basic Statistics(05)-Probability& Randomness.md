@@ -7,6 +7,10 @@ tags: Statistics; Probability; Randomness; The Law of Large Numbers; Tree Diagra
 
 layout: article
 
+mathjax: true
+
+mathjax_autoNumber: true
+
 ---
 
 # Basic Statistics - (05) Probability & Randomness

@@ -7,6 +7,10 @@ tags: Statistics; Correlation; Regression; R; R^2; Regression line; Confounding 
 
 layout: article
 
+mathjax: true
+
+mathjax_autoNumber: true
+
 ---
 
 # Basic Statistics - (03) Correlation & Regression

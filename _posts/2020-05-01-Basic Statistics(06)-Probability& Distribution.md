@@ -7,6 +7,10 @@ tags: Statistics; Probability Distribution; variable; variance; covariance; norm
 
 layout: article
 
+mathjax: true
+
+mathjax_autoNumber: true
+
 ---
 
 # Basic Statistics - (06) Probability Distribution

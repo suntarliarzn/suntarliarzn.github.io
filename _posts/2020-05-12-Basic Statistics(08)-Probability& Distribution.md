@@ -7,6 +7,10 @@ tags: Statistics; Probability Distribution; Sampling Distribution; Central Limit
 
 layout: article
 
+mathjax: true
+
+mathjax_autoNumber: true
+
 ---
 
 # Basic Statistics - (08) Sampling Distribution

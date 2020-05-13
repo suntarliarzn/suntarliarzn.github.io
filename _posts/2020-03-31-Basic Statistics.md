@@ -7,6 +7,10 @@ tags: Statistics; R;  Bar graph; Histogram; Mode,median&mean; Range; Quartiles; 
 
 layout: article
 
+mathjax: true
+
+mathjax_autoNumber: true
+
 ---
 
 # Basic Statistics - (01) Introduction
