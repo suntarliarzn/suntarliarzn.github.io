@@ -118,7 +118,7 @@ mathjax_autoNumber: true
   - the sum of all the values divided by the number of observations
 
   $$
-  \overline x = \frac{\sum x}{n} 
+  \overline x = \frac{\sum x}{n}
   $$
 
 
@@ -163,9 +163,13 @@ mathjax_autoNumber: true
 
     - IQR是interquartile range的缩写，中文叫四分位距。对于一组样本，我们计算出第一四分位数Q1Q1以及第三四分位数Q3Q3，IQR就是它们的差。
       $$
-      Q_2=median\\
+      Q_2=median
+      $$
+      
+      $$
       IQR = Q_3 - Q_1
       $$
+      
       
 
   - **离群点**：我们经常用IQR做离群点排除，比如小于q1−1.5(IQR)的数或者大于q3+1.5(IQR)的数就被认为是离群点。
@@ -191,6 +195,8 @@ mathjax_autoNumber: true
   - **disadvantage:** the metric of the variance is the metric of the variable under analysis **SQUARED**.
 
 - **Standard deviation 标准差**
+  
+  
   $$
   S = \sqrt{\frac{\sum(x-\overline{x})^2}{(n-1)}}
   $$
