@@ -162,6 +162,8 @@ mathjax_autoNumber: true
     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%20one%20introduction/17%20IQR.jpg){:height="30%" width="30%"}
 
     - IQR是interquartile range的缩写，中文叫四分位距。对于一组样本，我们计算出第一四分位数Q1Q1以及第三四分位数Q3Q3，IQR就是它们的差。
+      
+      
       $$
       Q_2=median
       $$
@@ -212,9 +214,11 @@ mathjax_autoNumber: true
 - z分数（z-score），也叫标准分数（standard score）是一个数与平均数的差再除以标准差的过程。在统计学中，标准分数是一个观测或数据点的值高于被观测值或测量值的平均值的标准偏差的符号数。
 
   z分数可以回答这样一个问题："一个给定分数距离[平均数](https://baike.baidu.com/item/平均数)多少个标准差?"在平均数之上的分数会得到一个正的标准分数，在平均数之下的分数会得到一个负的标准分数。 z分数是一种可以看出某分数在分布中相对位置的方法。
-  $$
+  
+- $$
   Z = \frac{x-\overline{x}}{S}
   $$
+
   
 
 

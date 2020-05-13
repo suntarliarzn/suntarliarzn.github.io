@@ -116,11 +116,11 @@ var(X-Y) = var(X) + var(Y) {\color{BurntOrange}+} 2cov(X,Y)
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%204/11%20equation%20explaination.jpg){:height="40%" width="40%"}
 
-  
+
   $$
   f(x) = {1\over\sqrt{2\pi}\sigma} * e^{-{1\over2}*({x-\mu\over\sigma})^2}
   $$
-  
+
 
   - μ:总体期望均值
 
@@ -128,11 +128,14 @@ var(X-Y) = var(X) + var(Y) {\color{BurntOrange}+} 2cov(X,Y)
 
   - x:随机变量
 
-  - **Z score**
-    $$
-    {x-\mu}\over{\sigma}
-    $$
+  - ### Z score
     
+    
+    - $$
+      {x-\mu}\over{\sigma}
+      $$
+      
+      
 
 - μ& σ
 
