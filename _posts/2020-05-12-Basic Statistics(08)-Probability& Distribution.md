@@ -149,4 +149,4 @@ Methods to draw conclusion about **a population** based on data coming from **sa
 无论是二项分布还是正态分布：
 
 1. **无限次样本量的平均值（sampling mean）都无限接近总体平均值（population mean）。**
-2. **由于中央极限定理，无限次样本会趋中，所以方差需要除以样本个数，以降低趋中趋势。
+2. **由于中央极限定理，无限次样本会趋中，所以方差需要除以样本个数，以降低趋中趋势。**
