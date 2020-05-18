@@ -118,9 +118,9 @@ Methods to draw conclusion about **a population** based on data coming from **sa
     $$
     
       n为每次sample取样，样本个数。所以，一次取样样本量小的话，sampling distribution将不准确。
-    
+  
 - mean
-    
+  
     - $$
       \mu_p =\pi
       $$
@@ -130,14 +130,14 @@ Methods to draw conclusion about **a population** based on data coming from **sa
   - deviation
     
     - $$
-      \sigma_{p}^2 =\frac{\pi(1-\pi)}{\sqrt{n}}
+      \sigma_{p}^2 =\frac{\pi(1-\pi)}{{n}}
       $$
     
     - 注：[二项分布总体方差](https://suntarliarzn.github.io/2019/09/03/Khan-Academy-AP-Statistics-Basics-(1).html#16-伯努利分布bernoulli-distribution):
     $$
       \sigma^2 = p(1-p)
-      $$
-      
+    $$
+    
 
 ## 5. Example
 
