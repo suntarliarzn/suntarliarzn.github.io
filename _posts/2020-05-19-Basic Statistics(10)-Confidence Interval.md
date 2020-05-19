@@ -53,7 +53,7 @@ mathjax_autoNumber: true
 
     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%206/04%20t%20score.jpg){:height="40%" width="40%"}
 
-    <video id="video" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%206/603%20CI%20for%20mean%20with%20unknown%20population%20sd.mp4"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%206/04%20t%20score.jpg">
+  - <video id="video" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%206/603%20CI%20for%20mean%20with%20unknown%20population%20sd.mp4"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%206/04%20t%20score.jpg">
           </video>
 
   - 2 assumptions
@@ -135,7 +135,7 @@ mathjax_autoNumber: true
 
 
 
-7. ## Example
+## 7. Example
 
 <video id="video" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%206/607%20Example.mp4"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%206/04%20t%20score.jpg">
       </video>
