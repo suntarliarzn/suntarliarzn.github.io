@@ -93,7 +93,7 @@ layout: article
 
      
 
-  2. 实体查询网站：https://www.w3school.com.cn/html/html_entities.asp
+  2. 实体查询网站：[实体查询](https://www.w3school.com.cn/html/html_entities.asp)
 
 
 
