@@ -82,13 +82,18 @@ layout: article
 
 - 比如，多个连续空格，字母两侧的大于和小于号。
 
--   如果我们需要在页面中书写这些特殊符号，则需要使用html中的实体（转义字符）
+- 如果我们需要在页面中书写这些特殊符号，则需要使用html中的实体（转义字符）
   1. ​    实体语法：&实体名称
-     -  \&nbsp; 空格
-     - \&gt; 大于号
-     - \&lt; 小于号
-     - \&copy; 版权符合
-  2.    实体查询网站：https://www.w3school.com.cn/html/html_entities.asp
+     ```html
+     &nbsp; 空格
+     &gt; 大于号
+     &lt; 小于号
+     &copy; 版权符合
+     ```
+
+     
+
+  2. 实体查询网站：https://www.w3school.com.cn/html/html_entities.asp
 
 
 
