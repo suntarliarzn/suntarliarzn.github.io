@@ -3,7 +3,7 @@ title: html&css(01)---html
 
 key: C20200518
 
-tags: html; 进制； 编码； 语义化标签； meta标签； 块元素； 行内元素； 实体; 结构化语义标签; <ol>; <ul>;  <dl>; <a>; <img>; <iframe>; <video>; <audio>;
+tags: html; 进制； 编码； 语义化标签； meta标签； 块元素； 行内元素； 实体; 结构化语义标签; ol; ul;  dl; a; img; iframe; video; audio;
 
 layout: article
 ---
