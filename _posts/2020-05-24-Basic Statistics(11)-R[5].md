@@ -38,26 +38,10 @@ If you remember, the formula for calculating the confidence interval is the samp
   # Assign the standard deviation of sample to object "s"
   s <- 8 / sqrt(300)
   
-# Calculate the upper confidence interval
-  m + ( 1.96 * s )
   ```
-  
-  ```R
-  > # Assign the sample mean to object "m"
-  > m <- mean(samp)
-  > 
-  > # Assign the standard deviation to object "s"
-  > s <- 8 / sqrt(300)
-  > 
-  > # Calculate the upper confidence interval
-  > m + ( 1.96 * s )
-  [1] 31.3083
-  > 
-  > # Calculate the lower confidence interval
-  > m - ( 1.96 * s )
-  [1] 29.49773
-  ```
-  
+
+
+
 
 ## 2. Confidence Interval Without The Population Standard Deviation
 
