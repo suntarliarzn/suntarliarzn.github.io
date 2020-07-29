@@ -12,7 +12,7 @@ mathjax_autoNumber: true
 
 ---
 
-# Basic Statistics - (10) R[5] Confidence Interval
+# Basic Statistics - (11) R[5] Confidence Interval
 
 <!--more-->
 
