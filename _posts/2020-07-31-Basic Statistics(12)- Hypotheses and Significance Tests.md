@@ -17,7 +17,7 @@ mathjax_autoNumber: true
 
 ## 1. Hypotheses(由样本出现概率反推假设是否成立)
 
-![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%207/01%20hypothesis.jpg){:height="40%" width="40%"}
+![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%207/01%20hypothesis.jpg){:height="80%" width="80%"}
 
 - expectations about population
 
@@ -25,7 +25,7 @@ mathjax_autoNumber: true
 
 - ### Null-hypothesis testing
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%207/02%20null%20hypothesis%20testing.jpg){:height="40%" width="40%"}
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%207/02%20null%20hypothesis%20testing.jpg){:height="80%" width="80%"}
 
   - **H0**: null hypothesis
     - the parameter you're interested in takes a **specific** value.
@@ -56,15 +56,15 @@ mathjax_autoNumber: true
 
 ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%207/04%20hypothesis%20testing%20steps.jpg){:height="40%" width="40%"}
 
-- **One warning**:
+- ### **One warning**:
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%207/03%20H0%26HA.jpg){:height="40%" width="40%"}
 
 
 
-## 4. Significane test and Confidence interval
+## 4. Mean Significane test and Confidence interval
 
-- 2 methods of Inferential statistics
+- ### 2 methods of Inferential statistics
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%207/05%20CI%20HT.jpg){:height="40%" width="40%"}
 
@@ -72,13 +72,15 @@ mathjax_autoNumber: true
     $$
     \\ \overline{x}\pm{t_{95\%}}(SE)   \\where \ SE = \frac{S}{\sqrt{n}}
     $$
+    
+  - **significance tests**
   
-- **significance tests**
+    
     $$
     \\ t = \frac{\overline{x}-\mu_0}{SE}  \\where \ SE = \frac{S}{\sqrt{n}}
     $$
     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%207/06%20the%20relation%20between%20CI%20and%20HT.jpg){:height="40%" width="40%"}
-  
+
 - the conclusion between CI and HT
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%207/07%20CI%20and%20HT%20conclusion.jpg){:height="40%" width="40%"}
