@@ -99,8 +99,11 @@ power is the probability of correctly rejecting H0.(1-β)
      ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%201%20introduction/02%20z%20test%202%20proportion.jpg){:height="60%" width="60%"}
 
      
-
-     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%201%20introduction/z%20test.jpg){:height="60%" width="60%"}
+     $$
+     z = \frac{\hat{p}_1-\hat{p}_2}{\sqrt{\hat{p}(1-\hat{p})({1\over{n_1}}+{1\over{n_2}})}}\\
+     where \ \hat{p}=\frac{n_1{\hat{p}_1}+n_2{\hat{p}_2}}{n_1+n_2}
+     $$
+     
 
      
 
@@ -226,7 +229,7 @@ $$
 
 - **CI**
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%201%20introduction/10%20t%20test%202%20dependent%20means.jpg)c
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%201%20introduction/10%20t%20test%202%20dependent%20means.jpg){:height="60%" width="60%"}
 
 
 
@@ -258,5 +261,5 @@ $$
 
 - ### [Simpson's paradox]([https://baike.baidu.com/item/%E8%BE%9B%E6%99%AE%E6%A3%AE%E6%82%96%E8%AE%BA/4475862?fromtitle=Simpson%27s%20paradox&fromid=11319487&fr=aladdin](https://baike.baidu.com/item/辛普森悖论/4475862?fromtitle=Simpson's paradox&fromid=11319487&fr=aladdin))(田忌赛马！不看总量，只看比率都是算流氓！)
 
-  <video id="video" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%206/607%20Example.mp4"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%206/04%20t%20score.jpg">
+  <video id="video" src="https://d18ky98rnyall9.cloudfront.net/Lecture09_01.70c957367cdd9943ceeda5588edec032/full/720p/index.webm?Expires=1598659200&Signature=TBSzTqgHYDip1iKmeiwL~XB5L~1B0A5LmBHEAInk7rrTHOQOmvR1r1oGCWr4wFy8TiKkBkA6ec3vDuBy0YNKwllLP56CAsNEXDEd73L~6uat5IOvMM~Ja~4JBvOiAfgbo~IdUt2hg-ShcQbRleW~OOn10GkkvBo1IF8KAkQJoLs_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/03%20Basic%20Statistics/week%206/04%20t%20score.jpg">
         </video>
