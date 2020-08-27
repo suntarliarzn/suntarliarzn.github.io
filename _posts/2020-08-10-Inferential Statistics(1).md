@@ -99,7 +99,7 @@ power is the probability of correctly rejecting H0.(1-β)
      ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%201%20introduction/02%20z%20test%202%20proportion.jpg){:height="60%" width="60%"}
      $$
      z = \frac{\hat{p}_1-\hat{p}_2}{\sqrt{\hat{p}(1-\hat{p})({1\over{n_1}}+{1\over{n_2}})}}\\
-     where \ \hat{p} = \frac{n_1*{\hat{p}_1}+n_2*{\hat{p}_2}}{n_1+n_2}
+     where \ \hat{p} = \frac{n_1*{\hat{p}_1}+n_2*{\hat{p}_2}}} {n_1+n_2}
      $$
 
   5. **P-value**
