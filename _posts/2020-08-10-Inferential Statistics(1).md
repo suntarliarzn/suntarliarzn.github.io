@@ -116,7 +116,7 @@ power is the probability of correctly rejecting H0.(1-β)
 - ### Confidence Interval
 
 $$
-CI= ({\hat{p}_1-\hat{p}_2}) \pm Z_{\alpha} * \sqrt{{\hat{p_1}(1-\hat{p_1})\over{n_0}}+{\hat{p_2}(1-\hat{p_2})\over{n_2}}}
+CI= ({\hat{p}_1-\hat{p}_2}) \pm Z_{\alpha} * \sqrt{\frac{\hat{p}_1*(1-\hat{p}_1)}{n_1}+\frac{\hat{p}_2*(1-\hat{p}_2)}{n_2}}
 $$
 
 - Relative risk
