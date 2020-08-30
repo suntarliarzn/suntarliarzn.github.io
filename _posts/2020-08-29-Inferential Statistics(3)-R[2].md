@@ -3,7 +3,7 @@
 title: Inferential Statistics(3)-R[2]
 key: 20200829
 
-tags: Statistics; R; prop.test; t.test; mcnemar.test; 
+tags: Statistics; R; prop.test; t.test(); mcnemar.test; prop.test()
 
 layout: article
 
@@ -208,7 +208,9 @@ In this exercise, we are going to be testing against a significance level of 0.0
 
 
 
-**(5)**After the last 4 exercises you may have wondered if there would be a convenience function in R that makes it easier to see whether two proportions differ significantly. If this is the case, your intuition was right. 
+### **(5) prop.test** 
+
+After the last 4 exercises you may have wondered if there would be a convenience function in R that makes it easier to see whether two proportions differ significantly. If this is the case, your intuition was right. 
 
 **In R you can use the function `prop.test()` whether there is a significant difference between two proportions.**
 
@@ -472,7 +474,7 @@ $$
   [1] -2.4877732 -0.7122268
   ```
 
-### **(5)** [**t-test**](https://suntarliarzn.github.io/2020/08/06/Basic-Statistics(13)-R-6.html#3-t-test)
+### **(5)** [**t.test**](https://suntarliarzn.github.io/2020/08/06/Basic-Statistics(13)-R-6.html#3-t-test)
 
 You may have been wondering if there is an easier way to do this in R? If so, you are right. In R we can easily use the student t test which actually does a lot of work for us.
 
@@ -816,6 +818,50 @@ Let's dive deeper into the data from the previous exercise and see whether this 
 ![img](https://s3.amazonaws.com/assets.datacamp.com/production/course_786/datasets/gender_bias.png)
 
 - **Instruction**
+
   - You can get the number of men and women that are admitted by multiplying the total number that applied by the percentage that has been accepted. For men this is 3715≈0.44∗8442 and for women this is 1513≈0.35∗4321.
   - Use the `prop.test()` function on the data and print the output to the console. Remember that you can get `prop.test()` a data matrix as input, like so: `prop.test(matrix)`. Alternatively you can provide the `x` argument of the function a vector of successes (number of men and number of women admitted) and the `n` argument a vector of total counts (total applicants), like so: `prop.test(x = c(10, 10), n = (20, 20))`.
-- **[`prop.test()`](https://suntarliarzn.github.io/2020/04/13/Basic-Statistics(4)-R-2.html#proptable)**
+
+- **[`prop.table()`](https://suntarliarzn.github.io/2020/04/13/Basic-Statistics(4)-R-2.html#proptable)**
+
+  ```R
+  margin.table(mytable, 1) # 对每一行的数据求和 
+  margin.table(mytable, 2) # 对每一列的数据求和
+  prop.table(mytable) # 计算每一格数据占总数的比例
+  prop.table(mytable, 1) # 以行为单位，计算其中每个变量的占比，每行求和为1
+  prop.table(mytable, 2) # 以列为单位，计算其中每个变量的占比，每列求和为1
+  ```
+
+- ### `prop.test()`
+
+  ```R
+  prop.test(x, n, p = NULL, alternative = c("two.sided","less","greater"),conf.level = 0.95,correct = TRUE)
+  ```
+
+  
+
+- **Answer**
+
+  ```R
+  # use the prop.test function on the data from the table
+  prop.test(x=c(3715,1513),n=c(8442,4321))
+  ```
+
+  ```R
+  > # use the prop.test function on the data from the table
+  > prop.test(x=c(3715,1513),n=c(8442,4321))
+  
+  	2-sample test for equality of proportions with continuity correction
+  
+  data:  c(3715, 1513) out of c(8442, 4321)
+  X-squared = 95.17, df = 1, p-value < 2.2e-16
+  alternative hypothesis: two.sided
+  95 percent confidence interval:
+   0.07200439 0.10781794
+  sample estimates:
+     prop 1    prop 2 
+  0.4400616 0.3501504
+  ```
+
+  
+
