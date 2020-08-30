@@ -3,7 +3,7 @@
 title: Inferential Statistics(3)-R[2]
 key: 20200829
 
-tags: Statistics; R; prop.test; 
+tags: Statistics; R; prop.test; t.test; mcnemar.test; 
 
 layout: article
 
@@ -524,7 +524,7 @@ t.test(x, y = NULL,
 
 
 
-### 3.Comparing two proportions for paired samples--`Mcnemar.test()`
+## 3.Comparing two proportions for paired samples--`Mcnemar.test()`
 
 **(1)** Now that we have our hypotheses set up, let's calculate the parameters that pertain to these hypotheses. p1p1 would relate to the proportion of surveyed individuals that approve of the European Union, while p2p2 would relate to the proportion of partners of the surveyed individuals that approve of the European union. Once again, the contingency table is displayed below:
 
@@ -611,7 +611,7 @@ Let's fill in some of the parameters using our own data (see below). To calculat
 mcnemar.test(x, y = NULL, correct = TRUE)
 ```
 
-##### Arguments
+#### Arguments
 
 - x
 
