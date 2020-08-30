@@ -17,7 +17,7 @@ mathjax_autoNumber: true
 
 # Inferential Statistics(3)-R[2]
 
-*<!--more-->*
+<!--more-->
 
 ## 1. Comparing two proportions--`prop.test()`
 
