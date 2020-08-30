@@ -106,16 +106,15 @@ power is the probability of correctly rejecting H0.(1-β)
      
 
      
-
-  5. **P-value**
-
-     Two-tail probability from standard normal distribution of values even more extreme than observed z test statistic presuming the null hypothesis is true.
-
-  6. **Conclusions**
-
-     - if p <= α, reject H~0~.
+5. **P-value**
+  
+   Two-tail probability from standard normal distribution of values even more extreme than observed z test statistic presuming the null hypothesis is true.
+  
+6. **Conclusions**
+  
+   - if p <= α, reject H~0~.
      - if p > α, accept H~0~.
-
+  
 - ### Confidence Interval
 
 $$
