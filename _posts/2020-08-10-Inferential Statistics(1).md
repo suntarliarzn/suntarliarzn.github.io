@@ -15,7 +15,7 @@ mathjax_autoNumber: true
 
 # Inferential Statistics - (01) Introduction
 
-*<!--more-->*
+<!--more-->
 
 ## 1. Power(1-β)
 
@@ -114,7 +114,7 @@ power is the probability of correctly rejecting H0.(1-β)
   
    - if p <= α, reject H~0~.
      - if p > α, accept H~0~.
-  
+
 - ### Confidence Interval
 
 $$

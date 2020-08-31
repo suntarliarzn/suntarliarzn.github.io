@@ -11,7 +11,7 @@ layout: article
 
 # Inferential Statistics(2)-R[1]
 
-*<!--more-->*
+<!--more-->
 
 ## 1.  Matrices
 
