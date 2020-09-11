@@ -1,15 +1,15 @@
 ---
 
-title: Inferential Statistics(4)-R[2]
+title: Inferential Statistics(5)-R[3]
 key: 20200828
 
-tags: Statistics; R; contingency table; Chi-square; cramer's v; residuals; fisher's exact test
+tags: Statistics; R; contingency table; Chi-square; chisq.test(); cramer's v; residuals; fisher's exact test；fisher.test();
 
 layout: article
 
 ---
 
-# Inferential Statistics(4)-R[2]
+# Inferential Statistics(5)-R[3]
 
 <!--more-->
 
@@ -511,7 +511,7 @@ So you've already calculated your Chi-square value, now we need to find out how 
 
 So you've managed to calculate your Chi-square value manually, but actually there was a really easy way to do it in R. The function `chisq.test()` takes your observed data as its first argument. 
 
-**For example `chisq.test(*insert data name here*)`. Let's try it out!**
+###  `chisq.test(*insert data name here*)`. 
 
 - **Instructions**
 
@@ -688,7 +688,7 @@ Fisher's exact test compares the observed values to a probability distribution. 
 
 You can perform Fisher's exact test in the same way as you performed the Chi-square test using the function：
 
-[**`fisher.test()`**](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/fisher.test.html)
+### [**`fisher.test()`**](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/fisher.test.html)
 
 - #### Usage
 

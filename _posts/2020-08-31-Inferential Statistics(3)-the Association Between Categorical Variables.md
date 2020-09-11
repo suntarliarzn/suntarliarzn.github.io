@@ -227,7 +227,7 @@ How strong is the association?
 
    - Report P-value and interpret in context. If a decision is needed, reject H<sub>0</sub> when P-value ≦ significance level(such as 0.05)
 
-[Calculation for Fisher's Exact Test](http://www.quantpsy.org/fisher/fisher.htm)
+### [Calculation for Fisher's Exact Test](http://www.quantpsy.org/fisher/fisher.htm)
 
 - Example:
 
