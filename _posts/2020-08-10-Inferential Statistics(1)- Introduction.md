@@ -1,6 +1,6 @@
 ---
 
-title: Inferential Statistics -（01）Introduction
+title: Inferential Statistics（1） -Introduction
 key: 20200810
 
 tags: Statistics; R;  Inferential Statistics; 2 independent proportions; 2 independent means; 2 dependent proportions; 2 dependent means; controlling variables; Simpson's paradox;
@@ -13,7 +13,7 @@ mathjax_autoNumber: true
 
 ---
 
-# Inferential Statistics - (01) Introduction
+# Inferential Statistics(1)  - Introduction
 
 <!--more-->
 

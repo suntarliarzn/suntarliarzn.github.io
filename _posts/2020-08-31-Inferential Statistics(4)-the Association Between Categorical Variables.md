@@ -1,6 +1,6 @@
 ---
 
-title: Inferential Statistics -（04）the Association Between Categorical Variables
+title: Inferential Statistics（4） -the Association Between Categorical Variables
 key: 20200831
 
 tags: Statistics; R;  Inferential Statistics; Categorical Association; Association; Cramér’s V; Goodness of Fit; Fisher's Exact test;
@@ -13,7 +13,7 @@ mathjax_autoNumber: true
 
 ---
 
-# Inferential Statistics - (04) the Association Between Categorical Variables
+# Inferential Statistics(4) - the Association Between Categorical Variables
 
 <!--more-->
 
