@@ -1,19 +1,15 @@
 ---
 
-title: Inferential Statistics(4)-R[3]
+title: Inferential Statistics(4)-R[2]
 key: 20200828
 
 tags: Statistics; R; contingency table; Chi-square; cramer's v; residuals; fisher's exact test
 
 layout: article
 
-mathjax: true
-
-mathjax_autoNumber: true
-
 ---
 
-# Inferential Statistics(4)-R[3]
+# Inferential Statistics(4)-R[2]
 
 <!--more-->
 
@@ -189,7 +185,7 @@ barplot(reverse_t)
 ```
 
 
-![png](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%202%20Categorical%20association/output_14_0.png){:height="60%" width="60%"}
+![png](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%202%20Categorical%20association/output_14_0.png)
 
 
 
