@@ -219,7 +219,7 @@ $$
 
    - **[Ecological fallacy](https://wiki.mbalib.com/wiki/%E5%8C%BA%E7%BE%A4%E8%B0%AC%E8%AF%AF)**:区群谬误,又称生态谬误，层次谬误，是一种在分析[统计资料](https://wiki.mbalib.com/wiki/统计资料)时常犯的错误。和以偏概全相反，区群谬误是一种以全概偏，如果仅基于[群体](https://wiki.mbalib.com/wiki/群体)的统计数据就对其下属的个体性质作出推论，就是犯上区群谬误。这谬误假设了群体中的所有个体都有群体的性质(因此塑型(Sterotypes)也可能犯上区群谬误)。区群谬误的相反情况为[化约主义](https://wiki.mbalib.com/w/index.php?title=化约主义&action=edit)（Reductionism)。
 
-   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/we  ek%203%20simple%20regression/05%20ecological%20fallacy.jpg){:height="60%" width="60%"}
+   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%203%20simple%20regression/05%20ecological%20fallacy.jpg){:height="60%" width="60%"}
 
 6. ### Restriction of range
 
@@ -238,7 +238,6 @@ $$
   \sum(y-\overline{y})^2=\sum(y-\hat{y})^2+\sum(\hat{y}-\overline{y})^2
   $$
   
-
 - Mean square(MS)
 
   - Mean square error(MSE)
@@ -248,10 +247,9 @@ $$
     s^2=\frac{\sum{(y-\hat{y})^2}}{n-2}
     $$
     
-
-  - MSE= (SDres)^2
-
-  - ANOVA F statistic
+- MSE= (SDres)^2
+  
+- ANOVA F statistic
     $$
     F=\frac{Mean\ square\ for\ regression(Regression\ SS)}{Mean\ square\ error(MSE)}
     $$
