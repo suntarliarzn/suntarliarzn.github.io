@@ -164,7 +164,7 @@ $$
 
     - r^2=1
 
-      {:height="60%" width="60%"}![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%203%20simple%20regression/03%20r%3D1.jpg){:height="60%" width="60%"}
+      ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%203%20simple%20regression/03%20r%3D1.jpg){:height="60%" width="60%"}
 
       - when y-y^ = 0
       - all the data points fall exactly on the regression line.
@@ -172,7 +172,7 @@ $$
 
     - r^2=0
 
-      {:height="60%" width="60%"}![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%203%20simple%20regression/04%20r%3D0.jpg){:height="60%" width="60%"}
+      ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%203%20simple%20regression/04%20r%3D0.jpg){:height="60%" width="60%"}
 
       - when y-y^=y-y-
       - y^=y-
