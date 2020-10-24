@@ -1,14 +1,14 @@
 ---
 
-title: Inferential Statistics(08)-Multiple Regression
+title:Inferential Statistics(08)-Multiple Regression
 
-tags: Statistics; R;  Inferential Statistics; Quantitative Association; Multiple Regression; R; R^2; F-test; Single test; assumptions; categorical predictors; categorical response; interaction;  
+tags:Statistics; R;  Inferential Statistics; Quantitative Association; Multiple Regression; R; R^2; F-test; Single test; assumptions; categorical predictors; categorical response; interaction;  
 
-layout: article
+layout:article
 
-mathjax: true
+mathjax:true
 
-mathjax_autoNumber: true
+mathjax_autoNumber:true
 
 ---
 
@@ -269,7 +269,6 @@ When y is categorical, a different regression model applies, called **logistic r
   x= -\frac{\alpha}{\beta}  \\ slope = \frac{\beta}{4}\\ when \ p=0.5
   $$
   
-
 - Inference for Logistic Regression--z-test
   $$
   z=\frac{\beta-0}{se}
