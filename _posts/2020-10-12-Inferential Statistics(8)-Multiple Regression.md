@@ -92,38 +92,36 @@ The **multiple regression model** relates the mean μ<sub>y</sub> of a quantitat
        - $$
           H_0:\beta_1=\beta_2=...=\beta_n=0 \\
           H_a: At \ least \ one \ \beta\ parameter\ is\ not\ equal\ to\ 0.
-     $$
+       $$
        
           
        
     3. F-test
-    
-     - $$
-         F = \frac{Mean\ square\ for \ regression(MSR)}{Mean\ square\ error(MSE)}
-       $$
-    
-       
-    
-     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/08%20F%20test.jpg){:height="60%" width="60%"}
-    
-       ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/09%20F-TEST.jpg){:height="60%" width="60%"}
+
+       - $$
+          F = \frac{Mean\ square\ for \ regression(MSR)}{Mean\ square\ error(MSE)}
+          $$
+
+          ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/08%20F%20test.jpg){:height="60%" width="60%"}
+
+          ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/09%20F-TEST.jpg){:height="60%" width="60%"}
 
        - Degree of freedom
 
          ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/10%20f-test%20degree%20of%20freedom.jpg){:height="60%" width="60%"}
-    
-       - df1 = number of explanatory variables in the model.(自变量个数)
+
+         - df1 = number of explanatory variables in the model.(自变量个数)
          - df2= n-number of parameters in regression equation.(样本数-（自变量+常数）)
 
     4. P-Value
 
        - [p-value](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/11%20p-value.jpg)
        - [F-table](http://www.tutor-homework.com/statistics_tables/f-table-0.05.html)
-    
+
        - [How to use a F table](https://youtu.be/gzhXvTcdQG8)
-    
+
     5. Conclusion
-    
+
        - The smaller the P-value, the stronger the evidence that **at least one explanatory has an effect on y.**
 
 - ### Single test
