@@ -1,14 +1,14 @@
 ---
 
-title:Inferential Statistics(08)-Multiple Regression
+title: Inferential Statistics(08)-Multiple Regression
 
-tags:Statistics; R;  Inferential Statistics; Quantitative Association; Multiple Regression; R; R^2; F-test; Single test; assumptions; categorical predictors; categorical response; interaction;  
+tags: Statistics; R;  Inferential Statistics; Quantitative Association; Multiple Regression; R; R^2; F-test; Single test; assumptions; categorical predictors; categorical response; interaction;  
 
-layout:article
+layout: article
 
-mathjax:true
+mathjax: true
 
-mathjax_autoNumber:true
+mathjax_autoNumber: true
 
 ---
 
