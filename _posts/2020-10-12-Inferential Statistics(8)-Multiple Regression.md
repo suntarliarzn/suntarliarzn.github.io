@@ -19,9 +19,13 @@ mathjax_autoNumber: true
 ## 1. Regression Analysis with samples
 
 The **multiple regression model** relates the mean μ<sub>y</sub> of a quantitative response variable y to a set of explanatory variables x<sub>1</sub>,x<sub>2</sub>......
-$$
-\mu_y = \alpha + {\beta}_1*x_1+ {\beta}_2*x_2+ {\beta}_3*x_3+....+ {\beta}_m*x_m
-$$
+
+- $$
+  \mu_y = \alpha + {\beta}_1*x_1+ {\beta}_2*x_2+ {\beta}_3*x_3+....+ {\beta}_m*x_m
+  $$
+
+  
+
 ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/01%20multiple%20regression.jpg){:height="60%" width="60%"}
 
 - Simple&Multiple regression
@@ -53,11 +57,15 @@ $$
 - ### R<SUP>2</SUP>
 
    R<sup>2</sup> denotes the proportion of variance in y accounted for by the model.
-  $$
-  R^2 = \frac{\sum{(y-\overline{y})^2}-\sum{(y-\hat{y})^2}}{\sum{(y-\overline{y})^2}}
-  $$
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/06%20r2.jpg){:height="60%" width="60%"}
+  
+  - $$
+    R^2 = \frac{\sum{(y-\overline{y})^2}-\sum{(y-\hat{y})^2}}{\sum{(y-\overline{y})^2}}
+    $$
 
+    
+  
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/06%20r2.jpg){:height="60%" width="60%"}
+  
   - **Properties of R<sup>2</sup> **
     - R<sup>2</sup> [0,1]
     - R<sup>2</sup>  gets larger or stays  the same at worst, whenever an additional explanatory variable is added to the multiple regression model.
@@ -80,35 +88,42 @@ $$
        - The response variable y has a normal distribution at each combination of values of the explanatory variables, with the same standard deviation.
 
     2. Hypothesis
-       $$
-       H_0:\beta_1=\beta_2=...=\beta_n=0 \\
-       H_a: At \ least \ one \ \beta\ parameter\ is\ not\ equal\ to\ 0.
-       $$
-
+       
+       - $$
+          H_0:\beta_1=\beta_2=...=\beta_n=0 \\
+          H_a: At \ least \ one \ \beta\ parameter\ is\ not\ equal\ to\ 0.
+     $$
+       
+          
+       
     3. F-test
+    
+     - $$
+         F = \frac{Mean\ square\ for \ regression(MSR)}{Mean\ square\ error(MSE)}
        $$
-       F = \frac{Mean\ square\ for \ regression(MSR)}{Mean\ square\ error(MSE)}
-       $$
-       ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/08%20F%20test.jpg){:height="60%" width="60%"}
-
+    
+       
+    
+     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/08%20F%20test.jpg){:height="60%" width="60%"}
+    
        ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/09%20F-TEST.jpg){:height="60%" width="60%"}
 
        - Degree of freedom
 
          ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/10%20f-test%20degree%20of%20freedom.jpg){:height="60%" width="60%"}
-
-         - df1 = number of explanatory variables in the model.(自变量个数)
+    
+       - df1 = number of explanatory variables in the model.(自变量个数)
          - df2= n-number of parameters in regression equation.(样本数-（自变量+常数）)
 
     4. P-Value
 
        - [p-value](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/11%20p-value.jpg)
        - [F-table](http://www.tutor-homework.com/statistics_tables/f-table-0.05.html)
-
+    
        - [How to use a F table](https://youtu.be/gzhXvTcdQG8)
-
+    
     5. Conclusion
-
+    
        - The smaller the P-value, the stronger the evidence that **at least one explanatory has an effect on y.**
 
 - ### Single test
@@ -124,16 +139,22 @@ $$
          - 思考：现实生活中并不是这样，卧室数量的变化会导致人们对厕所数量看法的变化。
 
     2. **Hypotheses**:
+       
+       - $$
+          H_0:\beta_i=0, controlling\ for \ other \ predictions \\
+          H_a: \beta_i≠0, controlling \ for \ other \ predictions
        $$
-       H_0:\beta_i=0, controlling\ for \ other \ predictions \\
-       H_a: \beta_i≠0, controlling \ for \ other \ predictions
-       $$
-
+       
+          
+       
     3. **T-test**:
-       $$
-       t= (b_i-0)/se \\
-       df = n-number \ of\ parameters\ in \ regression \ equation
-       $$
+
+       - $$
+          t= (b_i-0)/se \\
+          df = n-number \ of\ parameters\ in \ regression \ equation
+          $$
+
+          
 
     4. **P-value**:
 
@@ -261,19 +282,27 @@ When y is categorical, a different regression model applies, called **logistic r
 - ### Logistic regression equation
 
   A regression equation for an S-shaped curve for the probability of success p is
-  $$
-  p = \frac{e^{\alpha+\beta x}}{1+e^{\alpha+\beta x}}
-  $$
+  
+  - $$
+    p = \frac{e^{\alpha+\beta x}}{1+e^{\alpha+\beta x}}
+    $$
+  
+    
+  
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/19%20logistic%20regression%20equation.jpg){:height="60%" width="60%"}
-  $$
-  x= -\frac{\alpha}{\beta}  \\ slope = \frac{\beta}{4}\\ when \ p=0.5
-  $$
+  
+  - $$
+    x= -\frac{\alpha}{\beta}  \\ slope = \frac{\beta}{4}\\ when \ p=0.5
+    $$
+  
+    
   
 - Inference for Logistic Regression--z-test
   $$
   z=\frac{\beta-0}{se}
   $$
 
+  
 - checking the logistic regression model
 
   - classification table
