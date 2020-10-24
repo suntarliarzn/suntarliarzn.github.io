@@ -1,0 +1,468 @@
+.banner {
+    background-color: #333;
+    height: 40px;
+    line-height: 40px
+}
+
+.banner_content {
+    position: relative
+}
+
+.banner_bar {
+    font-size: 12px;
+    color: #424242;
+    float: left;
+    margin: -1px 8px
+}
+
+.banner_content a {
+    font-size: 12px;
+    color: #b0b0b0;
+    text-decoration: none;
+    padding-right: 1px;
+    display: block
+}
+
+.banner_content a:hover {
+    color: #fff
+}
+
+.menu_left {
+    float: left
+}
+
+.menu_left li {
+    float: left
+}
+
+.cart {
+    float: right
+}
+
+.menu_right {
+    float: right
+}
+
+.menu_right li {
+    float: left
+}
+
+.cart {
+    margin-left: 25px;
+    width: 120px;
+    background-color: #424242;
+    text-align: center
+}
+
+.cart a {
+    margin: 0 auto;
+    color: #b0b0b0
+}
+
+.hidden_cart {
+    line-height: 1;
+    width: 310px;
+    padding: 30px 0;
+    text-align: center;
+    display: none;
+    font-size: 12px;
+    border: solid 1px rgba(112, 112, 112, .2);
+    border-top: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    z-index: 9999;
+    background-color: #fff
+}
+
+.cart:hover a {
+    background-color: #fff;
+    color: #dd720d
+}
+
+.cart:hover~.cart_menu>.hidden_cart {
+    display: block
+}
+
+.app_list {
+    position: relative
+}
+
+.app_list::before {
+    display: none;
+    position: absolute;
+    content: "";
+    border: 10px solid #424242;
+    border-color: transparent transparent #f0f8ff transparent;
+    bottom: -1px;
+    left: 13px
+}
+
+.app_list:hover .app,
+.app_list:hover::before {
+    display: block
+}
+
+.app {
+    display: none;
+    width: 124px;
+    height: 148px;
+    line-height: 1;
+    text-align: center;
+    background-color: #f0f8ff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+    position: absolute;
+    left: -40px
+}
+
+.app img {
+    width: 90px;
+    margin: 17px;
+    margin-bottom: 10px
+}
+
+.app span {
+    font-size: 14px;
+    color: #000
+}
+
+.header_banner {
+    position: relative
+}
+
+h1 {
+    font-size: 0
+}
+
+.icon {
+    width: 55px;
+    height: 55px;
+    float: left;
+    background-color: #ff6700;
+    background-image: url(../img/mi-logo.png);
+    background-position: center;
+    position: relative;
+    margin-top: 22px;
+    margin-right: 7px;
+    overflow: hidden
+}
+
+.home {
+    width: 55px;
+    height: 55px;
+    color: #f0f8ff;
+    background-color: #ff6700;
+    font-size: 30px;
+    position: absolute;
+    float: left;
+    left: -55px;
+    transition: left .1s
+}
+
+.home {
+    display: block;
+    line-height: 55px;
+    text-align: center
+}
+
+.icon:hover .home {
+    left: 0
+}
+
+.product_display {
+    height: 100px;
+    float: left;
+    padding-left: 30px
+}
+
+.nav li:first-child {
+    visibility: hidden
+}
+
+.product_display li {
+    float: left;
+    padding-right: 20px
+}
+
+.product_display a {
+    display: block;
+    line-height: 100px
+}
+
+.product_display a:hover {
+    color: #ff6700
+}
+
+.app {
+    z-index: 99999
+}
+
+.category {
+    height: 0;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100px;
+    transition: height 1s;
+    z-index: 9999
+}
+
+.category:hover,
+.nav .show:hover~.category {
+    height: 228px;
+    border-top: 1px solid #b0b0b0;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2)
+}
+
+.category:not(:active) {
+    height: 0;
+    transition: height 1s
+}
+
+.search {
+    float: right;
+    width: 296px;
+    margin-top: 25px
+}
+
+.search .search_box {
+    float: left;
+    height: 48px;
+    width: 224px;
+    padding: 0;
+    border: #b0b0b0 solid 1px;
+    padding: 0 10px;
+    outline: 0
+}
+
+.search .search_button {
+    float: left;
+    height: 50px;
+    width: 50px;
+    color: #616161;
+    font-size: 20px;
+    border: #b0b0b0 solid 1px;
+    border-left: none;
+    outline: 0
+}
+
+.search_box:focus,
+.search_box:focus+.search_button {
+    border-color: #ff6700
+}
+
+.search_button:hover {
+    background-color: #ff6700;
+    color: #fff
+}
+
+.body_content {
+    height: 460px;
+    margin-top: 100px;
+    background-image: url(../img/frontpage\ 1.webp);
+    background-clip: content-box;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 999
+}
+
+.body_right {
+    width: 234px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4)
+}
+
+.body_right .product_list {
+    margin: 20px auto
+}
+
+.product_list li {
+    height: 42px;
+    padding: 0 30px
+}
+
+.body_right a {
+    font: 16px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 42px;
+    display: block
+}
+
+.body_right i {
+    float: right;
+    line-height: 42px
+}
+
+.body_right li:hover {
+    background-color: #ff6700
+}
+
+.arrow_left {
+    width: 41px;
+    height: 69px;
+    line-height: 69px;
+    float: left;
+    font-size: 30px;
+    font-style: oblique;
+    color: rgba(213, 196, 195);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    left: 234px;
+    text-align: center
+}
+
+.arrow_left:hover {
+    background-color: rgba(67, 66, 69, .8);
+    color: #fff
+}
+
+.arrow_right {
+    width: 41px;
+    height: 69px;
+    line-height: 69px;
+    float: right;
+    font-size: 30px;
+    font-style: oblique;
+    color: rgba(213, 196, 195);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    right: 0;
+    text-align: center
+}
+
+.arrow_right:hover {
+    background-color: rgba(67, 66, 69, .8);
+    color: #fff
+}
+
+.dot_list {
+    position: absolute;
+    height: 21px;
+    width: 100px;
+    right: 20px;
+    bottom: 20px
+}
+
+.dot {
+    float: right;
+    width: 6px;
+    height: 6px;
+    border: 2px solid rgba(165, 151, 133, .4);
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 50%;
+    margin: 0 4px;
+    display: block
+}
+
+.dot:hover,
+.dot_list .active {
+    border: 2px solid rgba(112, 111, 113, .4);
+    background-color: rgba(212, 214, 250, .8)
+}
+
+.back_top {
+    width: 26px;
+    height: 206px;
+    background-color: #cbfaea;
+    position: fixed;
+    right: 50%;
+    margin-right: -639px;
+    bottom: 100px;
+    z-index: 9999
+}
+
+.footer {
+    margin-top: 14px
+}
+
+.function_block,
+.redmi_pic,
+.redmi_pic li {
+    float: left
+}
+
+.function_block {
+    width: 228px;
+    height: 168px;
+    background-color: #5f5750;
+    padding-top: 2px;
+    padding-left: 6px
+}
+
+.function_block li {
+    float: left
+}
+
+.function_block a {
+    width: 76px;
+    height: 84px;
+    color: #cfccca;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden
+}
+
+.function_block i {
+    margin-top: 20px;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 5px
+}
+
+.function_block a:hover {
+    color: #fff
+}
+
+.redmi_pic {
+    margin-left: 14px
+}
+
+.redmi_pic li {
+    margin-right: 15px
+}
+
+.redmi_pic li:last-child {
+    margin-right: 0
+}
+
+.redmi_product img {
+    width: 316px;
+    height: 170px;
+    vertical-align: top
+}
+
+.function_block li {
+    position: relative
+}
+
+.function_block li::before {
+    content: " ";
+    width: 64px;
+    height: 1px;
+    background-color: #665e57;
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.function_block li::after {
+    content: " ";
+    width: 1px;
+    height: 70px;
+    background-color: #665e57;
+    position: absolute;
+    margin: auto 0;
+    top: 0;
+    left: 0;
+    right: 0
+}

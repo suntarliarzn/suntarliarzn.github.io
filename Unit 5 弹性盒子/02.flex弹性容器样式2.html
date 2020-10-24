@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        ul {
+            width: 1000px;
+            height: 800px;
+            border: solid 10px red;
+            /* 设置弹性容器 */
+            display: flex;
+            /* flex-direction: row;
+            flex-wrap:wrap-reverse; */
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items:center;
+            align-content: space-between;
+        }
+
+        li {
+            width: 300px;
+            /* height: 200px; */
+            background-color: #bfc;
+            font-size: 50px;
+            text-align: top;
+            line-height: 200px;
+            flex-shrink: 0;
+
+        }
+
+        li:nth-child(2) {
+            background-color: pink;
+            /* 单独设置自身辅轴位置！ */
+            align-self: stretch;
+            order: 2;
+        }
+
+        li:nth-child(3) {
+            background-color: tomato;
+            flex: 2 1 100px;
+            order: 2;
+        }
+
+        li:nth-child(4) {
+            background-color: chocolate;
+            flex: 2 1 100px;
+            order: 3;
+        }
+
+        li:nth-child(5) {
+            background-color: burlywood;
+            flex: 2 1 300px;
+            order: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>1你好呀
+            <div>nice</div>
+        </li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav {
+            width: 100%;
+        }
+
+        .banner {
+            /* border: 1px solid blue; */
+            /* 开启弹性盒子 */
+            display: flex;
+            /* 开启弹性盒子方向 */
+            /* flex-flow: row wrap; */
+            justify-content: space-around;
+        }
+
+        .banner div {
+            /* background-color: aquamarine; */
+            /* 设置容器间间距大小。 */
+            width: 18%;
+            /* 开启弹性元素缩放，图片会自动缩放。*/
+            /* flex: 1 1 auto;  */
+            text-align: center;
+            /* display: flex; */
+
+        }
+
+        .banner img {
+            /* 图片参考元素大小 */
+            width: 100%;
+        }
+
+        .banner a {
+            text-decoration: none;
+        }
+
+        .banner span {
+            /* display: block;
+            /* align-self: center; */
+            /* width: 100%;
+            flex-grow: 1;
+            background-color: aqua;  */
+            font-size: 50px;
+            color: rgb(255, 43, 43);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="banner">
+            <div><a href="#"><img src="./taobao/1.png" alt=""><span>天猫</span></a></div>
+            <div><a href="#"><img src="./taobao/2.png" alt=""><span>聚划算</span></a></div>
+            <div><a href="#"><img src="./taobao/3.png" alt=""><span>天猫国际</span></a></div>
+            <div><a href="#"><img src="./taobao/4.png" alt=""><span>外卖</span></a></div>
+            <div><a href="#"><img src="./taobao/5.png" alt=""><span>天猫超市</span></a></div>
+        </div>
+        <div class="banner">
+            <div><a href="#"><img src="./taobao/6.png" alt=""><span>充值中心</span></a></div>
+            <div><a href="#"><img src="./taobao/7.png" alt=""><span>飞猪旅行</span></a></div>
+            <div><a href="#"><img src="./taobao/8.png" alt=""><span>领金币</span></a></div>
+            <div><a href="#"><img src="./taobao/9.png" alt=""><span>拍卖</span></a></div>
+            <div><a href="#"><img src="./taobao/10.png" alt=""><span>分类</span></a></div>
+        </div>
+    </nav>
+</body>
+
+</html>

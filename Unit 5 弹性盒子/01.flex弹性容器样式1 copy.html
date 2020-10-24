@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        ul{
+            width: 1200px;
+            height: 200px;
+            border: solid 10px red;
+            /* 设置弹性容器 */
+            display:flex;
+            /* flex-direction: row;
+            flex-wrap:wrap-reverse; */
+            /* flex-flow: column wrap-reverse; */
+            justify-content:space-evenly;
+        }
+        li{
+            width: 300px;
+            height: 100px;
+            background-color: #bfc;
+            font-size: 50px;
+            text-align: center;
+            line-height: 100px;
+            flex-shrink: 0;
+
+        }
+        li:nth-child(2){
+            background-color: pink;
+        }
+        li:nth-child(3){
+            background-color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+</body>
+</html>

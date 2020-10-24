@@ -1,0 +1,35 @@
+/* 解决浮动元素高度塌陷问题 */
+
+
+/* https://suntarliarzn.github.io/2020/07/21/HTML&CSS(05)-CSS(4).html#%E5%9E%82%E7%9B%B4%E6%96%B9%E5%90%91%E7%9B%B8%E9%82%BB%E5%A4%96%E8%BE%B9%E8%B7%9D%E9%87%8D%E5%8F%A0%E7%8E%B0%E8%B1%A1 */
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+    color: #333;
+    background-color: #fff;
+    /* 不让body溢出 */
+    min-width: 1226px;
+    text-decoration: none;
+    height: 1000px;
+}
+
+.w {
+    /* 固定容器宽度 */
+    width: 1226px;
+    /* 让容器居中 */
+    margin: 0 auto;
+}
+
+.text {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
