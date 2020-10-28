@@ -317,11 +317,17 @@ When y is categorical, a different regression model applies, called **logistic r
       - TNR: true negative rate，描述识别出的负例占所有负例的比例。
         
         - 医生说你 没得病，你是真没病的规律（他没说错的百分率）。
+        
       - 相关阅读：[Bayes' Law](https://suntarliarzn.github.io/2020/04/21/Basic-Statistics(05)-Probability&-Randomness.html#bayes-law)
         
         - [R语言实现](http://tecdat.cn/r%e8%af%ad%e8%a8%80%e4%b8%ad%e6%95%8f%e6%84%9f%e6%80%a7%e5%92%8c%e7%89%b9%e5%bc%82%e6%80%a7%e3%80%81%e5%8f%ac%e5%9b%9e%e7%8e%87%e5%92%8c%e7%b2%be%e7%a1%ae%e5%ba%a6%e4%bd%9c%e4%b8%ba%e9%80%89%e5%9e%8b/)
         
         ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/22%20sensitivity%26specificity.jpg){:height="60%" width="60%"}
+        
+        ![](E:\MOOC\Social Science\04 Inferential Statistics\4.4 Multiple regression\pic\webp){:height="60%" width="60%"}
+        
+        - 敏感性：（sensitivity） 对真目标做出阳性反应的程度。敏感性越高，则越容易鉴定出目标，即越**灵敏**。
+        - 特异性：（specificity） 对假目标做出阴性反应的程度。特异性越高，则越不容易误报，只针对特定情况才有阳性反应，即筛选能力强，或者说**针对性**强。
 
 
 
