@@ -324,7 +324,7 @@ When y is categorical, a different regression model applies, called **logistic r
         
         ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/22%20sensitivity%26specificity.jpg){:height="60%" width="60%"}
         
-        ![](https://upload-images.jianshu.io/upload_images/7252179-dbad746fab87dc42.png?imageMogr2/auto-orient/strip|imageView2/2/w/646/format/webp){:height="60%" width="60%"}
+        ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/ss%20sample.webp){:height="60%" width="60%"}
         
         - 敏感性：（sensitivity） 对真目标做出阳性反应的程度。敏感性越高，则越容易鉴定出目标，即越**灵敏**。
         - 特异性：（specificity） 对假目标做出阴性反应的程度。特异性越高，则越不容易误报，只针对特定情况才有阳性反应，即筛选能力强，或者说**针对性**强。
