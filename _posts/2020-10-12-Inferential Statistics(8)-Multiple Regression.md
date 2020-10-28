@@ -300,12 +300,21 @@ When y is categorical, a different regression model applies, called **logistic r
   z=\frac{\beta-0}{se}
   $$
 
-  
 - checking the logistic regression model
 
   - classification table
 
     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%205%20multiple%20regression/20%20checking%20the%20logistic%20regression%20model.jpg){:height="60%" width="60%"}
+    
+  - [specificity&sensitivity](https://www.zhihu.com/question/30750849)
+  
+    - sensitivity(灵敏性)
+      - TPR: true positive rate，描述识别出的所有正例占所有正例的比例。
+        - 医生说你得病了，你是真的得病概率（他没说错的百分率）。
+    - specificity(特异性)
+      - TNR: true negative rate，描述识别出的负例占所有负例的比例。
+        - 医生说你没得病，你是真没病的规律（他没说错的百分率）。
+      - 相关阅读：[Bayes' Law](https://suntarliarzn.github.io/2020/04/21/Basic-Statistics(05)-Probability&-Randomness.html#bayes-law)
 
 
 
