@@ -3,7 +3,7 @@
 title: Inferential Statistics(09)-R[05]-Multiple Regression
 key: 20201026
 
-tags: Statistics; R; Multiple Regression; lm(y~x1+x2);lm().summary(); lmlm(y~x1+x2)$residual; confint(,level=); as.factor; glm(y~x1+x2, family= binomial)
+tags: Statistics; R; Multiple Regression; lm(y~x1+x2); lm().summary(); lm(y~x1+x2)$residual; confint(,level=); as.factor; glm(y~x1+x2,family= binomial);
 
 layout: article
 
@@ -212,7 +212,7 @@ The **regression mean square** is calculated by:
   \frac{SS_{total} - SS_{residual}}{k-1}
   $$
 
-- where k is the number of predictors plus one for the intercept.
+  - where k is the number of predictors plus one for the intercept.
 
 The **mean square error** is calculated by
 
@@ -220,7 +220,7 @@ The **mean square error** is calculated by
   \frac{SS_{residual}}{n-k}
   $$
 
-- where n is the number of observations and kk is the number of predictors plus one for the intercept.
+  - where n is the number of observations and kk is the number of predictors plus one for the intercept.
 
 Luckily for us we already found the total sum of squares (`sst`) and the residual sum of squares (`ssr`) when we found the R squared. Let's rearrange these to find the F-statistic.
 
@@ -289,13 +289,15 @@ We can calculate the confidence interval as the:
 
 - $$
   coefficient \; value \pm margin \;of \;error
-$$
+  $$
   
-- where:
-
-  - $$
-    margin \; of \; error = t * se
-$$
+  - where
+  
+    - $$
+      margin \; of \; error = t * se
+      $$
+  
+      
 
 You've done this manually before. Let's try a faster way - using the function `confint()`. This function takes your fitted model as its first argument. Don't be scared by this, it just means it wants the output of your model `lm(liking ~ smile + money)`. It then produced a two-sided confidence interval, the size of which you specify using the argument `level` (e.g `level = 0.95` is 95%). Let's try it out!
 
