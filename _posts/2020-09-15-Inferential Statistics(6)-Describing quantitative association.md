@@ -25,24 +25,27 @@ mathjax_autoNumber: true
 
 2. ### [Least Squares Line](https://suntarliarzn.github.io/2020/04/12/Basic-Statistics(3)-Correlation-&-Regression.html#ordinary-least-square-regression-%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E6%B3%95)
 
-- Let x denote the mean of x, y the mean of y, **S<sub>x</sub> the standard deviation of the x values, and S<sub>y</sub> the standard deviation of the y values.**
-  
-- $$
-  \hat{y}=b*x + a \\
-  b = r(\frac{S_y}{S_x}) \\
-  a= \overline{y}-b\overline{x}
-  $$
+   Let x denote the mean of x, y the mean of y, **S<sub>x</sub> the standard deviation of the x values, and S<sub>y</sub> the standard deviation of the y values.**
+   
+    - $$
+        \hat{y}=b*x + a \\
+        b = r(\frac{S_y}{S_x}) \\
+     a= \overline{y}-b\overline{x}
+        $$
+        
+    - 
+   $$
+   sum \ of \ squared \ residuals\ = \sum{(residual)^2}=\sum(y-\hat{y})^2
+   $$
+   
+    - $$
+    \mu_y=\alpha + \beta*\chi \\ with \ \sigma= standard \ deviation
+   $$
+   
+3. 
 
-- $$
-  sum \ of \ squared \ residuals\ = \sum{(residual)^2}=\sum(y-\hat{y})^2
-  $$
 
-- 
-  $$
-  \mu_y=\alpha + \beta*\chi \\ with \ \sigma= standard \ deviation
-  $$
 
-  
 3. ### Residual
 
    The difference y-y^ between an observed outcome y and its predicted value y^ is the *prediction error*, called a **residual**.
@@ -79,9 +82,12 @@ mathjax_autoNumber: true
    - H<sub>a</sub>: β≠0
 
 3. **Test statistic**
-   $$
-   t = \frac{(b-0)}{se_b}
-   $$
+   
+   - $$
+     t = \frac{(b-0)}{se_b}
+     $$
+   
+   - 
    
 4. **P-value**
 
@@ -246,7 +252,7 @@ $$
     $$
     s^2=\frac{\sum{(y-\hat{y})^2}}{n-2}
     $$
-    
+  
 - MSE= (SDres)^2
   
 - ANOVA F statistic
@@ -259,6 +265,7 @@ $$
 
 ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%203%20simple%20regression/13%20exponential%20regression.jpg){:height="60%" width="60%"}
 
-<video id="video" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%202%20Categorical%20association/4.2.06%20Fisher%27s%20exact%20test.mp4"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%203%20simple%20regression/13%20exponential%20regression.jpg">
+<video id="video" src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%203%20simple%20regression/4.3.09%20Exponential%20regression.mp4"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%203%20simple%20regression/13%20exponential%20regression.jpg">
       </video>
+
 
