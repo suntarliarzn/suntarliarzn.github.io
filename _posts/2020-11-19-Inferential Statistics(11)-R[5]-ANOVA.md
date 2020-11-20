@@ -137,9 +137,13 @@ The larger the variability between groups relative to the variability within gro
 ## 2. Calculating the between group variance
 
 Now that we've got our grand mean and the means of the different genres, we can calculate the between group variance. The formula for the between group variance is the following:
-$$
-\frac{n_1 * (\bar{y}_1 - \bar{y})^2 + n_2 * (\bar{y}_2 - \bar{y})^2 + ... + n_g * (\bar{y}_g - \bar{y})^2}{g - 1}
-$$
+
+- $$
+  \frac{n_1 * (\bar{y}_1 - \bar{y})^2 + n_2 * (\bar{y}_2 - \bar{y})^2 + ... + n_g * (\bar{y}_g - \bar{y})^2}{g - 1}
+  $$
+
+  
+
 Okay, this formula looks really complicated so let's chop it up into parts. n here represents the sample size, so n1n1 represents the sample size of group 1 while ngng represents the sample size of gth group. In our current example, we only have three different genres and thus three different groups so this formula would go up n3n3. y¯1y¯1 represents the average of group 1. y¯y¯ would represent our overall average which is available in the variable `grand_mean`. g here represents the number of groups.
 
 In the current exercise our overall average is stored in the console in the variable `grand_mean` while our group averages are stored in the variables `classical_average`, `hiphop_average` and `pop_average`. The dataframes `classical_data`, `hiphop_data` and `pop_data` contain our samples per genre.
@@ -190,9 +194,13 @@ In the current exercise our overall average is stored in the console in the vari
 ## 3. Calculating within group variance
 
 Now that we've got our grand mean and the means of the different genres and our between group variance, we continue to calculate our within group variance. The formula for the within group variance is the following:
-$$
-\frac{\sum(y_{i1} - \bar{y}_1)^2 + \sum(y_{i2} - \bar{y}_2)^2 + ... + \sum(y_{ig} - \bar{y}_g)^2}{n - g}
-$$
+
+- $$
+  \frac{\sum(y_{i1} - \bar{y}_1)^2 + \sum(y_{i2} - \bar{y}_2)^2 + ... + \sum(y_{ig} - \bar{y}_g)^2}{n - g}
+  $$
+
+  
+
 Again this formula looks complicated so let's chop it up into parts. yi1yi1 represents each observation in a group and $\bar{y}_i} represents the mean for that group. What we then do is that we subtract the group mean from each group observation, square this and then sum it. If we are done with the first group, we repeat this procedure for the second group and so on. The total sum of this procedure, which is called the within sum of squares, is then divided by the sample size (n) - the number of groups (g). The result is the within group variance.
 
 In the current exercise our overall average is stored in the variable `grand_mean` while our group averages are stored in the variables `classical_average`, `hiphop_average` and `pop_average`. The dataframes `classical_data`, `hiphop_data` and `pop_data` contain our samples per genre.
@@ -249,16 +257,20 @@ In the current exercise our overall average is stored in the variable `grand_mea
 ## 4. Calculating the F statistic--`pf()`
 
 Now that we have calculated the between-groups and the within-groups variability, we can calculate its ratio. The ratio of between-groups and within-groups variability produces a F statistic. See the following formula:
-$$
-F = \frac{Between-groups-variability}{within-groups-variability}
-$$
+
+- $$
+  F = \frac{Between-groups-variability}{within-groups-variability}
+  $$
+
+  
+
 An F statistic will become larger if the between-groups variability rises and the within-groups variability stays the same. The F statistic will become smaller if the within-groups variability becomes larger and the between-groups variability stays the same. The F statistic has a F sampling distribution. This distribution is approximately centered around F = 1 when the null hypothesis is true. The larger the F statistic, the stronger the evidence against the null hypothesis.
 
 The F distribution has two different degrees of freedom: df1 and df2. The formula for df1 is the following: df1=g−1df1=g−1 where g is the amount of groups. The formula for df2 is the following: df2=N−gdf2=N−g where N is the sample size of all groups combined and g is the number of groups. These degrees of freedom come in handy when we want to calculate a p value for our obtained F statistic. To calculate a p value for our F statistic, we can use the `pf()` function. This function works similarly as the `pnorm()` and `pbinom()` functions that you may have come across in the course on basic statistics. The `pf()` function takes our F statistic as its first argument, our df1 as its second argument and our df2 as its third argument.
 
 - ### [`pf()`](https://statisticsglobe.com/f-distribution-in-r-df-pf-qf-rf)
 
-  - ### Usage
+  - Usage
 
     ```
     df(x, df1, df2, log = FALSE)
@@ -267,7 +279,7 @@ The F distribution has two different degrees of freedom: df1 and df2. The formul
     rf(n, df1, df2)
     ```
 
-  - ### Arguments
+  - Arguments
 
     | `x, q`       | vector of quantiles.                                         |
     | ------------ | ------------------------------------------------------------ |
@@ -338,7 +350,7 @@ In this exercise we are going to check the for the first two assumptions. To che
 
 - ### [假设检验](https://mp.weixin.qq.com/s?__biz=MzIzNjk2NDg4NA==&mid=2247483675&idx=1&sn=12e4e92fc43f144de27ec95bf74ca1fb&chksm=e8ce9c60dfb9157657b41d73e7a1e712219fed142aef2f5f01850135c72fb7f2f761cedfd18c&scene=21#wechat_redirect)
 
-  - #### **正态分布检验**
+  - ### **正态分布检验**
 
     从经验上看，用样本中位数M与算术平均值的比值和算术平均值与标准差的关系进行判断，反映峰形和峰态：0.9＜中位数/均数＜1.1且 均数＞3倍标准差。如果以上关系成立，则可认为样本大致成正态分布。
 
@@ -348,7 +360,7 @@ In this exercise we are going to check the for the first two assumptions. To che
 
     **图示法：**概率图（P-P图）、分位图（Q-Q图）、正态分位图、茎叶图、直方图、箱线图
 
-  - #### **方差齐性检验**
+  - ### **方差齐性检验**
 
     方差齐性检验有F检验、Bartlett χ2检验、Levene检验、残差图。
 
@@ -356,9 +368,10 @@ In this exercise we are going to check the for the first two assumptions. To che
 
     Bartlett χ2检验检验统计量为χ2，F检验和Levene检验检验统计量为F。
 
-- [**shapiro.test()**](https://blog.csdn.net/lvsehaiyang1993/article/details/80473265)小样本正太分布检验
+- [**shapiro.test()**](https://blog.csdn.net/lvsehaiyang1993/article/details/80473265)小样本正态分布检验
+  
   - 夏皮罗-威尔克检验是一种在频率上统计检验中检验正态性的方法。
-  - 果p值小于选择的显著度水平（αα值 通常0.05），那么在更大概率下我们应该拒绝零假设，数据的证据显示我们的样本不是来自一个正态分布母体。另一方面，如果p值比选择的显著度水平大，那么我们没有证据拒绝零假设，数据来自于一个正态分布。
+  - 果p值小于选择的显著度水平（α值 通常0.05），那么在更大概率下我们应该拒绝零假设，数据的证据显示我们的样本不是来自一个正态分布母体。另一方面，如果p值比选择的显著度水平大，那么我们没有证据拒绝零假设，数据来自于一个正态分布。
   - 通常用于样本容量n≤50时，检验样本是否符合正态分布。
 - [bartlett.test(formula, data, subset, na.action, ...)](http://www.biostatistic.net/thread-7225-1-1.html)方差齐性检验
   
