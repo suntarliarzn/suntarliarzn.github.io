@@ -130,7 +130,7 @@ Using the normal distribution for the large-sample(n>20) test does not mean we a
 
 - U-table
 
-  <iframe src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%207%20nonparametric%20test/U-table.pdf"></iframe>
+  <iframe src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%207%20nonparametric%20test/U-table.pdf" width="560" height="315" ></iframe>
 
 ## 6. Kruskal-Wallis Test: Comparing mean ranks of several group
 
@@ -243,7 +243,7 @@ Using the normal distribution for the large-sample(n>20) test does not mean we a
 
 - **P-value**
 
-  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%207%20nonparametric%20test/Wilcoxon%20signed%20rank%20test%20Table2005.pdf){:height="60%" width="60%"}
+  <iframe src="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%207%20nonparametric%20test/Wilcoxon%20signed%20rank%20test%20Table2005.pdf" width="560" height="315" ></iframe>
 
   - a P-value based on all the possible samples with the given absolute differences
   - for large samples, it uses an approximate normal sampling distribution.
