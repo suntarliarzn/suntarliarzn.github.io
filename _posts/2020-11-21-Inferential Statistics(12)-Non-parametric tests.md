@@ -97,7 +97,7 @@ Using the normal distribution for the large-sample(n>20) test does not mean we a
 
 - **P-Value**
 
-  - Asymp.Sig.(two-tailed)
+  - **Asymp.Sig.(two-tailed)**
 
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%207%20nonparametric%20test/01%20%20Wilcoxon%20test.jpg){:height="60%" width="60%"}
 
@@ -124,10 +124,10 @@ Using the normal distribution for the large-sample(n>20) test does not mean we a
 
   - ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%207%20nonparametric%20test/10%20U%20test%201.jpg){:height="60%" width="60%"}
 
-- ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%207%20nonparametric%20test/11%20U%20test%202.jpg){:height="60%" width="60%"}
+  - ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%207%20nonparametric%20test/11%20U%20test%202.jpg){:height="60%" width="60%"}
     
-- where R1 = sum of the ranks for group 1 and R2 = sum of the ranks for group 2.
-    
+  - where R1 = sum of the ranks for group 1 and R2 = sum of the ranks for group 2.
+
 - In every test, we must determine whether the observed U supports the null or research hypothesis. This is done following the same approach used in parametric testing. Specifically, we determine a critical value of **the smaller U** such that **if the observed value of U is less than or equal to the critical value, we reject H0 in favor of H1 and if the observed value of U exceeds the critical value we do not reject H0.**
 
 - U-table
@@ -290,6 +290,8 @@ A runs test is a statistical procedure that examines whether a [string of data](
   ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%207%20nonparametric%20test/06%20a%20run.jpg){:height="60%" width="60%"}
 
 - two variation form
+
+  ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%207%20nonparametric%20test/07%20run%20test%20variation.jpg){:height="60%" width="60%"}
 
 - ### run test properties
 
