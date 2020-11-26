@@ -138,7 +138,7 @@ Using the normal distribution for the large-sample(n>20) test does not mean we a
 
 
 
-<iframe width="100%" max-width="100%" width="100%" border=none position=" absolute" height=325 src="https://www.youtu.be/embed/q1D4Di1KWLc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" max-width="100%" width="100%" border=none position=" absolute" height=325 src="https://www.youtube.com/embed/q1D4Di1KWLc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 - **Assumptions:**
@@ -224,7 +224,7 @@ Using the normal distribution for the large-sample(n>20) test does not mean we a
 
 ## 8. Wilcoxon Signed-Rank test: Ranking and Comparing Matched Pairs(Dependent samples)
 
-<iframe width="100%" max-width="100%" width="100%" border=none position="absolute" height=325 src="https://www.youtu.be/embed/TqCg2tb4wJ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" max-width="100%" width="100%" border=none position="absolute" height=325 src="https://www.youtube.com/embed/TqCg2tb4wJ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 - **Assumption**
@@ -264,8 +264,6 @@ Using the normal distribution for the large-sample(n>20) test does not mean we a
 
     ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%207%20nonparametric%20test/04%20select%20the%20right%20t%20test.jpg){:height="60%" width="60%"}
 
-
-
 ## 9. Spearman ranked correlation
 
 - Correlation coefficient = standardized measure of association
@@ -278,7 +276,7 @@ Using the normal distribution for the large-sample(n>20) test does not mean we a
 | [-1,1]                                                       | [-1,1]                                                       |
 | 1. linear association<br />2. variables are bivariate normally distributed<br />3.sensetive to outliers and skewedness | 1. non -linear association<br />2. measures strength of monotonic function(单调函数)<br />3. ordinal variable<br />4. can contain outliers<br />5. non-normal distribution is okay |
 
-<iframe width="100%" max-width="100%" width="100%" border=none position=" absolute" height=325 src="https://www.youtu.be/embed/DE58QuNKA-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" max-width="100%" width="100%" border=none position=" absolute" height=325 src="https://www.youtube.com/embed/DE58QuNKA-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
