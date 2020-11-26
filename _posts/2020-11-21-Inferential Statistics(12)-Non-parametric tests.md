@@ -115,8 +115,10 @@ Using the normal distribution for the large-sample(n>20) test does not mean we a
 
 ## 5. Wilcoxon rank-sum test(Mann-Whitney U test) (Two independent samples)
 
-<video id="video" src="https://youtu.be/BT1FKd1Qzjw"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%206%20ANOVA/04%20ANOVA.jpg">
-      </video>
+<iframe width="100%" max-width="100%" width="100%" border=none position=" absolute" height=325 src="https://www.youtube.com/embed/BT1FKd1Qzjw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 
 - U-test
 
