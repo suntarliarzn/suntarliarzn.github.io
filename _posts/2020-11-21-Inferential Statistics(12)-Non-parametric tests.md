@@ -136,8 +136,10 @@ Using the normal distribution for the large-sample(n>20) test does not mean we a
 
 ## 6. Kruskal-Wallis Test: Comparing mean ranks of several group
 
-<video id="video" src="https://youtu.be/q1D4Di1KWLc"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%206%20ANOVA/04%20ANOVA.jpg">
-      </video>
+
+
+<iframe width="100%" max-width="100%" width="100%" border=none position=" absolute" height=325 src="https://www.youtu.be/embed/q1D4Di1KWLc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 - **Assumptions:**
 
@@ -183,8 +185,8 @@ Using the normal distribution for the large-sample(n>20) test does not mean we a
 
 ## 7. Sign test: Comparing Matched Pairs(Dependent samples)
 
-<video id="video" src="https://www.youtube.com/watch?v=9TlM3ef_oFw&ab_channel=MathsAcademyUK"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%206%20ANOVA/04%20ANOVA.jpg">
-      </video>
+<iframe width="100%" max-width="100%" width="100%" border=none position=" absolute" height=325 src="https://www.youtube.com/embed/9TlM3ef_oFw?start=16" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 - **Assumptions**
 
@@ -222,8 +224,8 @@ Using the normal distribution for the large-sample(n>20) test does not mean we a
 
 ## 8. Wilcoxon Signed-Rank test: Ranking and Comparing Matched Pairs(Dependent samples)
 
-<video id="video" src="https://youtu.be/TqCg2tb4wJ0"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%206%20ANOVA/04%20ANOVA.jpg">
-      </video>
+<iframe width="100%" max-width="100%" width="100%" border=none position=" absolute" height=325 src="https://www.youtu.be/embed/TqCg2tb4wJ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 - **Assumption**
   
@@ -276,8 +278,10 @@ Using the normal distribution for the large-sample(n>20) test does not mean we a
 | [-1,1]                                                       | [-1,1]                                                       |
 | 1. linear association<br />2. variables are bivariate normally distributed<br />3.sensetive to outliers and skewedness | 1. non -linear association<br />2. measures strength of monotonic function(单调函数)<br />3. ordinal variable<br />4. can contain outliers<br />5. non-normal distribution is okay |
 
-<video id="video" src="https://youtu.be/DE58QuNKA-c"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%206%20ANOVA/04%20ANOVA.jpg">
-      </video>
+<iframe width="100%" max-width="100%" width="100%" border=none position=" absolute" height=325 src="https://www.youtu.be/embed/DE58QuNKA-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 
 ## 10.  Runs Test for Randomness
 
@@ -319,5 +323,5 @@ A runs test is a statistical procedure that examines whether a [string of data](
     - ![](https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%207%20nonparametric%20test/09%20z%20test%20for%20runs.jpg){:height="60%" width="60%"}
       - total sample size N = m + n
 
-<video id="video" src="https://youtu.be/NvWm7-QD3DQ"  controls="" preload="none" width="560" height="315"  poster="https://suntarliarzn-1258316859.cos.ap-chongqing.myqcloud.com/social%20science/04%20Inferential%20statistics/week%206%20ANOVA/04%20ANOVA.jpg">
-      </video>
+<iframe width="100%" max-width="100%" width="100%" border=none position=" absolute" height=325 src="https://www.youtube.com/embed/NvWm7-QD3DQ"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
