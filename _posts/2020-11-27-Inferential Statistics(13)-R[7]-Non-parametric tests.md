@@ -34,9 +34,7 @@ The first nonparametric test that we will treat is the sign test. This is the no
 
 
 
-## 2. sign test(02) `binom.test(x, n, p = 0.5,
-alternative = c("two.sided", "less", "greater"),conf.level = 0.95)`
-
+## 2. sign test(02) `binom.test(x, n, p = 0.5,alternative = c("two.sided", "less", "greater"),conf.level = 0.95)`
 To test our hypothesis, we've started to collect data. We sampled a total of 350 American citizens from different states. In our little census, we found that 60% of our sample indicated that they would vote for Hillary Clinton. Does this still mean that there is an equal chance that an American citizen votes for Hillary Clinton or Bernie Sanders?
 
 In order to test this, we use the R function `binom.test()`. This functions accepts the parameters `x`, `n`, `p` and `alternative`. x here represents the number of successes. In this case that would be `0.6 * 350` as this the amount of people that voted for Hillary Clinton in our sample. n represents the sample size which is 350 in our current example. p represents the hypothesized probability of success. As our null hypothesis states that we expect an equal amount of American citizens to vote for Hillary Clinton or Bernie Sanders, this comes down to 0.5 in our example. alternative indicates what sort our hypothesis we are doing. As we are doing two-sided hypothesis testing, this argument can be put to two.sided (the default). A full example with arbitrary values of using the binom.test function is the following: `binom.test(300, 350, alternative = "two.sided")`
