@@ -5,6 +5,12 @@ header:
       zh-Hans:  归档
       zh-Hant:  歸檔
     url:        /archive.html
+      - titles:
+      en:       Portfolio
+      zh:       作品集
+      zh-Hans:  作品集
+      zh-Hant:  作品集
+    url:        /portofolio/Municipal website_PhD/3.1 West nav_visual_EN/INDEX.html
   - titles:
       en:       Travel
       zh:       旅行
@@ -19,8 +25,8 @@ header:
     url:        /Unit 5 弹性盒子/05.移动端项目.html
 
   - titles:
-      en:       About
-      zh:       关于
+      en:       About me
+      zh:       关于我
       zh-Hans:  关于
       zh-Hant:  關於
     url:         /resume.html
