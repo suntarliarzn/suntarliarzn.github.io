@@ -26,7 +26,7 @@ As educators, we are particularly concerned about AI's impact on education. In t
 
 ## 2.Generative AI: The Super Test-Taker 
 
-> Generative AI is a branch of artificial intelligence that focuses on generating new content, such as images, text, music, or videos. By training models to understand and mimic patterns in a given dataset, generative AI enables the creation of new, original content similar to the training samples. For instance, in the case of text generation, generative AI models can be trained on extensive text data, such as books or articles, to learn grammar, vocabulary, and writing styles. Subsequently, they can generate new text resembling the training data's style and content [source: ChatGPT].
+Generative AI is a branch of artificial intelligence that focuses on generating new content, such as images, text, music, or videos. By training models to understand and mimic patterns in a given dataset, generative AI enables the creation of new, original content similar to the training samples. For instance, in the case of text generation, generative AI models can be trained on extensive text data, such as books or articles, to learn grammar, vocabulary, and writing styles. Subsequently, they can generate new text resembling the training data's style and content [source: ChatGPT].
 
 ChatGPT was referred to as a "test-taker" [^3]. Indeed, it is a knowledgeable entity with vast knowledge spanning various domains. It can provide satisfactory answers to almost any question and has achieved remarkable results in many exams. In some aspects, it surpasses many students.
 
@@ -59,6 +59,6 @@ One might question the purpose of learning when faced with all-mighty AI. They m
 ## References
 
 [^1]: https://www.ansa.it/documents/1680080409454_ert.pdf
-[^2]: https://www.theguardian.com/us-news/2023/may/26/hollywood-writers-strike-artificial-intelligence
+[^2]: [‘Those who hate AI are insecure’: inside Hollywood’s battle over artificial intelligence | Los Angeles | The Guardian](https://www.theguardian.com/us-news/2023/may/26/hollywood-writers-strike-artificial-intelligence)
 [^3]: https://www.youtube.com/watch?v=hvLXeLwdp5g&embeds_referring_euri=https%3A%2F%2Froamresearch.com%2F&embeds_referring_origin=https%3A%2F%2Froamresearch.com&source_ve_path=Mjg2NjY&feature=emb_logo&ab_channel=%E7%9D%A1%E5%89%8D%E6%B6%88%E6%81%AF
 [^4]: https://www.ted.com/talks/sal_khan_how_ai_could_save_not_destroy_education/c
